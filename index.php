@@ -912,7 +912,7 @@
                     <a href="https://www.forbes.com/sites/cathyhackl/2021/06/01/what-are-daos-and-why-you-should-pay-attention/?sh=4b9ec1887305" target="_blank" rel="nofollow">
                       <div class="article">
                           <div class="img-wrap">
-                            <img src="img/news/cubes.jpg"/>
+                            <img src="img/news/cubix.jpg"/>
                           </div>
                           <div class="art-cont">
                           <h4>What Are DAOs And Why You Should Pay Attention</h4>
