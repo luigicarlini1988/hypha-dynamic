@@ -320,7 +320,7 @@
               <h2 class="titoletto">Key Features</h2>
               <p class="fake-title">Interoperability with<br> multiple blockchains</p>
               <img class="resp-img-token" src="img/multi-chain-resp.jpg"/>
-              <p>Hypha believes in building inclusive ecosystems rather than isolated solutions. Hence we have ensured that our platform provides <strong>compatibility with multiple blockchains/crypto currencies</strong> and that we provide a wide variety of guides and templates to meet the needs of a large range of DAO’s such as Cities, Co-ops, Businesses, Communities, Farms, Villages etc..</p>
+              <p>Hypha believes in building inclusive ecosystems rather than isolated solutions. Hence we have ensured that our platform will provide <strong>compatibility with multiple blockchains/crypto currencies</strong> and that we provide a wide variety of guides and templates to meet the needs of a large range of DAO’s such as Cities, Co-ops, Businesses, Communities, Farms, Villages etc..</p>
             </div>
             <div class="space5 token-space">
               <div class="token-back">
@@ -695,11 +695,11 @@
                       <div class="ts-titles">
                         <p class="level yellow">Hypha Council</p>
                         <p class="ts-name">Alex Prate</p>
-                        <p class="work">Business developmnet <span class="yellow">3+ years</span></p>
+                        <p class="work">Growth Strategist <span class="yellow">3+ years</span></p>
                       </div>
                     </div>
                     <div class="ts-text">
-                      <p>Financial Well-being Global Innovator and Entrepreneur with a strong background in the CRM industry, Alex Prate is the Founder and CEO at REALIFEX, which pioneers Well-being Intelligence® (innovative services & solutions, enabling digital experiences).</p>
+                      <p>Alex is a global innovator, passionate about Regenerative Finance and Financial Wellbeing, with a strong background in the CRM industry. Alex already received five global design awards for his digital innovations, incl. a Webby Award.</p>
                     </div>
                   </div>
 
@@ -833,14 +833,14 @@
               <div class="cta1">
                 <p class="fake-title">Want to stay in the loop?</p>
                 <p>Sign-up to Hypha’s newsletter for key updates, events, information and more.</p>
-                <p id="nl-but" class="button-blu">Newsletter Sing-up</p>
+                <p id="nl-but" class="button-blu">Newsletter Sign-up</p>
               </div>
             </div>
             <div class="space5">
               <div class="cta2">
                 <p class="fake-title">Join the Beta program</p>
                 <p>Want to have first access to Hypha’s tools? <br>Sign up below!</p>
-                <a href="#" class="button-blu">Beta test Sing-up</a>
+                <a href="#" class="button-blu">Beta test Sign-up</a>
               </div>
             </div>
           </div>
