@@ -699,7 +699,7 @@
                       </div>
                     </div>
                     <div class="ts-text">
-                      <p>Alex is a global innovator, passionate about Regenerative Finance and Financial Wellbeing, with a strong background in the CRM industry. Alex already received five global design awards for his digital innovations, incl. a Webby Award.</p>
+                      <p>Alex is a global innovator, passionate about Regenerative Finance and Financial Wellbeing, with a strong background in the CRM industry. Alex already received five global design awards for his digital innovations; a Webby Award and four AIVA Design Awards.</p>
                     </div>
                   </div>
 
