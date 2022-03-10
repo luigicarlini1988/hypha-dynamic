@@ -93,7 +93,7 @@
             <div class="header-center">
 
               <div class="logo">
-                <a href="index.php">
+                <a href="index">
                   <h1><img src="img/hypha-logo-light.svg" alt="hypha"/></h1>
                 </a>
               </div>
@@ -149,7 +149,7 @@
             <p>Corporations were built for the industrial age, DAOs are built for the information age</p>
             <div class="home-top-buttons">
               <a class="button-blu" href="#gs-anchor">Build your DAO</a>
-              <a class="button-blu" href="what-is-a-dao.php">What is a DAO?</a>
+              <a class="button-blu" href="what-is-a-dao">What is a DAO?</a>
             </div>
           </div>
         </div>
@@ -941,7 +941,7 @@
     <footer>
       <div class="foglio">
         <ul class="footer-menu">
-          <li><a href="index.php">Home</a>
+          <li><a href="index">Home</a>
             <ul>
               <li><a href="#solutions">Solutions</a></li>
               <li><a href="#features">Features</a></li>
@@ -953,8 +953,8 @@
 
           <li><p>About Us</p>
             <ul>
-              <li><a href="about-us.php">Overview</a></li>
-              <li><a href="work-with-us.php">Work with us</a></li>
+              <li><a href="about-us">Overview</a></li>
+              <li><a href="work-with-us">Work with us</a></li>
               <li><a href="https://xd.adobe.com/view/0d46ebe4-2b4b-437b-86f7-c3c5c18e05ac-5815/?fullscreen&hints=off" target="_blank">Hypha DAO</a></li>
               <li><a href="https://medium.com/hyphadao" target="_blank" rel="nofollow">Blog</a></li>
             </ul>
@@ -970,7 +970,7 @@
 
           <li><p>Resources</p>
             <ul>
-              <li><a href="what-is-a-dao.php">What is a DAO</a></li>
+              <li><a href="what-is-a-dao">What is a DAO</a></li>
               <li><a href="https://assets.hypha.earth/decks/hypha_pitch_deck.pdf" target="_blank">Investors Deck</a></li>
               <li><a href="https://drive.google.com/drive/folders/1IJqcq4KIpbkKjdi0Ro_b330ZIDsCuTE6?usp=sharing" target="_blank">Presskit</a></li>
             </ul>
@@ -978,8 +978,8 @@
 
           <li><p>Legal</p>
             <ul>
-              <li><a href="privacy-policy.php">Privacy policy</a></li>
-              <li><a href="terms-of-services.php">Terms of services</a></li>
+              <li><a href="privacy-policy">Privacy policy</a></li>
+              <li><a href="terms-of-services">Terms of services</a></li>
             </ul>
           </li>
         </ul>

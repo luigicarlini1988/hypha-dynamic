@@ -20,6 +20,14 @@ window.onload = function() {
 }
 
 
+//remove loader after ALL images are loaded
+window.addEventListener("load", event => {
+var image = document.querySelector('img');
+var load = image.complete;
+  $('.obscurer').addClass('close');
+});
+
+
 $(window).bind('mousewheel', function(event) {
     if (event.originalEvent.wheelDelta >= 0) {
         $('header').removeClass('dis');
@@ -118,12 +126,7 @@ $(document).ready(function(){
         }
   });
 
-  //remove loader after ALL images are loaded
-  window.addEventListener("load", event => {
-  var image = document.querySelector('img');
-  var load = image.complete;
-    $('.obscurer').addClass('close');
-  });
+
 
   // carousel tools
   $('#slider-tools').owlCarousel({
