@@ -193,7 +193,7 @@
           <div id="slider">
             <div id="slider-tools" class="owl-carousel owl-theme">
               <div class="slide slide1">
-                <h3>Governance & <br>coordination</h3>
+                <h3>Governance & coordination</h3>
                 <div class="flexi-cont">
                   <div class="space5">
                     <p>Gain the ability to make fast & effective decisions together, through Hypha’s on-chain, transparent & fraud resistant voting solution, with built-in proposal nurturing.<br><br>Deciding together on which new strategic direction to take, which new quest, role, contribution  or badge proposal to accept, or how to spend pooled resources, there is much you can do with Hypha’s governance solution. <br><br>It will ensure that decisions are taken for the common good of your organisation or community, in achieving its goals.</p>
@@ -207,7 +207,7 @@
               </div>
 
               <div class="slide slide2">
-                <h3>Manage <br>finances</h3>
+                <h3>Manage finances</h3>
                 <div class="flexi-cont">
                   <div class="space5">
                     <p>Communities & organisations no longer need to trust individuals with the keys to the vault. With Hypha’s on-chain records, the integrity , security and transparency of their finances will be guaranteed.<br><br>They can choose from a number of treasury governance templates or create their own to decide how they want the common treasury managed. <br><br>From fundraising to payroll, they can manage all their decentralised financial needs in one place. Use tokens, USD or a mix of both, it is up to you.</p>
@@ -221,7 +221,7 @@
               </div>
 
               <div class="slide slide3">
-                <h3>Motivate & <br>incentivise</h3>
+                <h3>Motivate & incentivise</h3>
                 <div class="flexi-cont">
                   <div class="space5">
                     <p>Hypha gives your team or community the tools needed to create open incentives, and rewards opportunities that help coordinate your community to contribute to common causes. <br><br>These range from tokens & voting rights as compensation for services rendered, to member badges as recognition for active & supportive participation within your organisation or community.<br><br>As a result, organisations & communities can more creatively distribute voice and value amongst their members to more equitably reward contributions to increase scale and achieve the common goals.</p>
@@ -1017,7 +1017,7 @@
                       </div>
                     </div>
                     <div class="ts-text">
-                      <p></p>
+                      <p>Pedro is an IT Pro and Tech Enthusiast with almost two decades of experience in many tech fields. In recent years, his focus has been on Project Management, Scrum Master, Q&A, and User Support.</p>
                     </div>
                   </div>
 
