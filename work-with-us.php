@@ -7,7 +7,7 @@
   <!-- Meta Tags Generic-->
   <title>Hypha | Work with us</title>
   <meta name="description" content="Work in a dynamic global organisation where mutual respect, support, joy, meaning, and professionalism abound">
-  <meta name="og:image" content="http://hypha.earth/img/og-image.jpg">
+  <meta name="og:image" content="https://hypha.earth/img/og-image.jpg">
   <link rel="icon" type="image/png" href="img/favicon.png" />
 
 

@@ -108,7 +108,6 @@ h1 br {
 
 .text-body p {
   position:relative;
-  display: inline-block;
 }
 
 .text-body a:before {

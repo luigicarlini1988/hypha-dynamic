@@ -7,7 +7,7 @@
   <!-- Meta Tags Generic-->
   <title>Hypha | What is a DAO</title>
   <meta name="description" content="A ‘DAO’ (aka ‘Decentralized Autonomous organisation’) are fraud-resistant, transparent, and programmable organisations helping people around the globe create new types of organisations that better serve their purpose and values.">
-  <meta name="og:image" content="http://hypha.earth/img/og-image.jpg">
+  <meta name="og:image" content="https://hypha.earth/img/og-image.jpg">
   <link rel="icon" type="image/png" href="img/favicon.png" />
 
 

@@ -7,7 +7,7 @@
     <!-- Meta Tags Generic-->
     <title>Hypha</title>
     <meta name="description" content="Building decentralised apps to empower communities with the tools of decentralised and autonomous governance.">
-    <meta name="og:image" content="http://hypha.earth/img/og-image.jpg">
+    <meta name="og:image" content="https://hypha.earth/img/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 
 
