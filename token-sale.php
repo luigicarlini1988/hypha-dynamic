@@ -7,8 +7,7 @@
 
   <!-- Meta Tags Generic-->
   <title>Hypha | Token Sale</title>
-  <meta name="description"
-    content="Building decentralised apps to empower communities with the tools of decentralised and autonomous governance.">
+  <meta name="description" content="Building decentralised apps to empower communities with the tools of decentralised and autonomous governance.">
   <meta name="og:image" content="https://hypha.earth/img/og-image.jpg">
   <link rel="icon" type="image/png" href="img/favicon.png" />
 
@@ -19,9 +18,7 @@
   <!-- fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/general-style.css">
@@ -59,18 +56,18 @@
 
    ?>
 
-  <main>
-    <section class="multistep">
-      <div class="foglio">
-        <div id="buyhypha-wizard" data-widget-host="habitat" class="preview">
-          <script type="text/props">
-            { "apiUrl": "https://api-tokensale.hypha.earth", "rpcUrl": "https://telos.greymass.com"}
-          </script>
-        </div>
-      </div>
-    </section>
+   <main>
+     <section class="multistep">
+       <div class="foglio">
+         <div id="buyhypha-wizard" data-widget-host="habitat" class="preview">
+           <script type="text/props">
+             { "apiUrl": "https://api-tokensale.hypha.earth", "rpcUrl": "https://telos.greymass.com", "defaultCurrency": "BTC","discordLink": "https://discord.com/channels/722537361480613950/952810610549202964"}
+           </script>
+         </div>
+       </div>
+     </section>
 
-  </main>
+   </main>
 
   <?php
       include 'incl/hypha-footer.html';
