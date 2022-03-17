@@ -1,10 +1,10 @@
-jQuery(document).ready(function ($) {
-  //remove loader after ALL images are loaded
-  window.addEventListener("load", (event) => {
-    var image = document.querySelector("img");
-    var load = image.complete;
-    $(".obscurer").addClass("close");
-  });
+
+
+
+
+
+jQuery(document).ready(function($) {
+  //mobile menu activator
 
   $(window).bind("mousewheel", function (event) {
     if (event.originalEvent.wheelDelta >= 0) {
@@ -16,8 +16,9 @@ jQuery(document).ready(function ($) {
     }
   });
 
-
-  //mobile menu activator
+  setTimeout(function () {
+    $(".obscurer").addClass("close");
+  }, 800),
 
   $("#resp-menu-activator").on("click", function () {
     $("#site-header").toggleClass("resp-out");
