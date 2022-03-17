@@ -137,6 +137,10 @@
 
      ?>
 
+     <?php
+         include 'incl/video2.html';
+      ?>
+
 
   </body>
 </html>

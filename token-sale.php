@@ -30,8 +30,6 @@
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/burger-menu.css">
 
-  <link rel="stylesheet" href="css/hypha-token-sale.css">
-
   <!-- Javascript / jQuery libraries -->
   <script src="js/jquery-3-10-1-min.js" type="text/javascript"></script>
 
@@ -39,7 +37,7 @@
   <script src="js/general-animations.js" type="text/javascript"></script>
 
 
-<body>
+<body class="buy-seeds">
 
   <!--page loader very basic, waits the load of the header background image and disappears-->
   <div class="obscurer">
@@ -65,6 +63,9 @@
     <section class="multistep">
       <div class="foglio">
         <div id="buyhypha-wizard" data-widget-host="habitat" class="preview">
+          <script type="text/props">
+            { "apiUrl": "https://api-tokensale.hypha.earth", "rpcUrl": "https://telos.greymass.com"}
+          </script>
         </div>
       </div>
     </section>
@@ -75,9 +76,11 @@
       include 'incl/hypha-footer.html';
 
    ?>
+
+
   <!-- START: LOAD HYPHA TOKEN SALE WIDGET -->
-  <script src="lib/hypha-token-sale-widget/index.umd.js" type="text/javascript"></script>
-  <link rel="stylesheet" href="lib/hypha-token-sale-widget/index.css">
+  <script src="lib/hypha-token-sales-widget/index.modern.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="lib/hypha-token-sales-widget/index.css">
 </body>
 
 </html>

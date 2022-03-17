@@ -1,7 +1,7 @@
 #buyhypha-wizard {
   width:100%;
   max-width:560px;
-  margin-top:80px;
+  margin-top:30px;
 
 }
 
@@ -158,6 +158,10 @@ button#button-previous:hover {
   transform:scale(1.04);
 }
 
+
+#buyhypha-wizard .simple-button-yellow:after {
+  background-image: url(../../img/simple-yellow-arrow.svg)
+}
 
 /*step 2*/
 

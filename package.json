@@ -1,0 +1,26 @@
+{
+  "name": "hypha-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "importLib": "mv ./node_modules/hypha-token-sales-widget/dist ./lib/hypha-token-sales-widget"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luigicarlini1988/hypha-static.git"
+  },
+  "author": "alex-is",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luigicarlini1988/hypha-static/issues"
+  },
+  "homepage": "https://github.com/luigicarlini1988/hypha-static#readme",
+  "dependencies": {
+    "hypha-token-sales-widget": "file:../v3/hypha-token-sales-widget"
+  }
+}
