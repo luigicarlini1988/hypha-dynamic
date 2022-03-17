@@ -36,7 +36,6 @@
   <!-- jquery functions & animations -->
   <script src="js/general-animations.js" type="text/javascript"></script>
 
-
 </head>
   <body>
 
@@ -59,6 +58,7 @@
         include 'incl/hypha-menu.html';
 
      ?>
+
 
     <main>
       <div class="about-parall parallax" data-image-src="img/3-steps-back.jpg">
@@ -108,8 +108,13 @@
 
     <?php
         include 'incl/hypha-footer.html';
-
      ?>
+
+     <?php
+         include 'incl/video2.html';
+      ?>
+
+
 
   </body>
 </html>

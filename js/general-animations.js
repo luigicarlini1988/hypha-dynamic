@@ -1,24 +1,3 @@
-// Thanks to Alex Fox for this awesome: lax v1.2.3 used here for parallax aniamtions
-
-if( /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-
-
-
-} else {
-
-window.onload = function() {
-    lax.setup() // init
-
-    const updateLax = () => {
-      lax.update(window.scrollY)
-      window.requestAnimationFrame(updateLax)
-    }
-
-        window.requestAnimationFrame(updateLax)
-}
-
-}
-
 //remove loader after ALL images are loaded
 window.addEventListener("load", event => {
 var image = document.querySelector('img');
@@ -26,24 +5,22 @@ var load = image.complete;
   $('.obscurer').addClass('close');
 });
 
-
-$(window).bind('mousewheel', function(event) {
-    if (event.originalEvent.wheelDelta >= 0) {
-        $('header').removeClass('dis');
-    }
-
-
-    else {
-      setTimeout(function(){
-       	$('header').addClass('dis');
-      }, 300);
-
-    }
-});
-
-
-
 $(document).ready(function(){
+
+
+  $(window).bind('mousewheel', function(event) {
+      if (event.originalEvent.wheelDelta >= 0) {
+          $('header').removeClass('dis');
+      }
+
+
+      else {
+        setTimeout(function(){
+          $('header').addClass('dis');
+        }, 300);
+
+      }
+  });
 
 
       //mobile menu activator
@@ -60,6 +37,17 @@ $(document).ready(function(){
           $('.hamburger').toggleClass('is-active');
         }, 500);
       });
+
+
+      // video a footer
+
+      $('#video2-play3').click(function(){
+         $('#video2').addClass('in');
+       });
+
+       $('#close-video2').click(function(){
+         $('#video2').removeClass('in');
+       });
 
 
 

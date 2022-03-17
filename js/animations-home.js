@@ -171,6 +171,11 @@ $(document).ready(function(){
           $('.t').removeClass('active')
           $('.q').removeClass('active')
 
+          $('.quin').removeClass('active')
+          $('.ses').removeClass('active')
+          $('.set').removeClass('active')
+          $('.ott').removeClass('active')
+
           $('.custom-slider-wrapper').animate({ left: "0%" ,}, 500 );
 
         }
@@ -186,6 +191,11 @@ $(document).ready(function(){
           $('.f').removeClass('active')
           $('.t').removeClass('active')
           $('.q').removeClass('active')
+
+          $('.quin').removeClass('active')
+          $('.ses').removeClass('active')
+          $('.set').removeClass('active')
+          $('.ott').removeClass('active')
 
           $('.custom-slider-wrapper').animate({ left: "-100%" ,}, 500 );
 
@@ -203,6 +213,11 @@ $(document).ready(function(){
           $('.s').removeClass('active')
           $('.q').removeClass('active')
 
+          $('.quin').removeClass('active')
+          $('.ses').removeClass('active')
+          $('.set').removeClass('active')
+          $('.ott').removeClass('active')
+
           $('.custom-slider-wrapper').animate({ left: "-200%" ,}, 500 );
 
         }
@@ -219,9 +234,131 @@ $(document).ready(function(){
           $('.s').removeClass('active')
           $('.t').removeClass('active')
 
+          $('.quin').removeClass('active')
+          $('.ses').removeClass('active')
+          $('.set').removeClass('active')
+          $('.ott').removeClass('active')
+
           $('.custom-slider-wrapper').animate({ left: "-300%" ,}, 500 );
 
         }
     });
+
+
+
+    $('.quin').click(function(){
+      if ($('.quin').hasClass('active')){
+
+
+        } else {
+
+          $('.f').removeClass('active')
+          $('.s').removeClass('active')
+          $('.t').removeClass('active')
+          $('.q').removeClass('active')
+
+          $('.quin').addClass('active')
+          $('.ses').removeClass('active')
+          $('.set').removeClass('active')
+          $('.ott').removeClass('active')
+
+          $('.custom-slider-wrapper').animate({ left: "-400%" ,}, 500 );
+
+        }
+    });
+
+
+    $('.ses').click(function(){
+      if ($('.ses').hasClass('active')){
+
+
+        } else {
+
+          $('.f').removeClass('active')
+          $('.s').removeClass('active')
+          $('.t').removeClass('active')
+          $('.q').removeClass('active')
+
+          $('.quin').removeClass('active')
+          $('.ses').addClass('active')
+          $('.set').removeClass('active')
+          $('.ott').removeClass('active')
+
+          $('.custom-slider-wrapper').animate({ left: "-500%" ,}, 500 );
+
+        }
+    });
+
+    $('.set').click(function(){
+      if ($('.set').hasClass('active')){
+
+
+        } else {
+
+          $('.f').removeClass('active')
+          $('.s').removeClass('active')
+          $('.t').removeClass('active')
+          $('.q').removeClass('active')
+
+          $('.quin').removeClass('active')
+          $('.ses').removeClass('active')
+          $('.set').addClass('active')
+          $('.ott').removeClass('active')
+
+          $('.custom-slider-wrapper').animate({ left: "-600%" ,}, 500 );
+
+        }
+    });
+
+    $('.ott').click(function(){
+      if ($('.ott').hasClass('active')){
+
+
+        } else {
+
+          $('.f').removeClass('active')
+          $('.s').removeClass('active')
+          $('.t').removeClass('active')
+          $('.q').removeClass('active')
+
+          $('.quin').removeClass('active')
+          $('.ses').removeClass('active')
+          $('.set').removeClass('active')
+          $('.ott').addClass('active')
+
+          $('.custom-slider-wrapper').animate({ left: "-700%" ,}, 500 );
+
+        }
+    });
+
+
+    // video 1
+
+    $('#video1-play').click(function(){
+       $('#video1').addClass('in');
+     });
+
+     $('#close-video1').click(function(){
+       $('#video1').removeClass('in');
+     });
+
+
+     // video 2
+
+     $('#video2-play').click(function(){
+        $('#video2').addClass('in');
+      });
+
+      $('#video2-play2').click(function(){
+         $('#video2').addClass('in');
+       });
+
+       $('#video2-play3').click(function(){
+          $('#video2').addClass('in');
+        });
+
+      $('#close-video2').click(function(){
+        $('#video2').removeClass('in');
+      });
 
 });

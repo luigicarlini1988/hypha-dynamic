@@ -60,6 +60,7 @@
 
      ?>
 
+
     <main>
       <div class="about-parall parallax" data-image-src="img/3-steps-back.jpg">
       </div>
@@ -135,6 +136,7 @@
         include 'incl/hypha-footer.html';
 
      ?>
+
 
   </body>
 </html>

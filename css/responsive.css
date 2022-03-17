@@ -85,7 +85,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 }
 
-
+@media screen and (max-width : 1100px) {
+  nav ul li {
+    list-style-type: none;
+    padding: 12px 12px;
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
 
 
 @media screen
@@ -151,6 +158,13 @@ and (max-width : 790px) {
   #get-started .titoletto {
     padding-top:0;
   }
+
+  .close-video {
+    right:calc(50% - 20px);
+    top:-65px;
+  }
+
+
 }
 
 @media screen
@@ -206,6 +220,14 @@ and (max-width : 700px) {
 
   nav ul li a {
     font-size:28px;
+  }
+
+  nav ul li a.toksal {
+    color:var(--light-sand);
+  }
+
+  nav ul li a.toksal:before {
+    background-color:var(--light-blu);
   }
 
   header.resp-out {
@@ -625,6 +647,8 @@ and (max-width : 700px) {
     -moz-transform: scale(.7);
     -webkit-transform: scale(.7);
   }
+
+
 
   #team {
     padding-top:0;

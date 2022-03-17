@@ -105,6 +105,7 @@
                   <li><a href="#templates">Templates</a></li>
                   <li><a href="#benefits">Benefits</a></li>
                   <li><a href="#gs-anchor">Get Started</a></li>
+                  <li><a class="toksal" href="token-sale">Token Sale</a></li>
                 </ul>
               </nav>
             </div>
@@ -192,7 +193,7 @@
           <div id="slider">
             <div id="slider-tools" class="owl-carousel owl-theme">
               <div class="slide slide1">
-                <h3>Governance and <br>coordination</h3>
+                <h3>Governance & <br>coordination</h3>
                 <div class="flexi-cont">
                   <div class="space5">
                     <p>Gain the ability to make fast & effective decisions together, through Hypha’s on-chain, transparent & fraud resistant voting solution, with built-in proposal nurturing.<br><br>Deciding together on which new strategic direction to take, which new quest, role, contribution  or badge proposal to accept, or how to spend pooled resources, there is much you can do with Hypha’s governance solution. <br><br>It will ensure that decisions are taken for the common good of your organisation or community, in achieving its goals.</p>
@@ -220,7 +221,7 @@
               </div>
 
               <div class="slide slide3">
-                <h3>Motivate &<br>incentivise</h3>
+                <h3>Motivate & <br>incentivise</h3>
                 <div class="flexi-cont">
                   <div class="space5">
                     <p>Hypha gives your team or community the tools needed to create open incentives, and rewards opportunities that help coordinate your community to contribute to common causes. <br><br>These range from tokens & voting rights as compensation for services rendered, to member badges as recognition for active & supportive participation within your organisation or community.<br><br>As a result, organisations & communities can more creatively distribute voice and value amongst their members to more equitably reward contributions to increase scale and achieve the common goals.</p>
@@ -320,7 +321,7 @@
               <h2 class="titoletto">Key Features</h2>
               <p class="fake-title">Interoperability with<br> multiple blockchains</p>
               <img class="resp-img-token" src="img/multi-chain-resp.jpg"/>
-              <p>Hypha believes in building inclusive ecosystems rather than isolated solutions. Hence we have ensured that our platform will provide <strong>compatibility with multiple blockchains/crypto currencies</strong> and that we provide a wide variety of guides and templates to meet the needs of a large range of DAO’s such as Cities, Co-ops, Businesses, Communities, Farms, Villages etc..</p>
+              <p>Hypha believes in building inclusive ecosystems rather than isolated solutions. Hence we are ensuring that our platform will provide <strong>compatibility with multiple blockchains/crypto currencies</strong> and that we provide a wide variety of guides and templates to meet the needs of a large range of DAO’s such as Cities, Co-ops, Businesses, Communities, Farms, Villages etc..</p>
             </div>
             <div class="space5 token-space">
               <div class="token-back">
@@ -372,7 +373,7 @@
             </div>
 
             <div class="space3">
-              <h3>Fast track<br>your DAOing</h3>
+              <h3>Quick start<br>your DAO</h3>
               <p>An open-source library of templates, roles, policies, quests and more to help groups get going quicker and to learn from other successful groups</p>
             </div>
 
@@ -406,32 +407,33 @@
 
           <div class="flexi-cont templ">
             <div class="space3">
-              <a href="https://explore.joinseeds.earth/libraries-and-templates/" target="_blank">
+              <a>
                 <div class="templ-card">
                   <img class="templs-icon" src="img/templ-start.svg"/>
                   <h3>Startup<br>template</h3>
                   <p>Lean template for business oriented teams looking to get started today</p>
-                  <a class="simple-button-blu" href="https://explore.joinseeds.earth/libraries-and-templates/" target="_blank">Discover more</a>
+                <!--  <a class="simple-button-blu"  href="https://explore.joinseeds.earth/libraries-and-templates/" target="_blank">Discover more</a> -->
+                  <a class="simple-button-blu">Coming soon</a>
                 </div>
               </a>
             </div>
             <div class="space3">
-              <a href="https://explore.joinseeds.earth/libraries-and-templates/" target="_blank">
+              <a>
                 <div class="templ-card">
                   <img class="templs-icon" src="img/templ-coop.svg"/>
                   <h3>Co-op<br>template</h3>
                   <p>Template for teams that want the principles of a cooperative (one person one vote)</p>
-                  <a class="simple-button-blu" href="https://explore.joinseeds.earth/libraries-and-templates/" target="_blank">Discover more</a>
+                <a class="simple-button-blu">Coming soon</a>
                 </div>
               </a>
             </div>
             <div class="space3">
-              <a href="https://explore.joinseeds.earth/libraries-and-templates/" target="_blank">
+              <a>
                 <div class="templ-card">
                   <img class="templs-icon" src="img/templ-village.svg"/>
                   <h3>Villages<br>template</h3>
                   <p>For life oriented teams looking to set up local and circular economies</p>
-                  <a class="simple-button-blu" href="https://explore.joinseeds.earth/libraries-and-templates/" target="_blank">Discover more</a>
+                  <a class="simple-button-blu">Coming soon</a>
                 </div>
               </a>
             </div>
@@ -470,7 +472,7 @@
             <div class="space5">
               <p class="fake-title">Hypha</p>
               <p><strong>Hypha set out in 2019 to build tools for creating new economic systems, such as SEEDS. </strong><br><br>As a global team working on open-source tools, we needed to be decentralised ourselves and started building tools to coordinate, govern, and compensate our own organization members. Over the years we saw that these tools could provide a foundation to help any group seeking to coordinate</p>
-              <a class="simple-button-blu" href="https://xd.adobe.com/view/0d46ebe4-2b4b-437b-86f7-c3c5c18e05ac-5815/?fullscreen&hints=off" target="_blank">Discover more</a>
+              <a id="video2-play" class="simple-button-blu">Discover more</a>
             </div>
 
           </div>
@@ -499,6 +501,10 @@
                 <li class="s tabs">Farmers</li>
                 <li class="t tabs">Cities</li>
                 <li class="q tabs">Businesses</li>
+                <li class="quin tabs">Start-up</li>
+                <li class="ses tabs">Communities</li>
+                <li class="set tabs">Non-for-profit</li>
+                <li class="ott tabs">Villages</li>
               </ul>
 
               <div class="custom-slider-cont">
@@ -596,6 +602,88 @@
                         </div>
                       </div>
 
+
+                      <div class="custom-slide">
+                          <div class="flexi-cont">
+                            <div class="sb-l">
+                              <p class="eighteen">Needs</p>
+                              <p>For start-ups, raising funding and setting up shareholder agreements are key but can be costly and time consuming. Onboarding new talent can be a slow contractual process, when speed is actually needed. Also potential investors will be more inclined to invest if there is more transparency in how the start-up is governed and funds are spent.</p>
+                            </div>
+                            <div class="sb-r">
+                              <p class="eighteen">Hypha DAO enables:</p>
+                              <ul>
+                                <li>Transparent organizational governance, through democratic voting on key new initiatives, hires and other operational decisions.</li>
+                                <li>Easily set-up & maintain secure & decentralized treasury management & payroll.</li>
+                                <li>Reduced start-up and new membership costs</li>
+                                <li>No need for shareholder agreements - contributions are accounted for over time, based on real involvement.</li>
+                                <li>Onboard new talent in minutes instead of via the usual time consuming employment contracts.</li>
+
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="custom-slide">
+                          <div class="flexi-cont">
+                            <div class="sb-l">
+                              <p class="eighteen">Communities Needs:</p>
+                              <p>Communities coming together around a common cause will need to develop a democratic, reliable & transparent way to take decisions & govern. They will also need to find a secure and transparent way to manage their pooled resources.</p>
+                            </div>
+                            <div class="sb-r">
+                              <p class="eighteen">Hypha DAO enables:</p>
+                              <ul>
+                                <li>Transparent voting on key community decisions</li>
+                                <li>Maintaining secure & decentralized treasury management</li>
+                                <li>Reduced start-up and new membership costs</li>
+                                <li>Transparent and equitable distribution of governance rights</li>
+                                <li>Programmable and automated outcomes & incentives</li>
+                                <li>Tokenising voice and equity, customizable governance and economic structures</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="custom-slide">
+                          <div class="flexi-cont">
+                            <div class="sb-l">
+                              <p class="eighteen">Non-for-profit Needs:</p>
+                              <p>For charities for example, providing transparency for those who generously give money is key to building a long term and trusting relationship.</p>
+                            </div>
+                            <div class="sb-r">
+                              <p class="eighteen">Hypha DAO enables:</p>
+                              <ul>
+                                <li>Transparent voting on key operational decisions including the allocation of funds to different charitable projects/needs</li>
+                                <li>Maintaining secure & decentralized treasury management</li>
+                                <li>Transparent and more-equitable distribution of governance rights</li>
+                                <li>Programmable and automated outcomes & incentives to drive increased efficiencies</li>
+                                <li>Tokenizing voice and equity, customizable governance and economic structures</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="custom-slide">
+                          <div class="flexi-cont">
+                            <div class="sb-l">
+                              <p class="eighteen">Villages Needs:</p>
+                              <p>Villages need the ability to efficiently organize their activities and manage their resources in a transparent, democratic and secure way. They might also want to ensure that the economic benefits of the services and products they generate remains within the local economy.</p>
+
+                            </div>
+                            <div class="sb-r">
+                              <p class="eighteen">Hypha DAO enables:</p>
+                              <ul>
+                                <li>Transparent & democratic voting on key operational decisions including the allocation of funds to different village projects</li>
+                                <li>Maintaining secure & decentralized treasury management</li>
+                                <li>A stable & low cost means of exchange (tokens)</li>
+                                <li>Programmable and automated outcomes & incentives to drive</li>
+                              </ul>
+                            </div>
+                          </div>
+
+
+                        </div>
+
                     </div> <!--wrapper -->
                 </div><!-- viewport-->
 
@@ -615,7 +703,7 @@
           <div class="gt-titles">
             <h2 id="gs-anchor"class="titoletto">Get Started</h2>
             <p class="fake-title">Create your DAO<br>in 3 simple steps:</p>
-            <!--<a href="#" class="trasp-button-dark">Need support?</a>-->
+            <!--<a id="video1-play" class="trasp-button-dark">Need support?</a>-->
           </div>
           <div class="flexi-cont">
               <div class="space3">
@@ -623,7 +711,7 @@
                   <p class="numbr">1</p>
                   <p>Discover how your group can organize differently </p>
                 </div>
-                <a class="simple-button-yellow" href="#">Discover more</a>
+                <a id="video1-play" class="simple-button-yellow" >Watch the Video</a>
               </div>
 
               <div class="space3">
@@ -631,7 +719,7 @@
                   <p class="numbr">2</p>
                   <p>Grab an existing template, or make your own, inspired by this library of strategy recipes</p>
                 </div>
-                <a class="simple-button-yellow" href="https://explore.joinseeds.earth/libraries-and-templates/" target="_blank">Discover more</a>
+              <a id="video2-play2" class="simple-button-yellow" >Watch the Video</a>
               </div>
 
               <div class="space3">
@@ -818,6 +906,223 @@
                   </div>
 
 
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/leonieherma.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha Building</p>
+                        <p class="ts-name">Leonie Herma</p>
+                        <p class="work">Product Designer <span class="yellow">1+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p> Always focused on the product vision, also excellent in saying “no” and still getting invited for lunch.</p>
+                    </div>
+                  </div>
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/avatar1.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha DEV</p>
+                        <p class="ts-name">Luigi Carlini</p>
+                        <p class="work">Web Designer <span class="yellow">2+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p> Hi! I'm an Art Director & webdesigner, highly fascinated by the world of coding... but also a developer highly fascinated by the world of design! Roughly 15 years working in this fields :-)</p>
+                    </div>
+                  </div>
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/justindeeley.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha Building</p>
+                        <p class="ts-name">Justin Deeley</p>
+                        <p class="work">Marketing Strategy <span class="yellow">1+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p>I am British/French and living in Sydney with my family. I have over 20 years experience in international marketing in large corporates & SMEs/Start-ups in the tech, TV, telecom and financial sectors.</p>
+                    </div>
+                  </div>
+
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/massimobergero.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha DEV</p>
+                        <p class="ts-name">Massimo Bergero</p>
+                        <p class="work">UX/UI Designer<span class="yellow">1+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p>Hello! I’m Massimo. I’m an art director, UX/UI designer, graphic designer, and illustrator, committed to producing the highest quality of work.</p>
+                    </div>
+                  </div>
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/ArsenijeSavic.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha DEV</p>
+                        <p class="ts-name">Arsenije Savic</p>
+                        <p class="work">Frontend Dev. <span class="yellow">1+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p>I am Arsenija Savić, a facilitator and developer with 7 years of experience in creating mobile and web applications.</p>
+                    </div>
+                  </div>
+
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/jasondoh.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha Building</p>
+                        <p class="ts-name">Jason Dho</p>
+                        <p class="work">Product Designer<span class="yellow">2+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p>Jason is a true systems hacker and catalyst. He has 10+ years of experience in operations and project management leading hyperlean teams to build out digital platforms and communities.</p>
+                    </div>
+                  </div>
+
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/pedromoscoso.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha Build</p>
+                        <p class="ts-name">Pedro Moscoso</p>
+                        <p class="work">User Support<span class="yellow">1+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/Aleksandardokic.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha DEV</p>
+                        <p class="ts-name">Aleksandar Đokić</p>
+                        <p class="work">Full Stack Dev.<span class="yellow">1+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/PiyushThapa.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha DEV</p>
+                        <p class="ts-name">Piyush Thapa</p>
+                        <p class="work">Backend Dev.<span class="yellow">2+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/GerardoGuijarro.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha DEV</p>
+                        <p class="ts-name">Gerardo Guijarro</p>
+                        <p class="work">Full Stack Dev.<span class="yellow">2+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/evgeni.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha DEV</p>
+                        <p class="ts-name">Evgeni</p>
+                        <p class="work">Frontend Dev.<span class="yellow">1+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p>Hi! I’m Evgeni, and I’m working on the front end of the Global Passport</p>
+                    </div>
+                  </div>
+
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/sorin.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha Building</p>
+                        <p class="ts-name">Irina & Sorin</p>
+                        <p class="work">Catalyzing <span class="yellow">2+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p>We are a couple (Irina & Sorin) living on a rural property in a village in the south of Romania, working toward making our life more meaningful and more environmentally friendly. </p>
+                    </div>
+                  </div>
+
+
+
+                  <div class="team-sli">
+                    <div class="ts-head">
+                      <div class="ts-avat">
+                        <img src="img/hypha-members/IrvingUlises.jpg"/>
+                      </div>
+                      <div class="ts-titles">
+                        <p class="level yellow">Hypha DEV</p>
+                        <p class="ts-name">Irving Ulises</p>
+                        <p class="work">Frontend Dev. <span class="yellow">1+ years</span></p>
+                      </div>
+                    </div>
+                    <div class="ts-text">
+                      <p></p>
+                    </div>
+                  </div>
+
+
+
+
                 </div>
 
               </div>
@@ -840,7 +1145,7 @@
               <div class="cta2">
                 <p class="fake-title">Join the Beta program</p>
                 <p>Want to have first access to Hypha’s tools? <br>Sign up below!</p>
-                <a href="#" class="button-blu">Beta test Sign-up</a>
+                <a href="https://www.cognitoforms.com/Hypha1/DHOBetaProgramSubscription?v2 " class="button-blu" target="_blank">Beta test Sign-up</a>
               </div>
             </div>
           </div>
@@ -943,11 +1248,11 @@
         <ul class="footer-menu">
           <li><a href="index">Home</a>
             <ul>
-              <li><a href="#solutions">Solutions</a></li>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#templates">Templates</a></li>
-              <li><a href="#benefits">Benefits</a></li>
-              <li><a href="#gs-anchor">Get Started</a></li>
+              <li><a href="index#solutions">Solutions</a></li>
+              <li><a href="index#features">Features</a></li>
+              <li><a href="index#templates">Templates</a></li>
+              <li><a href="index#benefits">Benefits</a></li>
+              <li><a href="index#gs-anchor">Get Started</a></li>
             </ul>
           </li>
 
@@ -955,16 +1260,16 @@
             <ul>
               <li><a href="about-us">Overview</a></li>
               <li><a href="work-with-us">Work with us</a></li>
-              <li><a href="https://xd.adobe.com/view/0d46ebe4-2b4b-437b-86f7-c3c5c18e05ac-5815/?fullscreen&hints=off" target="_blank">Hypha DAO</a></li>
+              <li><a id="video2-play3">Hypha DAO</a></li>
               <li><a href="https://medium.com/hyphadao" target="_blank" rel="nofollow">Blog</a></li>
             </ul>
           </li>
 
           <li><a href="#templates">Templates</a>
             <ul>
-              <li><a href="https://explore.joinseeds.earth/libraries-and-templates/" target="_blank">Startup</a></li>
-              <li><a href="https://explore.joinseeds.earth/libraries-and-templates/" target="_blank">Co-op</a></li>
-              <li><a href="https://explore.joinseeds.earth/libraries-and-templates/" target="_blank">Villages</a></li>
+              <li><a href="#templates">Startup</a></li>
+              <li><a href="#templates">Co-op</a></li>
+              <li><a href="#templates">Villages</a></li>
             </ul>
           </li>
 
@@ -972,7 +1277,7 @@
             <ul>
               <li><a href="what-is-a-dao">What is a DAO</a></li>
               <li><a href="https://assets.hypha.earth/decks/hypha_pitch_deck.pdf" target="_blank">Investors Deck</a></li>
-              <li><a href="https://drive.google.com/drive/folders/1IJqcq4KIpbkKjdi0Ro_b330ZIDsCuTE6?usp=sharing" target="_blank">Presskit</a></li>
+              <li><a href="https://drive.google.com/drive/folders/1IJqcq4KIpbkKjdi0Ro_b330ZIDsCuTE6?usp=sharing" target="_blank">Brand assets</a></li>
             </ul>
           </li>
 
@@ -997,85 +1302,18 @@
 
     </footer>
 
-    <div id="newsletter">
-        <div class="card-nl">
 
-              <div id="nl-close">
-                <span></span>
-                <span></span>
-              </div>
+    <?php
+        include 'incl/video1.html';
+     ?>
 
-              <div class="nl-explainer">
-                <p class="small-tit">Newsletter Opt-in</p>
-                <p>Subscribe to Hypha newsletter to be the first one to receive important announcements about our ecosystem growth!</p>
-              </div>
+   <?php
+       include 'incl/video2.html';
+    ?>
 
-              <div id="mauticform_wrapper_hyphawebsite" class="mauticform_wrapper">
-                <form autocomplete="false" role="form" method="post" action="https://newsletters.hypha.earth/form/submit?formId=6" id="mauticform_hyphawebsite" data-mautic-form="hyphawebsite" enctype="multipart/form-data">
-                <div class="mauticform-error" id="mauticform_hyphawebsite_error"></div>
-                <div class="mauticform-message" id="mauticform_hyphawebsite_message"></div>
-                <div class="mauticform-innerform">
+    <?php
+        include 'incl/newsletter.html';
+     ?>
 
-
-                <div class="mauticform-page-wrapper mauticform-page-1" data-mautic-form-page="1">
-                  <div class="form-line1">
-                      <div id="mauticform_hyphawebsite_email" data-validate="email" data-validation-type="email" class="mauticform-row mauticform-email mauticform-field-1 mauticform-required">
-
-                          <input id="mauticform_input_hyphawebsite_email" name="mauticform[email]" value="" placeholder="Email" class="mauticform-input" type="email">
-                          <span class="mauticform-errormsg" style="display: none;">This is required.</span>
-                      </div>
-
-                      <div id="mauticform_hyphawebsite_first_name" data-validate="first_name" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-2 mauticform-required">
-
-                          <input id="mauticform_input_hyphawebsite_first_name" name="mauticform[first_name]" value="" placeholder="First name" class="mauticform-input" type="text">
-                          <span class="mauticform-errormsg" style="display: none;">This is required.</span>
-                      </div>
-
-                      <div id="mauticform_hyphawebsite_last_name" data-validate="last_name" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-3 mauticform-required">
-
-                          <input id="mauticform_input_hyphawebsite_last_name" name="mauticform[last_name]" value="" placeholder="Last name" class="mauticform-input" type="text">
-                          <span class="mauticform-errormsg" style="display: none;">This is required.</span>
-                      </div>
-
-                      <div id="mauticform_hyphawebsite_what_is_5_times_4" data-validate="what_is_5_times_4" data-validation-type="captcha" class="mauticform-row mauticform-text mauticform-field-4 mauticform-required">
-
-                          <input id="mauticform_input_hyphawebsite_what_is_5_times_4" name="mauticform[what_is_5_times_4]" value="" placeholder="what is 5 times 4?" class="mauticform-input" type="text">
-                          <span class="mauticform-errormsg" style="display: none;">This is required.</span>
-                      </div>
-                  </div>
-
-                  <div class="form-line2">
-
-                        <div id="mauticform_hyphawebsite_privacy_and_terms1" data-validate="privacy_and_terms1" data-validation-type="checkboxgrp" class="mauticform-row mauticform-checkboxgrp mauticform-field-5 mauticform-required">
-                            <label class="mauticform-label" for="mauticform_checkboxgrp_checkbox_privacy_and_terms1_Iagreetothetermsandconditions1"><b>Privacy Policy, Terms and conditions</b></label>
-                            <div class="flexer">
-                                <div class="mauticform-checkboxgrp-row">                    <input class="mauticform-checkboxgrp-checkbox" name="mauticform[privacy_and_terms1][]" id="mauticform_checkboxgrp_checkbox_privacy_and_terms1_00" type="checkbox" value="0">
-                                    <label id="mauticform_checkboxgrp_label_privacy_and_terms1_00" for="mauticform_checkboxgrp_checkbox_privacy_and_terms1_00" class="mauticform-checkboxgrp-label">I have read and I agree to the <a href="#">terms and conditions</a></label>
-                                </div>
-                                <div class="mauticform-checkboxgrp-row">                    <input class="mauticform-checkboxgrp-checkbox" name="mauticform[privacy_and_terms1][]" id="mauticform_checkboxgrp_checkbox_privacy_and_terms1_11" type="checkbox" value="1">
-                                    <label id="mauticform_checkboxgrp_label_privacy_and_terms1_11" for="mauticform_checkboxgrp_checkbox_privacy_and_terms1_11" class="mauticform-checkboxgrp-label">I have read and I agree to the <a href="#">privacy policy</a></label>
-                                </div>
-                            </div>
-                            <span class="mauticform-errormsg" style="display: none;">This is required.</span>
-                        </div>
-
-                        <div id="mauticform_hyphawebsite_submit" class="mauticform-row mauticform-button-wrapper mauticform-field-6">
-                            <button type="submit" name="mauticform[submit]" id="mauticform_input_hyphawebsite_submit" value="" class="mauticform-button btn btn-default">Subscribe me!</button>
-                        </div>
-                    </div>
-
-
-                  </div>
-              </div>
-
-              <input type="hidden" name="mauticform[formId]" id="mauticform_hyphawebsite_id" value="6">
-              <input type="hidden" name="mauticform[return]" id="mauticform_hyphawebsite_return" value="">
-              <input type="hidden" name="mauticform[formName]" id="mauticform_hyphawebsite_name" value="hyphawebsite">
-
-              </form>
-
-
-          </div>
-      </div>
   </body>
 </html>
