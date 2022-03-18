@@ -67,6 +67,7 @@
 
       <section class="about-header">
         <div class="foglio">
+          <a class="backlink" href="javascript:history.back()">Go back</a>
           <h1>Work <br>with us</h1>
           <p class="hero-text">Work in a dynamic global organisation where mutual respect, support, joy, meaning, and professionalism abound</p>
         </div>
@@ -79,7 +80,7 @@
         </div>
         <div class="foglio">
           <div class="text-body">
-            <a class="backlink" href="javascript:history.back()">Go back</a>
+
             <p class="text-body-h4">Why work with us?</p>
             <ul>
               <li><strong>Innovation:</strong> Work on projects that are at the forefront of new technological and organisational ecosystems that will change the way organisations will work in the future.</li>
