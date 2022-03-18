@@ -66,6 +66,7 @@
 
       <section class="about-header">
         <div class="foglio">
+          <a class="backlink" href="javascript:history.back()">Go back</a>
           <h1>About us</h1>
           <p class="hero-text">Hypha set out in 2019 to build tools for creating new economic systems to start to address humanity’s crises, such as <a href="https://joinseeds.earth">SEEDS</a> a regenerative economic system</p>
         </div>

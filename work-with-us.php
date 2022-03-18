@@ -79,6 +79,7 @@
         </div>
         <div class="foglio">
           <div class="text-body">
+            <a class="backlink" href="javascript:history.back()">Go back</a>
             <p class="text-body-h4">Why work with us?</p>
             <ul>
               <li><strong>Innovation:</strong> Work on projects that are at the forefront of new technological and organisational ecosystems that will change the way organisations will work in the future.</li>

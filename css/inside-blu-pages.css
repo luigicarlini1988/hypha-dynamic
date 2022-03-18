@@ -15,8 +15,35 @@ h1 br {
 }
 
 .about-header {
-  padding:200px 0px 60px 0px;
+  padding:180px 0px 60px 0px;
   position:relative;
+}
+
+.backlink {
+  color:var(--yellow);
+  position:relative;
+}
+
+.backlink:before {
+  position: absolute;
+  left: -14px;
+  top: 5px;
+  height: 8px;
+  width: 4px;
+  background-image: url(../img/simple-yellow-arrow.svg);
+  background-repeat: no-repeat;
+  content: "";
+  background-position: center;
+  transform: rotate(180Deg);
+  -webkit-transform: rotate(180Deg);
+  -moz-transform: rotate(180Deg);
+  transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+}
+
+.backlink:hover:before {
+  left:-20px;
 }
 
 .about-body {

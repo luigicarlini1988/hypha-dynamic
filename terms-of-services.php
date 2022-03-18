@@ -67,6 +67,7 @@
 
       <section class="about-header">
         <div class="foglio">
+          <a class="backlink" href="javascript:history.back()">Go back</a>
           <h1>Terms of Services</h1>
           <p class="hero-text">These Terms of Use govern your relationship with the “Hypha DHO” collectively known as the "Service"</p>
         </div>

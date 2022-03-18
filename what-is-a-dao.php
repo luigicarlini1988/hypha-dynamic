@@ -68,6 +68,7 @@
 
       <section class="about-header">
         <div class="foglio">
+          <a class="backlink" href="javascript:history.back()">Go back</a>
           <h1>What is <br>a DAO?</h1>
           <p class="hero-text">A ‘DAO’ (aka ‘Decentralized Autonomous organisation’) are fraud-resistant, transparent, and programmable organisations helping people around the globe create new types of organisations that better serve their purpose and values.</p>
         </div>

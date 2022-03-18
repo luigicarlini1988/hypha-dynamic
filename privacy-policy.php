@@ -68,6 +68,7 @@
 
       <section class="about-header">
         <div class="foglio">
+          <a class="backlink" href="javascript:history.back()">Go back</a>
           <h1>Privacy Policy</h1>
           <p class="hero-text">Hypha DHO ("us", "we", or "our") operates the Hypha.earth and dho.hypha.earth websites & mobile sites (the "Service")</p>
         </div>
