@@ -606,7 +606,7 @@
                       <div class="custom-slide">
                           <div class="flexi-cont">
                             <div class="sb-l">
-                              <p class="eighteen">Needs</p>
+                              <p class="eighteen">Start-up needs</p>
                               <p>For start-ups, raising funding and setting up shareholder agreements are key but can be costly and time consuming. Onboarding new talent can be a slow contractual process, when speed is actually needed. Also potential investors will be more inclined to invest if there is more transparency in how the start-up is governed and funds are spent.</p>
                             </div>
                             <div class="sb-r">
@@ -676,7 +676,8 @@
                                 <li>Transparent & democratic voting on key operational decisions including the allocation of funds to different village projects</li>
                                 <li>Maintaining secure & decentralized treasury management</li>
                                 <li>A stable & low cost means of exchange (tokens)</li>
-                                <li>Programmable and automated outcomes & incentives to drive</li>
+                                <li>Programmable and automated outcomes & incentives to drive increased efficiencies</li>
+                                <li>Tokenization of resources in the village that were not acknowledged before, from knowledge to land, natural resources, materials that can be shared, etc..</li>
                               </ul>
                             </div>
                           </div>

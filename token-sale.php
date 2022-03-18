@@ -61,7 +61,7 @@
        <div class="foglio">
          <div id="buyhypha-wizard" data-widget-host="habitat" class="preview">
            <script type="text/props">
-             { "apiUrl": "https://api-tokensale.hypha.earth", "rpcUrl": "https://telos.greymass.com", "defaultCurrency": "BTC","discordLink": "https://discord.com/channels/722537361480613950/952810610549202964"}
+             { "apiUrl": "https://api-tokensale.hypha.earth", "rpcUrl": "https://telos.greymass.com", "defaultCurrency": "BTC","discordLink": "https://discord.com/channels/722537361480613950/954217391250882560"}
            </script>
          </div>
        </div>

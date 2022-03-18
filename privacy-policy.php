@@ -68,7 +68,7 @@
       <section class="about-header">
         <div class="foglio">
           <h1>Privacy Policy</h1>
-          <p class="hero-text">Hypha DHO ("us", "we", or "our") operates the Hypha.earth and dho.hypha.earth websites & mobile sites (the "Service") and the</p>
+          <p class="hero-text">Hypha DHO ("us", "we", or "our") operates the Hypha.earth and dho.hypha.earth websites & mobile sites (the "Service")</p>
         </div>
       </section>
 
@@ -90,7 +90,7 @@
                 </h2>
 
                 <p class="legal-small-tit ">Service</p>
-                <p>Hypha.earth website & mobile site operated by Hypha DAODHO.</p>
+                <p>Hypha.earth and dho.hypha.earth websites & mobile sites operated by Hypha DHO.</p>
 
                 <p class="legal-small-tit ">Partner Service</p>
                 <p>Partner Service means a service or feature offered by a third-party partner directly to users of the Service.</p>
