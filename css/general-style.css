@@ -56,6 +56,7 @@ html,body {
   font-size:16px;
   line-height: 1.9em;
   text-rendering: geometricPrecision;
+  font-variant-numeric: lining-nums;
 }
 
 
