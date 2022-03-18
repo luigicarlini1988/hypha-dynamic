@@ -745,6 +745,9 @@
 
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/rieki-cordon777/" target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/rieki.jpg"/>
@@ -761,6 +764,9 @@
                   </div>
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/joachim-stroh/" target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/joachim.jpg"/>
@@ -777,6 +783,9 @@
                   </div>
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/alexandreprate/" target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/alex.jpg"/>
@@ -793,6 +802,9 @@
                   </div>
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/nikolausheger/" target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/nik.jpg"/>
@@ -809,6 +821,9 @@
                   </div>
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/ronnie-potel-387a4411/" target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/ronnie.jpg"/>
@@ -825,6 +840,9 @@
                   </div>
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/danniequilitzsch/" target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/dannie.jpg"/>
@@ -841,6 +859,9 @@
                   </div>
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/dr-stephen-gomes-030b314/" target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/stephen.jpg"/>
@@ -857,6 +878,9 @@
                   </div>
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.flow.farm/" target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/mark.jpg"/>
@@ -875,6 +899,9 @@
 
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/franz-josef-allmayer/" target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/franz.jpg"/>
@@ -891,6 +918,9 @@
                   </div>
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/anneloes-smitsman/ " target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/anneloes.jpg"/>
@@ -908,6 +938,9 @@
 
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/leonie-herma/ " target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/leonieherma.jpg"/>
@@ -924,6 +957,9 @@
                   </div>
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/luigi-carlini/ " target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/avatar1.jpg"/>
@@ -940,6 +976,9 @@
                   </div>
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/justindeeley/ " target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/justindeeley.jpg"/>
@@ -951,12 +990,15 @@
                       </div>
                     </div>
                     <div class="ts-text">
-                      <p>I am British/French and living in Sydney with my family. I have over 20 years experience in international marketing in large corporates & SMEs/Start-ups in the tech, TV, telecom and financial sectors.</p>
+                      <p>20 years+ experience in international marketing in large corporates & SME's/Start-ups in the tech, TV, telecom and financial sectors. Justin has a proven track record in driving transformation and delivering great outcomes for customers and stakeholders.</p>
                     </div>
                   </div>
 
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/massimo-bergero-0711a218a/ " target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/massimobergero.jpg"/>
@@ -1007,6 +1049,9 @@
 
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/moscosopedro/ " target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/pedromoscoso.jpg"/>
@@ -1023,6 +1068,7 @@
                   </div>
 
                   <div class="team-sli">
+
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/Aleksandardokic.jpg"/>
@@ -1055,6 +1101,9 @@
                   </div>
 
                   <div class="team-sli">
+                    <div class="linkedin">
+                      <a href="https://www.linkedin.com/in/gguij002/ " target="_blank">in</a>
+                    </div>
                     <div class="ts-head">
                       <div class="ts-avat">
                         <img src="img/hypha-members/GerardoGuijarro.jpg"/>
