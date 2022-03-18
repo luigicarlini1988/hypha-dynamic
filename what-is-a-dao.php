@@ -35,6 +35,7 @@
 
   <!-- jquery functions & animations -->
   <script src="js/general-animations.js" type="text/javascript"></script>
+  <script src="js/scroll-top.js" type="text/javascript"></script>
 
 
 </head>
@@ -74,6 +75,7 @@
 
 
       <section class="about-body">
+        <div id="scroll_top"></div>
         <div class="yellowdots lax" data-lax-translate-y="(vh) 1, (-vh) -200" data-lax-anchor="self">
           <img src="img/yellowdots.svg"/>
         </div>

@@ -1,8 +1,3 @@
-
-
-
-
-
 jQuery(document).ready(function($) {
   //mobile menu activator
 
@@ -15,6 +10,7 @@ jQuery(document).ready(function($) {
       }, 300);
     }
   });
+
 
   setTimeout(function () {
     $(".obscurer").addClass("close");
