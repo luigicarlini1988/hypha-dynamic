@@ -105,7 +105,7 @@
                   <li><a href="#templates">Templates</a></li>
                   <li><a href="#benefits">Benefits</a></li>
                   <li><a href="#gs-anchor">Get Started</a></li>
-                  <li><a class="toksal" href="token-sale">Token Sale</a></li>
+                <!--  <li><a class="toksal" href="token-sale">Token Sale</a></li> -->
                 </ul>
               </nav>
             </div>
