@@ -1195,7 +1195,7 @@
               <div class="cta2">
                 <p class="fake-title">Join the Beta program</p>
                 <p>Want to have first access to Hypha’s tools? <br>Sign up below!</p>
-                <a href="https://www.cognitoforms.com/Hypha1/DHOBetaProgramSubscription?v2 " class="button-blu" target="_blank">Beta test Sign-up</a>
+                <a href="https://www.cognitoforms.com/Hypha1/HyphaDAOBetaProgram " class="button-blu" target="_blank">Beta test Sign-up</a>
               </div>
             </div>
           </div>
