@@ -1310,6 +1310,7 @@
             <ul>
               <li><a href="about-us">Overview</a></li>
               <li><a href="work-with-us">Work with us</a></li>
+              <li><a href="#team">Meet the team</a></li>
               <li><a id="video2-play3">Hypha DAO</a></li>
               <li><a href="https://medium.com/hyphadao" target="_blank" rel="nofollow">Blog</a></li>
             </ul>
