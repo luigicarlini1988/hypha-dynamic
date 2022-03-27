@@ -1096,7 +1096,7 @@
                       </div>
                     </div>
                     <div class="ts-text">
-                      <p></p>
+                      <p>Piyush is Software Engineer working mostly in Backend & Blockchain Technology. Loves working Functional Programming. Writes mostly Haskell & Elixir</p>
                     </div>
                   </div>
 
