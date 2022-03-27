@@ -1143,12 +1143,12 @@
                       </div>
                       <div class="ts-titles">
                         <p class="level yellow">Hypha Building</p>
-                        <p class="ts-name">Irina & Sorin</p>
+                        <p class="ts-name">Sorin</p>
                         <p class="work">Catalyzing <span class="yellow">2+ years</span></p>
                       </div>
                     </div>
                     <div class="ts-text">
-                      <p>We are a couple (Irina & Sorin) living on a rural property in a village in the south of Romania, working toward making our life more meaningful and more environmentally friendly. </p>
+                      <p>Sorin is a mysterious shadow weaver always everywhere at once, rarely seen, sometimes emerging in other account names and zoom names - never to confuse or manipulate, always in service.</p>
                     </div>
                   </div>
 
