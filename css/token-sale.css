@@ -7,6 +7,7 @@
 .multistep .foglio {
   display:flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .multistep {
@@ -16,4 +17,22 @@
   background-image:url(../img/3-steps-back.jpg);
   background-size:cover;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#buyhypha-slides {
+  margin-top: 30px
+}
+
+#buyhypha-slides > .slide {
+  max-width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.slide > img {
+  max-width: 100%;
 }

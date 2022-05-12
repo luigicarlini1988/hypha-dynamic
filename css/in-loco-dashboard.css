@@ -1,3 +1,8 @@
+:root {
+
+--dark-sand: #F1F1F7;
+}
+
 .body-dashboard .centered {
   max-width:calc(100% - 80px);
 }
@@ -24,6 +29,7 @@
     top: -64px;
   }
 }
+
 
 
 @media screen and (max-width : 900px) {

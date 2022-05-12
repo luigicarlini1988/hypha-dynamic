@@ -14,6 +14,53 @@
 --radial-blu-gradient: radial-gradient( #253979 , #0D1A45);
 }
 
+/*dark logo only on light theme*/
+
+.dark-log {
+  display:none;
+}
+
+body#light-theme nav ul li a,
+body#light-theme .trasp-button-dark {
+  color:var(--dark-blu);
+}
+
+body#light-theme .top-buttons .discord svg .cls-1 {
+  fill:var(--dark-blu);
+}
+
+body#light-theme .top-buttons .discord,
+body#light-theme .trasp-button-dark {
+  border: 1px solid var(--dark-sand);
+  background-color: var(--dark-sand);
+}
+
+body#light-theme header {
+  background:#fff;
+  box-shadow: 0px 0px 10px rgba(40,40,140,0.05);
+}
+
+body#light-theme header.filled {
+  background:#fff;
+}
+
+
+body#light-theme .light-log {
+  display:none;
+}
+
+body#light-theme .dark-log {
+  display:block;
+}
+
+body#light-theme .header-center .dark-log {
+  width: 126px;
+}
+
+body#light-theme .header-center h1 {
+  display:none;
+}
+
 /* progress bar */
 
 .progress-container {

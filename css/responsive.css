@@ -167,11 +167,21 @@ and (max-width : 790px) {
 
 }
 
-@media screen
-and (max-width : 700px) {
+@media screen and (max-width : 700px) {
 
 
- header h1 {
+ body#light-theme nav ul li a{
+   color:var(--light-sand);
+ }
+
+ body#light-theme header,
+ body#light-theme header.filled {
+   background-color:transparent;
+   box-shadow: none;
+ }
+
+ header h1,
+ body#light-theme header .dark-log {
    display:none;
  }
 
@@ -617,7 +627,7 @@ and (max-width : 700px) {
     padding-bottom:30px;
   }
 
-  #get-started .space3 .simple-button-yellow {
+  #get-started .space3 .simple-button-yellow-arrow {
     float:right;
     top: -50px;
     margin-right: 20px;
