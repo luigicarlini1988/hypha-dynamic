@@ -35,6 +35,11 @@ body#light-theme .trasp-button-dark {
   background-color: var(--dark-sand);
 }
 
+body#light-theme .top-buttons .discord:hover,
+body#light-theme .trasp-button-dark:hover {
+  border: 1px solid var(--dark-blu);
+}
+
 body#light-theme header {
   background:#fff;
   box-shadow: 0px 0px 10px rgba(40,40,140,0.05);

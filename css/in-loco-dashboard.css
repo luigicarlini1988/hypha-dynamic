@@ -7,6 +7,10 @@
   max-width:calc(100% - 80px);
 }
 
+body#light-theme .dashboard-page {
+  background-color:var(--dark-sand);
+}
+
 .dashboard-page {
   background-color:var(--dark-blu);
   min-height:100vh;
