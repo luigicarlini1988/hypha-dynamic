@@ -1233,6 +1233,31 @@
             </div>
 
             <div class="flexi-cont">
+              <div class="space3">
+
+                  <a href="https://medium.com/hyphadao/hypha-communication-on-the-respond-program-3bd4e4a5c7d1" target="_blank" rel="nofollow">
+                    <div class="article">
+                        <div class="img-wrap">
+                          <img src="img/news/cubix.jpg"/>
+                        </div>
+                        <div class="art-cont">
+                        <h4>Hypha DAO selected by the RESPOND Accelerator Program</h4>
+                        <div class="avat-read">
+                          <div class="avatar">
+                            <div class="rounder">
+                              <img src="img/hypha-members/joachim.jpg"/>
+                            </div>
+                            <p>Joachim Stroh</p>
+                          </div>
+
+                            <div class="button-read-art"><img src="img/blog-more.svg"/></div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+
                 <div class="space3">
                   <a href="https://medium.com/hyphadao/and-others-join-hypha-going-long-on-civilization-3a3af27e220" target="_blank">
                     <div class="article">
@@ -1281,29 +1306,6 @@
                   </a>
                 </div>
 
-                <div class="space3">
-                    <a href="https://www.forbes.com/sites/cathyhackl/2021/06/01/what-are-daos-and-why-you-should-pay-attention/?sh=4b9ec1887305" target="_blank" rel="nofollow">
-                      <div class="article">
-                          <div class="img-wrap">
-                            <img src="img/news/cubix.jpg"/>
-                          </div>
-                          <div class="art-cont">
-                          <h4>What Are DAOs And Why You Should Pay Attention</h4>
-                          <div class="avat-read">
-                            <div class="avatar">
-                              <!--<div class="rounder">
-                                <img src="img/avatar1.jpg"/>
-                              </div>-->
-                              <p>Forbes</p>
-                            </div>
-
-                              <div class="button-read-art"><img src="img/blog-more.svg"/></div>
-
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                </div>
 
             </div>
         </div>
