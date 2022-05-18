@@ -35,6 +35,9 @@
     <script src="js/owl.carousel.js" type="text/javascript"></script>
     <script src="js/owl.navigation.js" type="text/javascript"></script>
 
+    <!-- js smooth mouse wheel -->
+    <script src="js/smooth.js" type="text/javascript"></script>
+
     <!-- jquery functions & animations -->
     <script src="js/animations-home.js" type="text/javascript"></script>
 
@@ -1238,7 +1241,7 @@
                   <a href="https://medium.com/hyphadao/hypha-communication-on-the-respond-program-3bd4e4a5c7d1" target="_blank" rel="nofollow">
                     <div class="article">
                         <div class="img-wrap">
-                          <img src="img/news/cubix.jpg"/>
+                          <img src="img/news/respond-news.jpg"/>
                         </div>
                         <div class="art-cont">
                         <h4>Hypha DAO selected by the RESPOND Accelerator Program</h4>

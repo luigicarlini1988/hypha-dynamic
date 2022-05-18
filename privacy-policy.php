@@ -32,6 +32,9 @@
   <script src="js/lax.min.js" type="text/javascript"></script>
   <script src="js/parallax.js" type="text/javascript"></script>
 
+  <!-- js smooth mouse wheel -->
+  <script src="js/smooth.js" type="text/javascript"></script>
+
 
   <!-- jquery functions & animations -->
   <script src="js/general-animations.js" type="text/javascript"></script>
