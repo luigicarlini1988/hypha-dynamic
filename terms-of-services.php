@@ -39,6 +39,7 @@
   <!-- jquery functions & animations -->
   <script src="js/general-animations.js" type="text/javascript"></script>
   <script src="js/scroll-top.js" type="text/javascript"></script>
+  <script src="js/lax-activator.js" type="text/javascript"></script>
 
   <!-- Matomo -->
 <script>

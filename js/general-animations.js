@@ -29,6 +29,21 @@ jQuery(document).ready(function($) {
   });
 
 
+  // new header
+
+  $("#burg").on("click", function () {
+    $("#new-header").toggleClass("resp-out");
+    $(".hamburger").toggleClass("is-active");
+  });
+
+  $("#site-header nav ul li a").on("click", function () {
+    setTimeout(function () {
+      $("#new-header").toggleClass("resp-out");
+      $(".hamburger").toggleClass("is-active");
+    }, 500);
+  });
+
+
   //footer video
 
   $('#video2-play3').click(function(){

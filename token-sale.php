@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no">
 
   <!-- Meta Tags Generic-->
-  <title>Hypha | Token Sale</title>
+  <title>Hypha | Token Sale nwq</title>
   <meta name="description" content="Building decentralised apps to empower communities with the tools of decentralised and autonomous governance.">
   <meta name="og:image" content="https://hypha.earth/img/og-image.jpg">
   <link rel="icon" type="image/png" href="img/favicon.png" />
@@ -80,15 +80,21 @@
              { "apiUrl": "https://api-tokensale.hypha.earth", "rpcUrl": "https://telos.greymass.com", "defaultCurrency": "BTC","discordLink": "https://discord.com/channels/722537361480613950/954217391250882560"}
            </script>
          </div>
-         <div id="buyhypha-slides">
-          <a href="https://www.youtube.com/watch?v=94hVdGCnuK0" target="_blank" class="slide"><img
-              src="img/slides/slide-1.png" alt="Hypha Token Sale slide" /></a>
-          <img src="img/slides/slide-2.png" alt="Hypha Token Sale slide" class="slide" />
-          <img src="img/slides/slide-3.png" alt="Hypha Token Sale slide" class="slide" />
-          <img src="img/slides/slide-4.png" alt="Hypha Token Sale slide" class="slide" />
+         </div>
+      </section>
+
+      <section class="token-slides-wrapper">
+        <div class="foglio">
+           <div id="buyhypha-slides">
+            <a href="https://www.youtube.com/watch?v=94hVdGCnuK0" target="_blank" class="slide"><img
+                src="img/slides/slide-1.png" alt="Hypha Token Sale slide" /></a>
+            <img src="img/slides/slide-2.png" alt="Hypha Token Sale slide" class="slide" />
+            <img src="img/slides/slide-3.png" alt="Hypha Token Sale slide" class="slide" />
+            <img src="img/slides/slide-4.png" alt="Hypha Token Sale slide" class="slide" />
+          </div>
         </div>
-       </div>
-     </section>
+     </div>
+
 
    </main>
 

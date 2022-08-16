@@ -23,16 +23,40 @@ html {
   scroll-behavior: smooth;
 }
 
+.token-slides-wrapper {
+    background-color: var(--dark-blu);
+}
+
 #buyhypha-slides {
-  margin-top: 30px
+  margin-top: 0px;
+  padding-top: 60px;
+
 }
 
 #buyhypha-slides > .slide {
   max-width: 100%;
-  margin: 10px;
+  margin: 10px 0px;
   border-radius: 10px;
 }
 
 .slide > img {
   max-width: 100%;
+  border-radius: 10px;
+}
+
+.simple-button-yellow.no-arrow:after {
+  display:none;
+}
+
+.simple-button-yellow.no-arrow:hover {
+  text-decoration: underline;
+}
+
+
+
+#step-1,
+#step-2,
+#step-3,
+#step-4 {
+  box-shadow: 0px 0px 20px rgba(0,0,20,.2)!important;
 }
