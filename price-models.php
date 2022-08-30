@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="css/price-models.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="css/burger-menu.css">
+  <link rel="stylesheet" href="css/new-header.css">
 
   <!-- Javascript / jQuery libraries -->
   <script src="js/jquery-3-10-1-min.js" type="text/javascript"></script>
@@ -72,10 +73,9 @@
 
     </div>
 
-
-     <header id="new-header">
-
-     </header>
+    <?php
+        include 'incl/new-hypha-menu.html';
+     ?>
 
      <main id="pricing-models">
        <section id="price-area">
@@ -84,7 +84,7 @@
             <div class="bread_crumb"><a href="index">Home ></a> Pricing > Single DAO </div>
             <div class="ps-center">
               <h1><span class="up-title">Ecosystem</span><br />DAO Builder</h1>
-              <p>Do you aim to <strong> create a regenerative Ecosystem and facilitate the creation and evolution of several DAOs?</strong> If so, this are the pricing models that better will suite your vision. If you simply want to set-up a single DAO click the link below</p>
+              <p>Do you aim to <strong>create a Regenerative Ecosystem and facilitate the creation and evolution of several DAOs?</strong> If so, these are the pricing models that will better suit your vision. If you simply want to set-up a single DAO click the link below</p>
               <a href="#" class="cta">Single DAO Builder</a>
             </div>
           </div>
@@ -93,7 +93,7 @@
             <div id="flag">
               <p>
               <span class="flag-top">Easy Upgrade</span><br />
-              <span class="flag-bottom">Upgrade as your Ecosystem grow!</span>
+              <span class="flag-bottom">Upgrade as your Ecosystem grows!</span>
               </p>
             </div>
             <div class="wiz-wrap">
@@ -112,9 +112,9 @@
                 <div id="ml-starter" class="model-card">
                   <h2>Starter <span>Plan</span></h2>
                   <div class="card-section">
-                    <p class="ml-subtitle">Your First DAO</p>
+                    <p class="ml-subtitle">Your First DAO (Anchor)</p>
                     <p id="starter-achor" class="ml-main-price"></p>
-                    <p class="including"><strong>including $5,000</strong><br />added to your treasury</p>
+                    <p class="including"><strong>includes $5,000</strong><br />added to your DAO stake in Hypha</p>
                     <div class="ml-divider"></div>
                     <div>
                       <p class="ml-list"><a href="#">All DAO features</a></p>
@@ -127,7 +127,7 @@
                   <div class="card-section second">
                     <p class="ml-subtitle">Each additional DAO</p>
                     <p id="starter-additional" class="additional-price"></p>
-                    <p class="including-small"><strong>including $3,750</strong><br />added to the DAO treasury</p>
+                    <p class="including-small"><strong>includes $3,750</strong><br />added to your DAO stake in Hypha</p>
                     <div class="ml-divider"></div>
                     <p class="ml-subtitle">First DAO + <span class="daos-n-bottom" class="onTotal"></span> DAO<span class="plural-bottom"></span></p>
                     <p class="additional-price" id="starter-result"></p>
@@ -140,9 +140,9 @@
                 <div id="ml-growth" class="model-card">
                   <h2>Growth <span>Plan</span></h2>
                   <div class="card-section">
-                    <p class="ml-subtitle">Your First DAO</p>
+                    <p class="ml-subtitle">Your First DAO (Anchor)</p>
                     <p id="growth-achor" class="ml-main-price"></p>
-                    <p class="including"><strong>including $10,000</strong><br />added to your treasury</p>
+                    <p class="including"><strong>includes $10,000</strong><br />added to your DAO stake in Hypha</p>
                     <div class="ml-divider"></div>
                     <div>
                       <p class="ml-list"><a href="#">All DAO features</a></p>
@@ -155,7 +155,7 @@
                   <div class="card-section second">
                     <p class="ml-subtitle">Each additional DAO</p>
                     <p id="growth-additional" class="additional-price"></p>
-                    <p class="including-small"><strong>including $2,750</strong><br />added to the DAO treasury</p>
+                    <p class="including-small"><strong>includes $2,750</strong><br />added to your DAO stake in Hypha</p>
                     <div class="ml-divider"></div>
                     <p class="ml-subtitle">First DAO + <span class="daos-n-bottom" class="onTotal"></span> DAO<span class="plural-bottom"></span></p>
                     <p class="additional-price" id="growth-result"></p>
@@ -167,9 +167,9 @@
                 <div id="ml-thrive" class="model-card">
                   <h2>Growth <span>Plan</span></h2>
                   <div class="card-section">
-                    <p class="ml-subtitle">Your First DAO</p>
+                    <p class="ml-subtitle">Your First DAO (Anchor)</p>
                     <p id="thrive-achor" class="ml-main-price"></p>
-                    <p class="including"><strong>including $60,000</strong><br />added to your treasury</p>
+                    <p class="including"><strong>includes $60,000</strong><br />added to your DAO stake in Hypha</p>
                     <div class="ml-divider"></div>
                     <div>
                       <p class="ml-list"><a href="#">All DAO features</a></p>
@@ -182,7 +182,7 @@
                   <div class="card-section second">
                     <p class="ml-subtitle">Each additional DAO</p>
                     <p id="thrive-additional" class="additional-price"></p>
-                    <p class="including-small"><strong>including $1,500</strong><br />added to the DAO treasury</p>
+                    <p class="including-small"><strong>includes $1,750</strong><br />added to your DAO stake in Hypha</p>
                     <div class="ml-divider"></div>
                     <p class="ml-subtitle">First DAO + <span class="daos-n-bottom" class="onTotal"></span> DAO<span class="plural-bottom"></span></p>
                     <p class="additional-price" id="thrive-result"></p>

@@ -84,6 +84,7 @@ h1 br {
   width:100%;
   position:absolute;
   top:0;
+  background-size: cover;
 }
 
 .about-parall:after {

@@ -77,17 +77,16 @@
 
     <?php
         include 'incl/new-hypha-menu.html';
-
      ?>
 
-     <main id="pricing-models">
+     <main id="pricing-models" class="single_dao_offers">
        <section id="price-area">
 
           <div class="price-sidebar">
             <div class="bread_crumb"><a href="index">Home ></a> Pricing > Single DAO </div>
             <div class="ps-center">
               <h1><span class="up-title">Single</span><br />DAO Builder</h1>
-              <p>If you simply want to <strong>build your own DAO </strong> and let your organisation grow using hypha tools, this are the price models for you!  if you want to create a DAO Ecosystem instead, click the link below</p>
+              <p>If you simply want to <strong>build your own DAO</strong> and let your organisation grow using hypha tools, these are the price models for you! If you want to create a DAO Ecosystem instead (ie more than one DAO and interconnected as an Ecosystem), please click the link below'</p>
               <a href="#" class="cta">Ecosystem DAO Builder</a>
             </div>
           </div>
@@ -99,7 +98,7 @@
               <span class="flag-bottom">Available on all plans</span>
               </p>
             </div>
-            <div class="wiz-wrap">
+            <div class="wiz-wrap ">
               <div id="dao-toggle" class="dao-toggle">
                     <div class="save_20">Save 20%</div>
                     <div class="fake_toggle"></div>
@@ -107,7 +106,40 @@
                     <div class="tog_year">Year Upfront</div>
               </div>
 
-            <div class="models-list single_dao_offers">
+            <div class="models-list">
+
+              <div id="ml-freemium" class="model-card">
+                <h2>Free <span>Plan</span></h2>
+                <div class="card-section">
+                  <div class="single_prices">
+                    <div class="big_top_price">
+                      <span></span><span id="freemium_price">Free</span><span></span>
+                    </div>
+                    <div class="year_price">
+                      $0/Mo forever
+                    </div>
+                  </div>
+                  <div class="ml-divider"></div>
+                  <div>
+                    <p class="ml-list"><a href="#">Main Dashboard</a></p>
+                    <p class="ml-list"><a href="#">Token Creation</a></p>
+                    <p class="ml-list"><a href="#">Token Balance</a></p>
+                    <p class="ml-list"><a href="#">Profile Page</a></p>
+                    <p class="ml-list"><a href="#">Basic Governance</a></p>
+                    <p class="ml-list"><a href="#">Admin Roles/Badges</a></p>
+                    <p class="ml-list"><a href="#">Logo Customisation</a></p>
+                    <p class="ml-list"><a href="#">Basic "how to" wiki</a></p>
+                    <p class="ml-list"><a href="#">Mobile Ready</a></p>
+                  </div>
+                  <div class="ml-divider"></div>
+                  <!--<div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+                  <div class="ml-divider"></div>-->
+                  <div class="capacity">
+                    Max 3 users <img src="img/cap.svg"/>
+                  </div>
+
+                </div>
+              </div>
 
                 <div id="ml-starter" class="model-card">
                   <h2>Starter <span>Plan</span></h2>
@@ -122,14 +154,15 @@
                     </div>
                     <div class="ml-divider"></div>
                     <div>
-                      <p class="ml-list"><a href="#">Branding Module</a></p>
-                      <p class="ml-list"><a href="#">Compensation Module</a></p>
-                      <p class="ml-list"><a href="#">Voting Module</a></p>
-                      <p class="ml-list"><a href="#">Treasury Module</a></p>
-                      <p class="ml-list not_included"><a href="#">Other Module</a></p>
-                      <p class="ml-list not_included"><a href="#">Other Module</a></p>
-                      <p class="ml-list not_included"><a href="#">Other Module</a></p>
-                      <p class="ml-list not_included"><a href="#">Other Module</a></p>
+                      <div class="bringer">
+                        Everything in Free Plan +
+                      </div>
+                      <p class="ml-list"><a href="#">Member Assignments</a></p>
+                      <p class="ml-list"><a href="#">1 Salary Band</a></p>
+                      <p class="ml-list"><a href="#">Roles and Templates</a></p>
+                      <p class="ml-list"><a href="#">Assignment Proposals</a></p>
+                      <p class="ml-list"><a href="#">Policy Proposals</a></p>
+                      <p class="ml-list"><a href="#">Starter "How to" WIKI</a></p>
                     </div>
                     <div class="ml-divider"></div>
                     <div class="capacity">
@@ -165,14 +198,17 @@
                     </div>
                     <div class="ml-divider"></div>
                     <div>
-                      <p class="ml-list"><a href="#">Branding Module</a></p>
-                      <p class="ml-list"><a href="#">Compensation Module</a></p>
-                      <p class="ml-list"><a href="#">Voting Module</a></p>
-                      <p class="ml-list"><a href="#">Treasury Module</a></p>
-                      <p class="ml-list"><a href="#">Other Module</a></p>
-                      <p class="ml-list"><a href="#">Other Module</a></p>
-                      <p class="ml-list not_included"><a href="#">Other Module</a></p>
-                      <p class="ml-list not_included"><a href="#">Other Module</a></p>
+                      <div class="bringer">
+                        Everything in Starter Plan+
+                      </div>
+                      <p class="ml-list"><a href="#">Basic Payroll</a></p>
+                      <p class="ml-list"><a href="#">3 Salary Bands</a></p>
+                      <p class="ml-list"><a href="#">Treasury Management</a></p>
+                      <p class="ml-list"><a href="#">Quest proposals</a></p>
+                      <p class="ml-list"><a href="#">Advanced Governance</a></p>
+                      <p class="ml-list"><a href="#">DAO Branding</a></p>
+                      <p class="ml-list"><a href="#">Notifications</a></p>
+                      <p class="ml-list"><a href="#">Growth "How to" WIKI</a></p>
                     </div>
                     <div class="ml-divider"></div>
                     <div class="capacity">
@@ -207,14 +243,17 @@
                     </div>
                     <div class="ml-divider"></div>
                     <div>
-                      <p class="ml-list"><a href="#">Branding Module</a></p>
-                      <p class="ml-list"><a href="#">Compensation Module</a></p>
-                      <p class="ml-list"><a href="#">Voting Module</a></p>
-                      <p class="ml-list"><a href="#">Treasury Module</a></p>
-                      <p class="ml-list"><a href="#">Other Module</a></p>
-                      <p class="ml-list"><a href="#">Other Module</a></p>
-                      <p class="ml-list"><a href="#">Other Module</a></p>
-                      <p class="ml-list"><a href="#">Other Module</a></p>
+                      <div class="bringer">
+                        Everything in Growth plan +
+                      </div>
+                      <p class="ml-list"><a href="#">Advanced Payroll</a></p>
+                      <p class="ml-list"><a href="#">Unlimited Salary bands</a></p>
+                      <p class="ml-list"><a href="#">Circle Proposals</a></p>
+                      <p class="ml-list"><a href="#">Circle Budgets</a></p>
+                      <p class="ml-list"><a href="#">DAO Governance</a></p>
+                      <p class="ml-list"><a href="#">Circle Governance</a></p>
+                      <p class="ml-list"><a href="#">Smart Badges</a></p>
+                      <p class="ml-list"><a href="#">Thrive "How to" WIKI</a></p>
                     </div>
                     <div class="ml-divider"></div>
                     <div class="capacity">

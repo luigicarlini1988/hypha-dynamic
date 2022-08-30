@@ -9,7 +9,7 @@ main#pricing-models {
 }
 
 .price-sidebar {
-  width:38%;
+  width:32%;
   box-sizing: border-box;
   min-height: 100vh;
   padding:0px 60px;
@@ -19,7 +19,7 @@ main#pricing-models {
 }
 
 .price-wizard {
-  width:62%;
+  width:68%;
   box-sizing: border-box;
   padding:0px 80px;
   background-image:url(../img/3-steps-back.jpg);
@@ -33,6 +33,13 @@ main#pricing-models {
   align-items: center;
   overflow: hidden;
 }
+
+.single_dao_offers .price-wizard {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+
 
 #flag {
   position:absolute;
@@ -66,6 +73,10 @@ main#pricing-models {
     width: 100%;
     max-width: 800px;
     z-index:1;
+}
+
+.single_dao_offers .wiz-wrap {
+  max-width:1000px;
 }
 
 .price-wizard::before {
@@ -176,10 +187,18 @@ main#pricing-models {
   padding-top:22px;
 }
 
+.single_dao_offers .models-list {
+  column-gap:2%;
+}
+
 .model-card {
   text-align:center;
   color:var(--white);
   width:33%;
+}
+
+.single_dao_offers .models-list .model-card {
+  width:25%;
 }
 
 .card-section {
@@ -299,6 +318,7 @@ a.cta:hover {
   color:var(--dark-blu);
 }
 
+
 .ps-center {
   max-width:600px;
 }
@@ -339,10 +359,16 @@ a.cta:hover {
   margin-right:2px;
 }
 
-.including {
+
+.including strong {
     line-height: 18px;
     font-size: 14px;
     margin: 0px 0px 0px 0px;
+}
+
+.including {
+  font-size:12px;
+  line-height:16px;
 }
 
 .ml-divider {
@@ -361,12 +387,13 @@ a.cta:hover {
   font-size:14px;
   display: block;
   text-align: left;
-  padding-left:20px;
+  padding-left:12px;
   background-image: url(../img/check-blu.svg);
-  background-size:12px;
-  background-position:0px 2px;
+  background-size: 8px;
+  background-position: 0px 2px;
   background-repeat: no-repeat;
   font-weight:500;
+
 }
 
 .ml-list.not_included {
@@ -389,7 +416,8 @@ a.cta:hover {
   font-weight:600;
 }
 
-.including-small {
+.including-small,
+.including-small strong {
     line-height: 16px;
     font-size: 12px;
     margin: 0px 0px 0px 0px;
@@ -416,15 +444,7 @@ a.cta:hover {
 
 
 
-@media screen and (min-height : 880px) {
-  .models-list {
-    padding-top:80px;
-  }
 
-  .models-list.single_dao_offers {
-    padding-top:100px;
-  }
-}
 
 
 /* slingle DAOs page */
@@ -525,7 +545,8 @@ a.cta:hover {
 .big_top_price,
 span#single_starter_price,
 span#single_growth_price,
-span#single_thrive_price {
+span#single_thrive_price,
+span#freemium_price {
   font-size:48px;
   line-height:14px;
   font-weight:600;
@@ -596,41 +617,31 @@ p.minus_top {
   margin-top:-4px;
 }
 
-.models-list.single_dao_offers {
+.single_dao_offers .models-list {
   padding-top:40px;
 }
 
 
-
-@media screen and (max-width : 1250px) {
-  .price-sidebar {
-    width:32%;
-    padding:0px 40px;
-  }
-
-  .price-wizard {
-    width:68%;
-    padding:0px 40px;
-  }
-
-  #pricing-models .ps-center p {
-    font-size:14px;
-  }
-
-  .dao-slider input[type="range"] {
-    width:300px;
-  }
-
-  .bread_crumb {
-    font-size:12px;
-    letter-spacing: 1px;
-  }
+.lorem {
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
 }
 
-@media screen and (max-width : 1050px) {
-  .bread_crumb {
-    display:none;
-  }
+
+.bringer {
+  font-size: 14px;
+    width: calc(100% + 36px);
+    transform: translateX(-18px) translateY(-16px);
+    background: var(--light-blu);
+    color: var(--white);
+    font-weight: 700;
+    padding: 8px 0px;
+
+}
+
+@media screen and (max-width : 1320px) {
+  /* single DAO 4 column layout */
 
   .price-sidebar,
   .price-wizard {
@@ -650,13 +661,76 @@ p.minus_top {
     padding: 40px 0px 80px 0px;
   }
 
+
   .price-wizard {
-    padding:40px 40px 80px 40px;
+    padding:60px 40px 80px 40px;
+  }
+
+  .bread_crumb {
+    display:none;
+  }
+}
+
+
+@media screen and (max-width : 1250px) {
+  .price-sidebar {
+    width:32%;
+    padding:0px 40px;
+  }
+
+  #pricing-models .ps-center p {
+    font-size:14px;
+  }
+
+  .dao-slider input[type="range"] {
+    width:300px;
+  }
+
+  .bread_crumb {
+    font-size:12px;
+    letter-spacing: 1px;
+  }
+}
+
+
+@media screen and (max-width : 1050px) {
+
+
+  .price-sidebar,
+  .price-wizard {
+    width:100%;
+    min-width: 100%;
+    height:auto;
+    min-height: 0px;
+  }
+
+  #price-area {
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+
+
+}
+
+@media screen and (max-width : 880px) {
+  .single_dao_offers .models-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .single_dao_offers .models-list .model-card {
+    opacity:1;
+    width:100%;
+    max-width:400px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed var(--light-blu);
   }
 }
 
 @media screen and (max-width : 740px) {
-  .price-wizard {
+  .price-wizard,
+  .single_dao_offers .price-wizard  {
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -664,8 +738,8 @@ p.minus_top {
   #flag {
     position: absolute;
     transform: rotate(0Deg);
-    top: auto;
-    bottom:0;
+    top: 0;
+    bottom: auto;
     left: auto;
     max-width: 100%;
     width: 500px;
@@ -674,13 +748,16 @@ p.minus_top {
   .price-sidebar {
     padding: 0px 20px;
   }
+
+
   .ps-center {
     text-align: center;
     padding: 40px 0px 60px 0px;
   }
 
-  .price-wizard {
-    padding: 40px 20px 100px 20px;
+  .price-wizard,
+  .single_dao_offers .price-wizard {
+    padding: 100px 20px 40px 20px;
   }
 
   #pricing-models .dao-slider p {
@@ -715,6 +792,7 @@ p.minus_top {
 
   }
 
+  .single_dao_offers .models-list .model-card,
   .model-card {
     opacity:1;
     width:100%;
@@ -798,8 +876,6 @@ p.minus_top {
     margin: 16px 0px 14px 0px;
   }
 
-
-
 }
 
 @media screen and (max-width : 330px) {
@@ -809,5 +885,21 @@ p.minus_top {
 
   .models-list {
     padding: 0px 10px;
+  }
+}
+
+@media screen and (max-height : 680px) {
+  .dao-slider input[type="range"]{
+    width:300px;
+  }
+}
+
+@media screen and (min-height : 880px) {
+  .models-list {
+    padding-top:80px;
+  }
+
+  .single_dao_offers .models-list {
+    padding-top:100px;
   }
 }
