@@ -101,6 +101,9 @@
                <h1><span class="up-title">Discover all the</span><br>DAO features</h1>
                <p>During the last 3 years, we have built and fine-tuned more than 40 tools, ranging from the token creation and management, to the most advanced governance system a DAO can possibly offer.</p>
             </div>
+            <div class="resp-dao-top">
+              <img src="img/dao-features/dao-smartphone.png" />
+            </div>
           </div>
           <div class="dfh-img">
             <img class="lax" data-lax-translate-y="(vh) 1, (-vh) 100" data-lax-anchor="self" src="img/dao-features/mock-up-dao.png"  />

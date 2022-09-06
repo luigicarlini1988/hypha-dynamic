@@ -330,10 +330,26 @@ nav ul li a.toksal:before {
   line-height: 1.1em;
 }
 
+
 .trasp-button-dark:hover {
   border:1px solid var(--light-sand);
   background-color:var(--light-sand);
   color:var(--dark-blu);
+}
+
+.light-blu-button {
+  text-decoration:none;
+  padding:10px 24px;
+  border-radius:50px;
+  color:var(--light-sand);
+  border:none;
+  background:var(--light-blu);
+  font-weight:600;
+  line-height: 1.1em;
+}
+
+.light-blu-button:hover {
+  background:var(--light-blu);
 }
 
 .top-buttons a:first-child {

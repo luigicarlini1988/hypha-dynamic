@@ -86,8 +86,8 @@
             <div class="bread_crumb"><a href="index">Home ></a> Pricing > Single DAO </div>
             <div class="ps-center">
               <h1><span class="up-title">Single</span><br />DAO Builder</h1>
-              <p>If you simply want to <strong>build your own DAO</strong> and let your organisation grow using hypha tools, these are the price models for you! If you want to create a DAO Ecosystem instead (ie more than one DAO and interconnected as an Ecosystem), please click the link below'</p>
-              <a href="#" class="cta">Ecosystem DAO Builder</a>
+              <p>If you simply want to <strong>build your own DAO</strong> and let your organisation grow using hypha tools, these are the price models for you! If you want to create a DAO Ecosystem instead (ie more than one DAO and interconnected as an Ecosystem), please click <a href="#">here</a></p>
+
             </div>
           </div>
 
@@ -109,7 +109,7 @@
             <div class="models-list">
 
               <div id="ml-freemium" class="model-card">
-                <h2>Free <span>Plan</span></h2>
+                <h2>Founders <span>Plan *</span></h2>
                 <div class="card-section">
                   <div class="single_prices">
                     <div class="big_top_price">
@@ -121,24 +121,57 @@
                   </div>
                   <div class="ml-divider"></div>
                   <div>
-                    <p class="ml-list"><a href="#">Main Dashboard</a></p>
-                    <p class="ml-list"><a href="#">Token Creation</a></p>
-                    <p class="ml-list"><a href="#">Token Balance</a></p>
-                    <p class="ml-list"><a href="#">Profile Page</a></p>
-                    <p class="ml-list"><a href="#">Basic Governance</a></p>
+                    <div class="bringer">
+                      max <span class="big-no">5</span> users
+                    </div>
+                    <p class="ml-title">Essentials</p>
+                    <p class="ml-list"><a href="#">Token</a></p>
+                    <p class="ml-list"><a href="#">Profile and Wallet</a></p>
                     <p class="ml-list"><a href="#">Admin Roles/Badges</a></p>
-                    <p class="ml-list"><a href="#">Logo Customisation</a></p>
-                    <p class="ml-list"><a href="#">Basic "how to" wiki</a></p>
-                    <p class="ml-list"><a href="#">Mobile Ready</a></p>
+                    <p class="ml-list"><a href="#">Logo Personalisation</a></p>
                   </div>
                   <div class="ml-divider"></div>
-                  <!--<div class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
-                  <div class="ml-divider"></div>-->
-                  <div class="capacity">
-                    Max 3 users <img src="img/cap.svg"/>
+                  <div>
+                    <p class="ml-title">Contributions</p>
+                    <p class="ml-list"><a href="#">Proposals Dashboard</a></p>
+                    <p class="ml-list"><a href="#">Contribution Proposals</a></p>
+                    <p class="ml-list"><a href="#">Quest proposals</a></p>
+                  </div>
+                  <div class="ml-divider"></div>
+                  <div>
+                    <p class="ml-title">Compensation</p>
+                    <p class="ml-list"><a href="#">Salary Bands</a></p>
+                    <p class="ml-list"><a href="#">Roles archetypes</a></p>
+                    <p class="ml-list"><a href="#">Role Assignments</a></p>
+                  </div>
+                  <div class="ml-divider"></div>
+                  <div>
+                    <p class="ml-title">Governance</p>
+                    <p class="ml-list shortner"><a href="#">Agreement & Policy Proposals</a></p>
                   </div>
 
                 </div>
+
+                <div class="build-your">
+                  <a href="#" class="light-blu-button">build your DAO</a>
+                </div>
+
+                <div class="card-section second">
+                  <div class="fast-set">
+                    <div>
+
+                      <div>
+                        <p class="minus_top"><span>Optional</span><br />DAO Kickstart <span>program</span></p>
+                      </div>
+                    </div>
+                    $99
+                  </div>
+                </div>
+
+                <div class="small-note">
+                  <strong>*Founder Plan DAOs</strong> will be terminated after 2 months of inactivity or if their usage is deemed abusive
+                </div>
+
               </div>
 
                 <div id="ml-starter" class="model-card">
@@ -152,36 +185,57 @@
                         $950/yr
                       </div>
                     </div>
+
                     <div class="ml-divider"></div>
                     <div>
                       <div class="bringer">
-                        Everything in Free Plan +
+                        max <span class="big-no">15</span> users
                       </div>
-                      <p class="ml-list"><a href="#">Member Assignments</a></p>
-                      <p class="ml-list"><a href="#">1 Salary Band</a></p>
-                      <p class="ml-list"><a href="#">Roles and Templates</a></p>
-                      <p class="ml-list"><a href="#">Assignment Proposals</a></p>
-                      <p class="ml-list"><a href="#">Policy Proposals</a></p>
-                      <p class="ml-list"><a href="#">Starter "How to" WIKI</a></p>
+                      <p class="ml-title">Essentials</p>
+                      <p class="ml-list"><a href="#">Token</a></p>
+                      <p class="ml-list"><a href="#">Profile and Wallet</a></p>
+                      <p class="ml-list"><a href="#">Admin Roles/Badges</a></p>
+                      <p class="ml-list"><a href="#">Logo Personalisation</a></p>
                     </div>
                     <div class="ml-divider"></div>
-                    <div class="capacity">
-                      Max 10 users <img src="img/cap.svg"/>
+                    <div>
+                      <p class="ml-title">Contributions</p>
+                      <p class="ml-list"><a href="#">Proposals Dashboard</a></p>
+                      <p class="ml-list"><a href="#">Contribution Proposals</a></p>
+                      <p class="ml-list"><a href="#">Quest proposals</a></p>
+                    </div>
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Compensation</p>
+                      <p class="ml-list"><a href="#">Salary Bands</a></p>
+                      <p class="ml-list"><a href="#">Roles archetypes</a></p>
+                      <p class="ml-list"><a href="#">Role Assignments</a></p>
+                    </div>
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Governance</p>
+                      <p class="ml-list shortner"><a href="#">Agreement & Policy Proposals</a></p>
                     </div>
 
                   </div>
 
+                  <div class="build-your">
+                    <a href="#" class="light-blu-button">build your DAO</a>
+                  </div>
+
+
                   <div class="card-section second">
                     <div class="fast-set">
                       <div>
-                        <div class="rounder"></div>
+
                         <div>
-                          <p class="minus_top"><span>Optional</span><br />Fast Set-up</p>
+                          <p class="minus_top"><span>Optional</span><br />DAO Canvas <span>program</span></p>
                         </div>
                       </div>
-                      $299
+                      $199
                     </div>
-                    </div>
+                  </div>
+
                 </div>
 
 
@@ -196,36 +250,68 @@
                         $3,850/yr
                       </div>
                     </div>
+
                     <div class="ml-divider"></div>
                     <div>
                       <div class="bringer">
-                        Everything in Starter Plan+
+                        max <span class="big-no">50</span> users
                       </div>
-                      <p class="ml-list"><a href="#">Basic Payroll</a></p>
-                      <p class="ml-list"><a href="#">3 Salary Bands</a></p>
-                      <p class="ml-list"><a href="#">Treasury Management</a></p>
-                      <p class="ml-list"><a href="#">Quest proposals</a></p>
-                      <p class="ml-list"><a href="#">Advanced Governance</a></p>
-                      <p class="ml-list"><a href="#">DAO Branding</a></p>
-                      <p class="ml-list"><a href="#">Notifications</a></p>
-                      <p class="ml-list"><a href="#">Growth "How to" WIKI</a></p>
+                      <p class="ml-title">Essentials</p>
+                      <p class="ml-list"><a href="#">Token</a></p>
+                      <p class="ml-list"><a href="#">Profile and Wallet</a></p>
+                      <p class="ml-list"><a href="#">Admin Roles/Badges</a></p>
+                      <p class="ml-list"><a href="#">Logo Personalisation</a></p>
                     </div>
                     <div class="ml-divider"></div>
-                    <div class="capacity">
-                      Max 25 users <img src="img/cap.svg"/>
+                    <div>
+                      <p class="ml-title">Contributions</p>
+                      <p class="ml-list"><a href="#">Proposals Dashboard</a></p>
+                      <p class="ml-list"><a href="#">Contribution Proposals</a></p>
+                      <p class="ml-list"><a href="#">Quest proposals</a></p>
+                    </div>
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Compensation</p>
+                      <p class="ml-list"><a href="#">Salary Bands</a></p>
+                      <p class="ml-list"><a href="#">Roles archetypes</a></p>
+                      <p class="ml-list"><a href="#">Role Assignments</a></p>
+                    </div>
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Governance</p>
+                      <p class="ml-list shortner"><a href="#">Agreement & Policy Proposals</a></p>
+                      <p class="ml-list"><a href="#">Configurable Governance</a></p>
+                      <p class="ml-list"><a href="#">Organisation Templates</a></p>
                     </div>
 
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Treasury</p>
+                      <p class="ml-list shortner"><a href="#">Treasury Management</a></p>
+                      <p class="ml-list"><a href="#">Token Sale</a></p>
+                      <p class="ml-list"><a href="#">Payouts</a></p>
+                    </div>
+
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Branding</p>
+                      <p class="ml-list shortner"><a href="#">Design and Branding</a></p>
+                    </div>
+
+                  </div>
+
+                  <div class="build-your">
+                    <a href="#" class="light-blu-button">build your DAO</a>
                   </div>
 
                   <div class="card-section second">
                     <div class="fast-set">
                       <div>
-                        <div class="rounder"></div>
                         <div>
-                          <p class="minus_top"><span>Optional</span><br />Fast Set-up</p>
+                          <p class="minus_top"><span>Optional</span><br />DAO Booster <span>program</span></p>
                         </div>
                       </div>
-                      $399
+                      $299
                     </div>
                     </div>
                 </div>
@@ -241,33 +327,87 @@
                         $7,670/yr
                       </div>
                     </div>
+
                     <div class="ml-divider"></div>
                     <div>
                       <div class="bringer">
-                        Everything in Growth plan +
+                        max <span class="big-no">150</span> users
                       </div>
-                      <p class="ml-list"><a href="#">Advanced Payroll</a></p>
-                      <p class="ml-list"><a href="#">Unlimited Salary bands</a></p>
-                      <p class="ml-list"><a href="#">Circle Proposals</a></p>
-                      <p class="ml-list"><a href="#">Circle Budgets</a></p>
-                      <p class="ml-list"><a href="#">DAO Governance</a></p>
-                      <p class="ml-list"><a href="#">Circle Governance</a></p>
-                      <p class="ml-list"><a href="#">Smart Badges</a></p>
-                      <p class="ml-list"><a href="#">Thrive "How to" WIKI</a></p>
+                      <p class="ml-title">Essentials</p>
+                      <p class="ml-list"><a href="#">Token</a></p>
+                      <p class="ml-list"><a href="#">Profile and Wallet</a></p>
+                      <p class="ml-list"><a href="#">Admin Roles/Badges</a></p>
+                      <p class="ml-list"><a href="#">Logo Personalisation</a></p>
                     </div>
                     <div class="ml-divider"></div>
-                    <div class="capacity">
-                      Unlimited users <img src="img/cap.svg"/>
+                    <div>
+                      <p class="ml-title">Contributions</p>
+                      <p class="ml-list"><a href="#">Proposals Dashboard</a></p>
+                      <p class="ml-list"><a href="#">Contribution Proposals</a></p>
+                      <p class="ml-list"><a href="#">Quest proposals</a></p>
+                    </div>
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Compensation</p>
+                      <p class="ml-list"><a href="#">Salary Bands</a></p>
+                      <p class="ml-list"><a href="#">Roles archetypes</a></p>
+                      <p class="ml-list"><a href="#">Role Assignments</a></p>
+                    </div>
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Governance</p>
+                      <p class="ml-list shortner"><a href="#">Agreement & Policy Proposals</a></p>
+                      <p class="ml-list"><a href="#">Configurable Governance</a></p>
+                      <p class="ml-list"><a href="#">Organisation Templates</a></p>
                     </div>
 
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Treasury</p>
+                      <p class="ml-list shortner"><a href="#">Treasury Management</a></p>
+                      <p class="ml-list"><a href="#">Token Sale</a></p>
+                      <p class="ml-list"><a href="#">Payouts</a></p>
+                    </div>
+
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Branding</p>
+                      <p class="ml-list shortner"><a href="#">Design and Branding</a></p>
+                    </div>
+
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Circles</p>
+                      <p class="ml-list shortner"><a href="#">Circle Dashboard</a></p>
+                      <p class="ml-list shortner"><a href="#">Circle Budgets</a></p>
+                      <p class="ml-list shortner"><a href="#">Circle Proposals</a></p>
+                    </div>
+
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Accounting</p>
+                      <p class="ml-list shortner"><a href="#">Accounting Dashboard</a></p>
+                      <p class="ml-list shortner"><a href="#">Accounting Management</a></p>
+                    </div>
+
+                    <div class="ml-divider"></div>
+                    <div>
+                      <p class="ml-title">Perks</p>
+                      <p class="ml-list shortner"><a href="#">Smart Badges</a></p>
+                    </div>
+
+                  </div>
+
+                  <div class="build-your">
+                    <a href="#" class="light-blu-button">build your DAO</a>
                   </div>
 
                   <div class="card-section second">
                     <div class="fast-set">
                       <div>
-                        <div class="rounder"></div>
+
                         <div>
-                          <p class="minus_top"><span>Optional</span><br />Fast Set-up</p>
+                          <p class="minus_top"><span>Optional</span><br />DAO Advanced <span>program</span></p>
                         </div>
                       </div>
                       $499

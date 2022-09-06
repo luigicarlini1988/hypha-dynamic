@@ -1,3 +1,7 @@
+.resp-dao-top {
+  display:none;
+}
+
 #dao-features h1 {
     font-size: 54px;
     color: var(--white);
@@ -391,4 +395,271 @@ section#features-token {
     transform: scale(1.05);
     -moz-transform: scale(1.05);
     -webkit-transform: scale(1.05);
+  }
+
+
+  @media only screen
+  and (max-device-width : 1200px)
+  and (orientation : portrait) {
+
+    #df-head {
+      height:60vh;
+    }
+
+    #df-head .before-dah {
+    height: 150px;
+    }
+
+    .dfh-img img {
+      height:50vh;
+      min-height:500px;
+      max-height:600px;
+      left: -100px;
+    }
+
+    .dfh-text,
+    .dfh-img {
+      width:50%;
+    }
+
+    .dfh-center {
+      width:calc(100% - 50px);
+    }
+
+    #df-head .para .imager {
+      top:-160px;
+    }
+
+    section#features-token {
+      padding-top:0;
+    }
+
+  }
+
+  @media screen and (max-width : 1000px) {
+      .dfh-img,.dfh-text {
+        width:50%;
+      }
+
+      .dfh-img {
+        transform:translateX(-100px);
+      }
+  }
+
+  @media screen and (max-width : 800px) {
+    .dao-feature-text {
+      padding-right:0;
+    }
+
+    .dfh-text div {
+    padding-top: 0px;
+    }
+
+    .section-opener .foglio {
+      align-items: center;
+      transform: scaleX(-1);
+    }
+
+    .laptop {
+      width:50%;
+      top:0;
+    }
+
+    .laptop.lax {
+      transform:scaleX(-1)!important;
+    }
+
+    .laptop.lax img {
+      transform: scale(1.8) translateX(70px);
+    }
+
+    .after-so {
+      display:none;
+    }
+
+    .opener-text {
+    width: 50%;
+    padding-bottom: 60px;
+    transform:scaleX(-1)!important;
+    }
+
+    .section-opener {
+      padding-top:60px;
+    }
+
+    .section-opener .before-so {
+      border-bottom: 20px solid transparent;
+    }
+    .so-para {
+      height:100%;
+    }
+  }
+
+  @media screen and (max-width : 680px) {
+    .lefty, .righty {
+    flex-direction: column;
+    padding:45px 0px;
+    }
+
+    .righty,
+    .righty .dao-feature-text,
+    .righty .dao-feature-thumbs {
+      transform:scaleY(-1);
+    }
+
+    .dao-feature-text,
+    .dao-feature-thumbs {
+      width:100%;
+    }
+
+    .dao-feature-thumbs {
+      flex-direction: column;
+      margin-top:0px;
+      padding:40px 0px;
+    }
+
+    .dao-feature-thumbs .thumb {
+      width:80%;
+      margin-bottom:20px;
+    }
+
+    .dao-feature-thumbs::before {
+      top:80px;
+      height:calc(100% - 80px);
+      width:100%;
+      left:0;
+      height: calc(100% - 80px);
+      border-radius:12px;
+    }
+
+    .lefty .dotter,
+    .righty .dotter{
+      right: 20px;
+      left:auto;
+      top: auto;
+      bottom: -70px;
+    transform: scale(.6);
+    }
+
+    #dao-features h2 span.up-title, #dao-features h3 span.up-title {
+      font-size:14px;
+    }
+
+    #dao-features h2, #dao-features h3 {
+      font-size: 42px;
+      line-height: 40px;
+    }
+
+
+    #feature-roadmap .foglio .dotter {
+      display:none;
+    }
+
+    #feature-roadmap .owl-nav {
+      position: absolute;
+      top: -82px;
+      right: 0px;
+      transform:scale(.9);
+    }
+
+    #roadmap-slider .owl-stage-outer {
+      transform: scale(.9) translateX(-5%);
+    }
+
+    .roadmap-title {
+      padding-bottom:0;
+    }
+
+    #roadmap-slider h4 {
+      font-size:26px;
+      line-height:26px;
+    }
+
+    .section-opener {
+      overflow:visible;
+      margin-bottom:40px;
+
+      margin-top:40px;
+    }
+
+    .section-opener .foglio {
+      flex-direction: column;
+      transform:scaleX(1) scaleY(-1)!important;
+    }
+
+    .laptop.lax,
+    .opener-text{
+      transform:scaleX(1) scaleY(-1)!important;
+      width:100%;
+    }
+
+    .so-para {
+      display:none;
+    }
+
+    .opener-text {
+      padding-bottom:0px;
+    }
+
+    .laptop.lax img {
+    transform: scale(1.14) translateX(0px) translateY(40px);
+    }
+
+    .dao-feature-thumbs .thumb-full {
+      width:80%;
+      margin-bottom:20px;
+    }
+
+    #feature-roadmap {
+      padding:50px 0px;
+    }
+
+    /* top hero */
+
+    .dfh-img,
+    #df-head .para {
+      display:none;
+    }
+
+    #df-head {
+    height: auto;
+    }
+
+    #df-head .before-dah {
+    height: 50px;
+    border-top: 30px solid transparent;
+    }
+
+    .dfh-text {
+      width:100%;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .dfh-text div.lax {
+      padding-top: 80px;
+    }
+
+    #dao-features h1 span.up-title {
+      font-size:14px;
+    }
+
+    #dao-features h1 {
+      font-size:48px;
+      line-height:48px;
+      margin-bottom:32px;
+    }
+
+    .resp-dao-top {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      margin-top:0px;
+      width:100%;
+    }
+
+    .resp-dao-top img {
+      width:100%;
+    }
+
   }
