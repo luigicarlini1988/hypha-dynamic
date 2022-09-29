@@ -121,12 +121,12 @@
 
               <nav>
                 <ul>
-                  <li><a href="#solutions">Solutions</a></li>
-                  <li><a href="#features">Features</a></li>
-                  <li><a href="#templates">Templates</a></li>
-                  <li><a href="#benefits">Benefits</a></li>
-                  <li><a href="#gs-anchor">Get Started</a></li>
-                  <li><a class="toksal" href="token-sale">Token Sale</a></li>
+                  <li><a href="#tools">Features</a></li>
+                  <li><a href="#key-benefits">Benefits</a></li>
+                  <li><a href="http://localhost:8099/singledao-price-models">Price Plans</a></li>
+                  <li><a href="http://localhost:8099/what-is-a-dao">What is a DAO</a></li>
+                  <li><a href="http://localhost:8099/about-us">About us</a></li>
+                  <li><a href="https://tokensale.hypha.earth">Token Sale</a></li>
                 </ul>
               </nav>
             </div>
@@ -183,149 +183,54 @@
 
       </section>
 
-      <section id="solutions">
-        <div class="foglio">
-
-          <div class="sol-wrap">
-            <div class="yellowdots lax" data-lax-translate-y="(vh) 1, (-vh) -200" data-lax-anchor="self">
-              <img src="img/yellowdots.svg"/>
-            </div>
-            <div class="solo-w-cont">
-              <h2 class="titoletto">Solutions</h2>
-              <p class="fake-title">The best tools <br> to build your DAO</p>
-
-              <div class="flexi-cont">
-                  <div class="space3">
-                    <p class="semi-b">We provide fraud resistant and democratic tools for groups to organize, govern, recognize, and coordinate like never before.</p>
-                  </div>
-
-                  <div class="space6">
-                    <p>Whether you are a business, non-profit, village, city, farm, cooperative, movement, community, or altogether a new type of economic system, Hypha has a range of flexible and easy tools to help you create your own decentralised organisation to fit your style of governance and to achieve your goals.</p>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="tools">
-
         <div class="foglio">
-          <div id="slider">
-            <div id="slider-tools" class="owl-carousel owl-theme">
-              <div class="slide slide1">
-                <h3>Governance & coordination</h3>
-                <div class="flexi-cont">
-                  <div class="space5">
-                    <p>Gain the ability to make fast & effective decisions together, through Hypha’s on-chain, transparent & fraud resistant voting solution, with built-in proposal nurturing.<br><br>Deciding together on which new strategic direction to take, which new quest, role, contribution  or badge proposal to accept, or how to spend pooled resources, there is much you can do with Hypha’s governance solution. <br><br>It will ensure that decisions are taken for the common good of your organisation or community, in achieving its goals.</p>
-                  </div>
-                  <div class="space5">
-                    <div class="flexi-cont">
-                      <img src="img/slider/Artboard1.jpg"/>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="slide slide2">
-                <h3>Manage finances</h3>
-                <div class="flexi-cont">
-                  <div class="space5">
-                    <p>Communities & organisations no longer need to trust individuals with the keys to the vault. With Hypha’s on-chain records, the integrity , security and transparency of their finances will be guaranteed.<br><br>They can choose from a number of treasury governance templates or create their own to decide how they want the common treasury managed. <br><br>From fundraising to payroll, they can manage all their decentralised financial needs in one place. Use tokens, USD or a mix of both, it is up to you.</p>
-                  </div>
-                  <div class="space5">
-                    <div class="flexi-cont">
-                      <img src="img/slider/Artboard2.jpg"/>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="slide slide3">
-                <h3>Motivate & incentivise</h3>
-                <div class="flexi-cont">
-                  <div class="space5">
-                    <p>Hypha gives your team or community the tools needed to create open incentives, and rewards opportunities that help coordinate your community to contribute to common causes. <br><br>These range from tokens & voting rights as compensation for services rendered, to member badges as recognition for active & supportive participation within your organisation or community.<br><br>As a result, organisations & communities can more creatively distribute voice and value amongst their members to more equitably reward contributions to increase scale and achieve the common goals.</p>
-                  </div>
-
-                  <div class="space5">
-                    <div class="flexi-cont">
-                      <div class="slide-img1">
-                        <img src="img/slider/Artboard3.jpg"/>
-                      </div>
-                      <div class="slide-img2">
-                        <img src="img/slider/Artboard4.jpg"/>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="slide slide4">
-
-                <h3><br>Tokenise</h3>
-                <div class="flexi-cont">
-                  <div class="space5">
-                    <p>We provide fee-free tokens (a unit of account) recorded on a blockchain ledger (a decentralised excel sheet) to ensure the integrity and security of all your transactions and holdings of the tokens. Tokens provide recognition and are a useful tool from many aspects.<br><br>There are 3 types of tokens available:<br>
-                      <ul><li>Payment tokens  <span class="open-pop-slider simple-button-yellow">read more</span></li>
-                          <li>Utility & Native Tokens <span class="open-pop-slider simple-button-yellow">read more</span></li>
-                          <li>Voice & Governance Tokens <span class="open-pop-slider simple-button-yellow">read more</span></li>
-                      </ul>
-                    </p>
-                  </div>
-                  <div class="space5">
-                    <div class="flexi-cont">
-                      <div class="slide-img1">
-                        <img src="img/slider/Artboard5.jpg"/>
-                      </div>
-                      <div class="slide-img2">
-                        <img src="img/slider/Artboard6.jpg"/>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div id="pop-up-slide4">
-                  <div id="close-pop-slide4">X</div>
-                    <h4>Token available:</h4>
-                    <ul><li><strong>Payment tokens:</strong> These stable tokens are backed by the DAO’s treasury and can then be used as currency to pay for services and goods or swapped for Bitcoin/USD’s. They provide a means of exchange.</li>
-                        <li><strong>Utility & Native Tokens:</strong> these are for carrying out specific functions for your DAO, such as controlling access, contribution accounting, member benefits, revenue sharing, and more.</li>
-                        <li><strong>Voice & Governance Tokens:</strong> provide your DAO with the ability to distribute governance rights.</li>
-                    </ul>
-                </div>
-
-
-              </div>
-
-
-              <div class="slide slide5">
-                <h3><br>Communicate</h3>
-                <div class="flexi-cont">
-                  <div class="space5">
-                    <p>From efficiently notifying your members about key updates & events, encouraging transparent open dialogue within your community, and providing your members with relevant & engaging content, Hypha has it all.<br><br>Our solution includes such features as in-App notifications,  Public Messaging Platforms,  Virtual Meeting Circles,  Content Preference Centres for targeted & automated communications and much more. </p>
-                  </div>
-                  <div class="space5">
-                    <div class="flexi-cont">
-                      <div class="slide-img1">
-                        <img src="img/slider/Artboard7.jpg"/>
-                        <img src="img/slider/Artboard8.jpg"/>
-                      </div>
-                      <div class="slide-img2">
-                        <img src="img/slider/Artboard9.jpg"/>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div class="yellowdots lax" data-lax-translate-y="(vh) 1, (-vh) -200" data-lax-anchor="self">
+              <img src="img/bludots.svg"/>
             </div>
+
+            <div class="tool-home-wrap">
+
+              <div class="tool-left">
+                <div>
+                  <h2 class="titoletto">Dao Features</h2>
+                  <p class="fake-title">The best tools <br> to build your DAO</p>
+                  <p class="semi-b">Our ‘Organization-in-a-box’ solution provides fraud resistant and democratic tools for groups to organize, govern, recognize, and coordinate like never before.</p>
+                  <p class="sma">Whether you are a business, non-profit, village, city, farm, cooperative, movement, community, or altogether a new type of economic system, Hypha has a range of flexible and easy tools to help you create your own decentralized organization to fit your style of governance and to achieve your goals.</p>
+                  <a class="button-dark-blu" href="dao-features">Discover all the features</a>
+                </div>
+              </div>
+
+              <div class="tool-right">
+                <div class="dao-feature-thumbs">
+                  <div class="thumb"><img src="img/dao-features/role2.png"/></div>
+                  <div class="thumb"><img src="img/dao-features/period1.png"/></div>
+                </div>
+
+
+
+                <div class="dao-feature-thumbs">
+                  <div class="thumb"><img src="img/dao-features/token2.png"/></div>
+                  <div class="thumb"><img src="img/dao-features/token1.png"/></div>
+                </div>
+
+                <div class="dao-feature-thumbs">
+                  <div class="thumb thr"><img src="img/dao-features/voting1.png"/></div>
+                  <div class="thumb thr"><img src="img/dao-features/voting2.png"/></div>
+                  <div class="thumb thr"><img src="img/dao-features/voting3.png"/></div>
+                </div>
+
+                <a class="button-dark-blu" href="dao-features">Discover all the features</a>
+              </div>
 
             </div>
 
           </div>
-        </div>
       </section>
 
-      <section id="features">
+
+
+      <section id="key-benefits">
         <div class="bludots lax" data-lax-translate-y="(vh) 1, (-vh) -200" data-lax-anchor="self">
           <img src="img/bludots.svg"/>
         </div>
@@ -339,7 +244,7 @@
 
           <div class="flexi-cont">
             <div class="space5">
-              <h2 class="titoletto">Key Features</h2>
+              <h2 class="titoletto">Key Benefits</h2>
               <p class="fake-title">Interoperability with<br> multiple blockchains</p>
               <img class="resp-img-token" src="img/multi-chain-resp.jpg"/>
               <p>Hypha believes in building inclusive ecosystems rather than isolated solutions. Hence we are ensuring that our platform will provide <strong>compatibility with multiple blockchains/crypto currencies</strong> and that we provide a wide variety of guides and templates to meet the needs of a large range of DAO’s such as Cities, Co-ops, Businesses, Communities, Farms, Villages etc..</p>
@@ -717,42 +622,31 @@
 
       </section>
 
-      <section id="get-started">
+      <section id="price-plans-cta" class="home-pp">
         <div class="foglio">
-          <div class="bludots lax" data-lax-translate-y="(vh) 1, (-vh) -200" data-lax-anchor="self">
-            <img src="img/yellowdots.svg"/>
+          <div>
+            <h2 id="gs-anchor" class="titoletto">Price Plans</h2>
+           <p class="fake-title">From your first single DAO <br />to a full fledged DAO Ecosystem</p>
           </div>
-          <div class="gt-titles">
-            <h2 id="gs-anchor"class="titoletto">Get Started</h2>
-            <p class="fake-title">Create your DAO<br>in 3 simple steps:</p>
-            <!--<a id="video1-play" class="trasp-button-dark">Need support?</a>-->
+
+          <div class="actual-plans">
+            <div class="saas">
+              <div class="freepla">Free plan available!</div>
+              <h3><strong>Single DAO</strong> builder</h3>
+              <img src="img/price-plans/saas-skeme.png" />
+              <p>If you want to <strong>build your own DAO</strong> and let your organisation grow using hypha tools, these are the price models for you! We created 3 pre-configured set of features, corresponding to 3 price plans</p>
+              <a href="singledao-price-models" class="button-yellow" >Single DAO plans</a>
+           </div>
+
+           <div class="eaas">
+             <h3><strong>Ecosystem DAO</strong> builder</h3>
+             <img src="img/price-plans/eaas-skeme.png" />
+             <p>Do you aim to <strong>create a Regenerative Ecosystem and facilitate the creation and evolution of several DAOs?</strong> If so, these are the pricing models that will better suit your vision. </p>
+             <a href="price-models" class="button-yellow" >Ecosystem DAO plans</a>
           </div>
-          <div class="flexi-cont">
-              <div class="space3">
-                <div class="step step1">
-                  <p class="numbr">1</p>
-                  <p>Discover how your group can organize differently </p>
-                </div>
-                <a id="video1-play" class="simple-button-yellow" >Watch the Video</a>
-              </div>
 
-              <div class="space3">
-                <div class="step step2">
-                  <p class="numbr">2</p>
-                  <p>Grab an existing template, or make your own, inspired by this library of strategy recipes</p>
-                </div>
-              <a id="video2-play2" class="simple-button-yellow" >Watch the Video</a>
-              </div>
-
-              <div class="space3">
-                <div class="step step3">
-                  <p class="numbr">3</p>
-                  <p>Get started! Your DAO will evolve as members use it & vote for changes.</p>
-                </div>
-
-              </div>
-          </div>
-        </div>
+         </div>
+       </div>
       </section>
 
       <section id="team">
@@ -1376,14 +1270,6 @@
 
     </footer>
 
-
-    <?php
-        include 'incl/video1.html';
-     ?>
-
-   <?php
-       include 'incl/video2.html';
-    ?>
 
     <?php
         include 'incl/newsletter.html';

@@ -80,13 +80,19 @@
      <main id="pricing-models">
        <section id="price-area">
 
-          <div class="price-sidebar">
+          <div class="price-sidebar ecosystem">
             <div class="bread_crumb"><a href="index">Home ></a> Pricing > Single DAO </div>
             <div class="ps-center">
               <h1><span class="up-title">Ecosystem</span><br />DAO Builder</h1>
-              <p>Do you aim to <strong>create a Regenerative Ecosystem and facilitate the creation and evolution of several DAOs?</strong> If so, these are the pricing models that will better suit your vision. If you simply want to set-up a single DAO click the link below</p>
-              <a href="#" class="cta">Single DAO Builder</a>
+              <p>Do you aim to <strong>create a Regenerative Ecosystem and facilitate the creation and evolution of several DAOs?</strong> If so, these are the pricing models for you.</p>
+              <p class="small"> If you simply want to set-up a single DAO, check the single DAO Price plans by clicking the white button</p>
+              <div class="price-plan-ctas">
+                <a href="#" class="button-dark-blu">Activate your Ecosystem</a>
+                <a href="#" class="cta">Single DAO Builder</a>
+              </div>
             </div>
+
+            <div class="up-small">Need more Members, more DAOS or a different model? Contact us at <a href="mailto:hello@hypha.earth">hello@hypha.earth</a></div>
           </div>
 
           <div class="price-wizard">
@@ -96,11 +102,11 @@
               <span class="flag-bottom">Upgrade as your Ecosystem grows!</span>
               </p>
             </div>
-            <div class="wiz-wrap">
+            <div class="wiz-wrap ecosystem">
               <div class="dao-slider">
-                    <p class="optimise">Slide & Optimise prices per N° of DAOs!</p>
+                    <p class="optimise">Slide to select the N° of DAOs you need</p>
                     <div class="range-aligner">
-                      <input id="range" type="range" value="2" min="1" max="60" class="slider">
+                      <input id="range" type="range" value="2" min="1" max="100" class="slider">
                       <div id="daosnumber">
                         <div id="daosnumber-inside"></div> DAO<span id="plural"></span>
                       </div>
@@ -118,17 +124,23 @@
                     <div class="ml-divider"></div>
                     <div>
                       <p class="ml-list"><a href="#">All DAO features</a></p>
-                      <p class="ml-list">Unlimited DAO users</p>
+                      <p class="ml-list">Max 150 Core Members per DAO</p>
+                      <p class="ml-list">Unlimited Community Members</p>
                       <p class="ml-list"><a href="#">1 Ecosystem tool incl.</a></p>
+                    </div>
+                    <div class="ml-divider"></div>
+                    <div class="card-section within">
+                      <p class="ml-subtitle">Each additional DAO</p>
+                      <p id="starter-additional" class="additional-price"></p>
+                      <p class="including-small"><strong>includes $3,750</strong><br />added to your DAO stake in Hypha</p>
+
                     </div>
 
                   </div>
 
+
+
                   <div class="card-section second">
-                    <p class="ml-subtitle">Each additional DAO</p>
-                    <p id="starter-additional" class="additional-price"></p>
-                    <p class="including-small"><strong>includes $3,750</strong><br />added to your DAO stake in Hypha</p>
-                    <div class="ml-divider"></div>
                     <p class="ml-subtitle">First DAO + <span class="daos-n-bottom" class="onTotal"></span> DAO<span class="plural-bottom"></span></p>
                     <p class="additional-price" id="starter-result"></p>
                     <p class="ml-subtitle">Total</p>
@@ -146,17 +158,22 @@
                     <div class="ml-divider"></div>
                     <div>
                       <p class="ml-list"><a href="#">All DAO features</a></p>
-                      <p class="ml-list">Unlimited DAO users</p>
+                      <p class="ml-list">Max 150 Core Members per DAO</p>
+                      <p class="ml-list">Unlimited Community Members</p>
                       <p class="ml-list"><a href="#">3 Ecosystem tool incl.</a></p>
+                    </div>
+
+                    <div class="ml-divider"></div>
+                    <div class="card-section within">
+                      <p class="ml-subtitle">Each additional DAO</p>
+                      <p id="growth-additional" class="additional-price"></p>
+                      <p class="including-small"><strong>includes $2,750</strong><br />added to your DAO stake in Hypha</p>
+
                     </div>
 
                   </div>
 
                   <div class="card-section second">
-                    <p class="ml-subtitle">Each additional DAO</p>
-                    <p id="growth-additional" class="additional-price"></p>
-                    <p class="including-small"><strong>includes $2,750</strong><br />added to your DAO stake in Hypha</p>
-                    <div class="ml-divider"></div>
                     <p class="ml-subtitle">First DAO + <span class="daos-n-bottom" class="onTotal"></span> DAO<span class="plural-bottom"></span></p>
                     <p class="additional-price" id="growth-result"></p>
                     <p class="ml-subtitle">Total</p>
@@ -165,7 +182,7 @@
                 </div>
 
                 <div id="ml-thrive" class="model-card">
-                  <h2>Growth <span>Plan</span></h2>
+                  <h2>Thrive <span>Plan</span></h2>
                   <div class="card-section">
                     <p class="ml-subtitle">Your First DAO (Anchor)</p>
                     <p id="thrive-achor" class="ml-main-price"></p>
@@ -173,17 +190,22 @@
                     <div class="ml-divider"></div>
                     <div>
                       <p class="ml-list"><a href="#">All DAO features</a></p>
-                      <p class="ml-list">Unlimited DAO users</p>
+                      <p class="ml-list">Max 150 Core Members per DAO</p>
+                      <p class="ml-list">Unlimited Community Members</p>
                       <p class="ml-list"><a href="#">3 Ecosystem tool incl.</a></p>
+                    </div>
+
+                    <div class="ml-divider"></div>
+                    <div class="card-section within">
+                      <p class="ml-subtitle">Each additional DAO</p>
+                      <p id="thrive-additional" class="additional-price"></p>
+                      <p class="including-small"><strong>includes $1,750</strong><br />added to your DAO stake in Hypha</p>
+
                     </div>
 
                   </div>
 
                   <div class="card-section second">
-                    <p class="ml-subtitle">Each additional DAO</p>
-                    <p id="thrive-additional" class="additional-price"></p>
-                    <p class="including-small"><strong>includes $1,750</strong><br />added to your DAO stake in Hypha</p>
-                    <div class="ml-divider"></div>
                     <p class="ml-subtitle">First DAO + <span class="daos-n-bottom" class="onTotal"></span> DAO<span class="plural-bottom"></span></p>
                     <p class="additional-price" id="thrive-result"></p>
                     <p class="ml-subtitle">Total</p>
@@ -199,10 +221,6 @@
      <?php
          include 'incl/hypha-footer.html';
       ?>
-
-      <?php
-          include 'incl/video2.html';
-       ?>
 
 
 

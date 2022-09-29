@@ -2,6 +2,11 @@
   display:none;
 }
 
+main#dao-features {
+  overflow: hidden;
+
+}
+
 #dao-features h1 {
     font-size: 54px;
     color: var(--white);
@@ -175,24 +180,64 @@
 
 .dao-feature-thumbs .thumb {
   width:calc(50% - 10px);
-  border-radius:12px;
+  border-radius:20px;
   overflow:hidden;
-  height:180px;
-  box-shadow: 0px 0px 50px rgba(12,22,102,0.07);
+  min-height:180px;
+  box-shadow: 0px 0px 30px rgb(12 22 102 / 10%);
   position:relative;
   z-index:2;
+  display:flex;
   background-color:var(--white);
 }
 
 .dao-feature-thumbs .thumb-full {
   width:calc(100% - 0px);
+  min-width:calc(100% - 0px);
   border-radius:12px;
   overflow:hidden;
-  height:180px;
-  box-shadow: 0px 0px 50px rgba(12,22,102,0.07);
+  box-shadow: 0px 0px 30px rgb(12 22 102 / 10%);
   position:relative;
   z-index:2;
+  display:flex;
   background-color:var(--white);
+}
+
+.dao-feature-thumbs .thumb.thr {
+  width:calc(33% - 7px);
+  border-radius:20px;
+  overflow:hidden;
+  min-height:180px;
+  box-shadow: 0px 0px 22px rgb(12 22 102 / 10%);
+  position:relative;
+  z-index:2;
+  display:flex;
+  background-color:var(--white);
+}
+
+.dao-feature-thumbs .thumb img,
+.dao-feature-thumbs .thumb-full img {
+  width:100%;
+  height:auto;
+}
+
+.long-thumbs {
+  flex-wrap: wrap;
+}
+
+.spaz {
+  margin-top:20px;
+}
+
+#features-token .thumb:last-child{
+  scale: .85;
+}
+
+#features-token .thumb:not(:last-child){
+  scale: 1.05;
+}
+
+#wallet .thumb {
+  scale: .9;
 }
 
 .dotter {
@@ -259,7 +304,7 @@ section#features-token {
 .laptop {
   width:calc(60% - 40px);
   position:relative;
-  top:40px;
+  top:20px;
 }
 
 .laptop img {
@@ -299,9 +344,10 @@ section#features-token {
 /*roadmap slider*/
 
 #feature-roadmap {
-  margin:80px 0px;
+  margin:80px 0px 0px 0px;
   padding: 80px 0px;
   background:var(--white-blu);
+
 }
 
 .first-future {
@@ -396,6 +442,68 @@ section#features-token {
     -moz-transform: scale(1.05);
     -webkit-transform: scale(1.05);
   }
+
+
+.coming-soon {
+  position: absolute;
+    left: 0;
+    bottom: 26px;
+    z-index: 2;
+    font-size: 14px;
+    padding-left: 20px;
+    background-image: url(../img/clock.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 14px;
+}
+
+#dao-features h2.titoletto {
+    font-weight: 800;
+    letter-spacing: .3em;
+    font-size: 14px;
+    color: var(--yellow);
+    font-family: var(--bodys);
+    text-transform: uppercase;
+    margin-top: 0;
+    line-height:14px;
+  }
+
+
+/*mock-uo adjustments*/
+
+#compensations .laptop img{
+  transform:scale(1.3) translateX(-30px);
+}
+
+#contributions .laptop img {
+  transform:scale(1.4) translateX(-30px);
+}
+
+#banding .laptop img{
+  transform:scale(1.2) translateX(-30px);
+}
+
+#treasury .laptop img {
+  transform:scale(1.5) translateX(-30px);
+}
+
+#profile .laptop,
+#governance .laptop {
+  top:40px;
+}
+
+#profile .laptop img,
+#governance .laptop img,
+#circles .laptop img,
+#advanced-role-features .laptop img{
+  transform:scale(1.3) translateY(-30px);
+
+}
+
+#contributions .section-opener .after-so,
+#treasury .section-opener .after-so  {
+  height:20%;
+}
 
 
   @media only screen
@@ -493,6 +601,27 @@ section#features-token {
     .so-para {
       height:100%;
     }
+
+
+    #profile .laptop,
+    #governance .laptop {
+      top:0px;
+    }
+
+    #profile .laptop img,
+    #governance .laptop img,
+    #circles .laptop img,
+    #advanced-role-features .laptop img,
+    #compensations .laptop img,
+    #banding .laptop img{
+      transform:scale(1.3) translateX(0px) translateY(40px);
+
+    }
+
+    #contributions .laptop img,
+    #treasury .laptop img  {
+      transform:scale(1.3) translateX(-20px) translateY(40px);
+    }
   }
 
   @media screen and (max-width : 680px) {
@@ -518,9 +647,16 @@ section#features-token {
       padding:40px 0px;
     }
 
-    .dao-feature-thumbs .thumb {
+    .dao-feature-thumbs .thumb,
+    .dao-feature-thumbs .thumb.thr {
       width:80%;
       margin-bottom:20px;
+    }
+
+    #features-token .thumb:not(:last-child),
+    #features-token .thumb:last-child,
+    #wallet .thumb {
+      scale:1;
     }
 
     .dao-feature-thumbs::before {
@@ -660,6 +796,10 @@ section#features-token {
 
     .resp-dao-top img {
       width:100%;
+    }
+
+    .coming-soon {
+      bottom:16px;
     }
 
   }

@@ -11,8 +11,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
     const growthAnchorPrice = 15000
     const growthAdditionalPrice = 4250
 
-    const thriveAnchorPrice = 70000
-    const thriveAdditionalPrice = 3150
+    const thriveAnchorPrice = 75000
+    const thriveAdditionalPrice = 2750
 
     const plural = document.getElementById("plural")
 
@@ -106,13 +106,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
         }
 
 
-      if ( slider.value >= 7 && slider.value <= 51) {
+      if ( slider.value >= 7 && slider.value <= 41) {
           growthCard.classList.add("recommended")
         } else {
           growthCard.classList.remove("recommended")
         }
 
-      if ( slider.value >= 52) {
+      if ( slider.value >= 42) {
           thriveCard.classList.add("recommended")
         } else {
           thriveCard.classList.remove("recommended")

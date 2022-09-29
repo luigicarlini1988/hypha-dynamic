@@ -128,12 +128,6 @@ $(document).ready(function(){
 
 
 
-  // carousel tools
-  $('#slider-tools').owlCarousel({
-        nav:true,
-        items:1
-    });
-
     $('#slider-team').owlCarousel({
           loop:true,
           nav:true,
@@ -151,7 +145,7 @@ $(document).ready(function(){
         }
       });
 
-       $('#get-started').parallax({imageSrc: 'img/3-steps-back.jpg' , speed:0.6});
+       $('#price-plans-cta').parallax({imageSrc: 'img/3-steps-back.jpg' , speed:0.6});
 
        $('#s-p').parallax({imageSrc: 'img/seeds-mockup.jpg' , speed:0.7});
 

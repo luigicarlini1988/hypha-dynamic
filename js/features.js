@@ -36,4 +36,7 @@
            }
         }
       });
+
+
+       $('#price-plans-cta').parallax({imageSrc: 'img/3-steps-back.jpg' , speed:0.6});
   });

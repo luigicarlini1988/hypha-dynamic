@@ -2,6 +2,84 @@ main#pricing-models {
 
 }
 
+.price-toggle {
+  position:absolute;
+  top:24px;
+  left:40px;
+  color: var(--white);
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 600;
+  display: flex;
+}
+
+#toggle-usd {
+  display:flex;
+  margin-right:12px;
+  opacity:.3;
+  cursor:pointer;
+}
+
+#dol_1,
+#dol_2,
+#dol_3,
+#dol_4,
+#dol_5,
+#dol_6,
+#dol_0 {
+  width:12px;
+  height:12px;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+#dol_1.no,
+#dol_2.no,
+#dol_3.no,
+#dol_4.no,
+#dol_5.no,
+#dol_6.no,
+#dol_0.no  {
+  color:transparent;
+  background-image:url('../img/round-logo.svg');
+  background-size:12px;
+}
+
+.icon-usd {
+  width: 20px;
+  height:20px;
+  background:#1CB59B;
+  border-radius:20px;
+  margin-right:4px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#toggle-hypha {
+  display:flex;
+  opacity:.3;
+  cursor:pointer;
+}
+
+#toggle-usd.active,
+#toggle-hypha.active {
+  opacity:1;
+}
+
+
+.icon-hypha {
+  width: 20px;
+  height:20px;
+  background-color:var(--dark-blu;);
+  border-radius:20px;
+  margin-right:4px;
+  background-image:url('../img/round-logo.svg');
+  background-size:18px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 #price-area {
   min-height: 100vh;
   width:100%;
@@ -16,6 +94,7 @@ main#pricing-models {
   display:flex;
   justify-content: center;
   align-items: center;
+  position:relative;
 }
 
 .price-wizard {
@@ -49,13 +128,6 @@ main#pricing-models {
 
 }
 
-.small-note {
-  font-size:12px;
-  line-height:16px;
-  color:var(--white);
-  margin-top:40px;
-  text-align: left;
-}
 
 #flag {
   position:absolute;
@@ -222,6 +294,7 @@ main#pricing-models {
     padding:18px;
     color:var(--dark-blu);
     border-radius:12px;
+    position:relative;
 }
 
 .card-section.second {
@@ -232,6 +305,7 @@ main#pricing-models {
   font-size: 18px;
   font-family: var(--bodys);
   font-weight:800;
+  position:relative;
 }
 
 #pricing-models .model-card h2 span {
@@ -242,8 +316,6 @@ main#pricing-models {
   transition-duration:.3s;
   -moz-transition-duration:.3s;
   -webkit-transition-duration:.3s;
-  opacity:.4;
-
 
 }
 
@@ -254,28 +326,38 @@ main#pricing-models {
   -webkit-transition-duration:.3s;
   opacity:0;
   font-weight:600;
-  position:relative;
-  margin-top:18px;
+  width:100%;
+  position:absolute;
+  bottom:-30px;
   transform:translateY(20px);
   -moz-transform:translateY(20px);
   -webkit-transform:translateY(20px);
+  left:0;
 }
 
 
 .model-card.recommended .recomm {
   opacity:1;
-  transform:translateY(0px);
-  -moz-transform:translateY(0px);
-  -webkit-transform:translateY(0px);
+  bottom:-20px;
 }
 
-.model-card.recommended {
-  opacity:1;
-  transform:scale(1.025);
-  -moz-transform:scale(1.025);
-  -webkit-transform:scale(1.025);
-
+.model-card .card-section.second,
+.model-card .card-section.second p  {
+  transition-duration:.3s;
+  -moz-transition-duration:.3s;
+  -webkit-transition-duration:.3s;
 }
+
+
+.model-card.recommended .card-section.second{
+  background-color:var(--very-light-blu);
+}
+
+.model-card.recommended .card-section.second p {
+  color:var(--white)!important;
+}
+
+
 
 
 .model-card .recomm:before {
@@ -295,20 +377,22 @@ main#pricing-models {
 
 a.cta {
   text-decoration: none;
-    padding: 10px 24px;
+    padding: 12px 26px;
     border-radius: 50px;
-    color: var(--light-blu);
-    border: 1px solid var(--light-blu);
+    color: var(--dark-blu);
+    border: 1px solid var(--dark-blu);
     background: transparent;
     font-weight: 600;
     line-height: 1.1em;
     transition-duration:.3s;
     -moz-transition-duration:.3s;
     -webkit-transition-duration:.3s;
+    margin-top:20px;
 }
 
 a.cta:hover {
-  padding: 10px 34px;
+  color: var(--light-blu);
+  border: 1px solid var(--light-blu);
 }
 
 #pricing-models h1 {
@@ -340,7 +424,14 @@ a.cta:hover {
 }
 
 #pricing-models .ps-center p {
-  margin-bottom:50px;
+  margin-bottom:20px;
+}
+
+#pricing-models .ps-center p.small {
+  font-size:12px;
+  line-height:24px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 #pricing-models .dao-slider p {
@@ -348,6 +439,12 @@ a.cta:hover {
   font-weight:600;
   margin:0px;
   font-size:18px;
+}
+
+.price-plan-ctas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .ml-subtitle {
@@ -383,8 +480,8 @@ a.cta:hover {
 }
 
 .including {
-  font-size:12px;
-  line-height:16px;
+  font-size:10px;
+  line-height:14px;
 }
 
 .ml-divider {
@@ -397,10 +494,14 @@ a.cta:hover {
   background:#E5E5E5;
 }
 
+.single_dao_offers .ml-divider {
+  margin:12px 0px;
+}
+
 .ml-list {
   line-height:14px;
   margin:0px 0px 14px 0px;
-  font-size:14px;
+  font-size:12px;
   display: block;
   text-align: left;
   padding-left:12px;
@@ -412,6 +513,63 @@ a.cta:hover {
 
 }
 
+.ml-list.coming-soo,
+.ml-title.coming-soo {
+  background-image: none;
+  position:relative;
+
+}
+
+.ml-list.coming-soo::after,
+.ml-title.coming-soo::after {
+  content:"";
+  width:10px;
+  height:10px;
+  background:url(../img/clock.svg);
+  background-size:cover;
+  position:absolute;
+  left:0;
+  top:2px;
+}
+
+.small-note {
+  padding-left:18px;
+  position:relative;
+  font-size:12px;
+  line-height:16px;
+  color:var(--white);
+  margin-top:40px;
+  text-align: left;
+  filter: brightness(5);
+  -webkit-filter: brightness(5);
+}
+
+.small-note.coming-soo::after {
+  content:"";
+  width:14px;
+  height:14px;
+  background:url(../img/clock.svg);
+  background-size:cover;
+  position:absolute;
+  left:0;
+
+}
+
+.card-section.second.coming-soo {
+  position:relative;
+}
+
+.card-section.second.coming-soo::after {
+  content:"";
+  width:14px;
+  height:14px;
+  background:url(../img/clock.svg);
+  background-size:cover;
+  position:absolute;
+  right:4px;
+  top:4px;
+}
+
 .shortner {
   letter-spacing: -0.5px;
 }
@@ -420,7 +578,8 @@ a.cta:hover {
   font-weight:700;
   text-align: left;
   margin-top:0px;
-  margin-bottom:14px;
+  margin-bottom:0px;
+  font-size:14px;
   line-height:14px;
 }
 
@@ -446,8 +605,8 @@ a.cta:hover {
 
 .including-small,
 .including-small strong {
-    line-height: 16px;
-    font-size: 12px;
+    line-height: 14px;
+    font-size: 10px;
     margin: 0px 0px 0px 0px;
 }
 
@@ -607,9 +766,9 @@ span#freemium_price {
   width:30px;
 }
 
-.single_dao_offers .ml-list:last-child {
+/*.single_dao_offers ul li ul li:last-child p {
   margin-bottom:20px;
-}
+}*/
 
 .fast-set {
   font-weight:800;
@@ -642,7 +801,6 @@ span#freemium_price {
 
 p.minus_top {
   margin:0;
-  margin-top:-4px;
 }
 
 .single_dao_offers .models-list {
@@ -658,7 +816,7 @@ p.minus_top {
 
 
 .bringer {
-    font-size: 16px;
+    font-size: 12px;
     width: calc(100% + 36px);
     transform: translateX(-18px) translateY(-16px);
     background: var(--light-blu);
@@ -677,12 +835,28 @@ p.minus_top {
 
   /* single DAO 4 column layout */
 
-  .single_dao_offers .price-sidebar,
-  .single_dao_offers .price-wizard {
+
+  #pricing-models.single_dao_offers .price-sidebar {
+    flex-wrap: wrap;
+    align-items: flex-end;
+    max-height: 100vh;
+    position:sticky;
+    top:0;
+  }
+
+  .up-small {
     width:100%;
-    min-width: 100%;
-    height:auto;
-    min-height: 0px;
+    padding-bottom:0px;
+    font-size:12px;
+    color:var(--dark-blu);
+    line-height:22px;
+    position:relative;
+
+  }
+
+  .up-small a {
+    color:var(--light-blu);
+    font-weight:600;
   }
 
   .single_dao_offers #price-area {
@@ -691,27 +865,216 @@ p.minus_top {
   }
 
   .single_dao_offers .ps-center {
-    text-align: center;
-    padding: 40px 0px;
+    position:relative;
+    padding: 40px 0px 20px 0px;
   }
 
-  .single_dao_offers .ps-center a {
-    color:var(--dark-blu);
-    font-weight:600;
-    text-decoration: underline;
+
+  .optional {
+    font-weight: 600;
+    width: 250px;
+    margin-top: -20px;
+
   }
+
+  .notice p.coming-soo {
+    padding-left:19px;
+  }
+
+  .notice p.coming-soo {
+
+    line-height:21px;
+    width:max-content;
+    position:relative;
+  }
+
+  .notice p.coming-soo::after {
+    content: "";
+    width: 14px;
+    height: 14px;
+    background: url(../img/clock.svg);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top:3px;
+  }
+
+  #pricing-models .notice {
+    position:absolute;
+    left:40px;
+    bottom:22px;
+  }
+
+  #pricing-models .notice p {
+    color:var(--white);
+    font-size:14px;
+
+  }
+
+  .optional h4 {
+    color:var(--white);
+    font-family: var(--bodys);
+    margin:0;
+    font-weight:700;
+  }
+
+  .optional .card-section.second {
+    margin-top:4px;
+  }
+
 
 
   .single_dao_offers .price-wizard {
-    padding:60px 40px 80px 40px;
+    padding:40px 40px;
   }
 
-  .single_dao_offers .bread_crumb {
-    display:none;
+  .price-sidebar .up-small {
+    padding-bottom:40px;
+  }
+
+
+
+
+  /* ecosystem specific*/
+
+  .price-sidebar.ecosystem {
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+
+
+
+  .wiz-wrap.ecosystem .model-card {
+      position:relative;
+      padding:12px;
+  }
+
+  .wiz-wrap.ecosystem .model-card::before {
+    position:absolute;
+    content:"";
+    width:100%;
+    height:100%;
+    background:rgba(255,255,255,0.1);
+    left:0;
+    top:0;
+    z-index:0;
+    backdrop-filter: blur(6px);
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.4);
+  }
+
+  #pricing-models .wiz-wrap.ecosystem .model-card h2 {
+    margin-top:0;
+  }
+
+  .dao-slider {
+    padding-bottom:24px;
+  }
+
+  .wiz-wrap.ecosystem .models-list{
+      padding-bottom:40px;
+  }
+
+  .wiz-wrap.ecosystem .card-section.within{
+    padding: 12px;
+    box-shadow: 0px 0px 12px rgb(0 0 30 / 20%);
+  }
+
+  .wiz-wrap.ecosystem .card-section {
+    padding:14px;
+  }
+
+  .wiz-wrap.ecosystem .ml-divider {
+    width:calc(100% + 28px);
+    transform: translateX(-14px);
+    -moz-transform: translateX(-14px);
+    -webkit-transform: translateX(-14px);
+  }
+
+  .wiz-wrap.ecosystem .ml-list {
+    margin-bottom:6px;
+  }
+
+
+  /* new SaaS accordion */
+
+  .card-section ul,
+  .card-section ul li {
+    padding:0;
+    margin:0;
+  }
+
+  .card-section ul li {
+    list-style-type: none;
+  }
+
+  .card-section ul li ul {
+    margin-top:0px;
+    height:0;
+    overflow: hidden;
+    transition-duration:.4s;
+    opacity:0;
+    position:relative;
+  }
+
+  .card-section ul li ul::before {
+    content:"";
+    background:var(--white-blu);
+    position:absolute;
+    z-index:1;
+    width:calc(100% + 36px);
+    left:-18px;
+    top:-15px;
+    height:calc(100% + 30px);
+  }
+
+  .card-section ul li ul li {
+    position:relative;
+    z-index:2;
+  }
+
+  .card-section ul li ul.expand {
+    height:max-content;
+    margin-top:27px;
+    opacity:1;
+    overflow: visible;
+
+  }
+
+  .feat-list {
+    cursor:pointer;
+    position:relative;
+  }
+
+  .feat-list::after {
+    content:"";
+    position:absolute;
+    right:0px;
+    top:4px;
+    height:0px;
+    width:00px;
+    border-top:6px solid var(--dark-blu);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom:0;
+    transition-duration: .3s;
+  }
+
+  .feat-list.expand::after {
+    border-bottom:6px solid var(--light-blu);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top:0;
   }
 
 
 @media screen and (max-width : 1320px) {
+
+  #pricing-models.single_dao_offers .price-sidebar {
+
+    position:relative;
+    top:0;
+  }
 
 
   .price-sidebar,
@@ -739,6 +1102,15 @@ p.minus_top {
 
   .bread_crumb {
     display:none;
+  }
+
+  .price-plan-ctas {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-plan-ctas a {
+    max-width:40%;
   }
 }
 
@@ -788,6 +1160,10 @@ p.minus_top {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .up-small {
+    text-align:center;
   }
   .single_dao_offers .models-list .model-card {
     opacity:1;
@@ -863,13 +1239,20 @@ p.minus_top {
 
   }
 
-  .single_dao_offers .models-list .model-card,
-  .model-card {
+  .single_dao_offers .models-list .model-card {
     opacity:1;
     width:100%;
     margin-bottom: 40px;
     padding-bottom: 20px;
     border-bottom: 1px dashed var(--light-blu);
+  }
+
+  .wiz-wrap.ecosystem .models-list .model-card {
+    opacity:1;
+    width:100%;
+    margin-bottom: 80px;
+    padding-bottom: 20px;
+    border-bottom: none;
   }
 
   .model-card .recomm {
@@ -965,6 +1348,7 @@ p.minus_top {
   }
 }
 
+/*
 @media screen and (min-height : 880px) {
   .models-list {
     padding-top:80px;
