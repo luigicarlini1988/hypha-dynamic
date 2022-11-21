@@ -170,7 +170,7 @@
             <h2>Accelerate<br>Decentralised Organisation</h2>
             <p>Corporations were built for the industrial age, DAOs are built for the information age</p>
             <div class="home-top-buttons">
-              <a class="button-blu" href="#gs-anchor">Build your DAO</a>
+              <a class="button-blu" href="#tools">Build your DAO</a>
               <a class="button-blu" href="what-is-a-dao">What is a DAO?</a>
             </div>
           </div>
@@ -203,28 +203,52 @@
 
               <div class="tool-right">
                 <div class="dao-feature-thumbs">
-                  <div class="thumb"><img src="img/dao-features/role2.png"/></div>
-                  <div class="thumb"><img src="img/dao-features/period1.png"/></div>
-                </div>
-
-
-
-                <div class="dao-feature-thumbs">
-                  <div class="thumb"><img src="img/dao-features/token2.png"/></div>
-                  <div class="thumb"><img src="img/dao-features/token1.png"/></div>
+                  <div class="thumb lax" data-lax-translate-y="(vh) 1, (-vh) -180" data-lax-anchor="self"><img src="img/dao-features/role2.png"/></div>
+                  <div class="thumb lax" data-lax-translate-y="(vh) 1, (-vh) -10" data-lax-anchor="self"><img src="img/dao-features/period1.png"/></div>
                 </div>
 
                 <div class="dao-feature-thumbs">
-                  <div class="thumb thr"><img src="img/dao-features/voting1.png"/></div>
-                  <div class="thumb thr"><img src="img/dao-features/voting2.png"/></div>
-                  <div class="thumb thr"><img src="img/dao-features/voting3.png"/></div>
+                  <div class="thumb lax" data-lax-translate-y="(vh) 1, (-vh) -180" data-lax-anchor="self"><img src="img/dao-features/token2.png"/></div>
+                  <div class="thumb lax" data-lax-translate-y="(vh) 1, (-vh) -10" data-lax-anchor="self"><img src="img/dao-features/token1.png"/></div>
                 </div>
 
-                <a class="button-dark-blu" href="dao-features">Discover all the features</a>
               </div>
 
             </div>
 
+
+
+            <div class="tool-home-wrap second">
+              <div class="tool-right">
+                <div class="dao-feature-thumbs">
+                  <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -20" data-lax-anchor="self"><img src="img/dao-features/voting1.png"/></div>
+                  <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -100" data-lax-anchor="self"><img src="img/dao-features/voting2.png"/></div>
+                  <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -180" data-lax-anchor="self"><img src="img/dao-features/voting3.png"/></div>
+                </div>
+
+                <div class="dao-feature-thumbs">
+                  <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -20" data-lax-anchor="self"><img src="img/dao-features/profile-card1.png"/></div>
+                  <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -100" data-lax-anchor="self"><img src="img/dao-features/profile-card2.png"/></div>
+                  <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -180" data-lax-anchor="self"><img src="img/dao-features/profile-card3.png"/></div>
+                </div>
+
+                <div class="dao-feature-thumbs">
+                  <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -20" data-lax-anchor="self"><img src="img/dao-features/template1.png"/></div>
+                  <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -100" data-lax-anchor="self"><img src="img/dao-features/template2.png"/></div>
+                  <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -180" data-lax-anchor="self"><img src="img/dao-features/template3.png"/></div>
+                </div>
+              </div>
+
+
+              <div class="tool-left">
+                <div>
+                  <h2 class="titoletto">Dao Features</h2>
+                  <p class="semi-b">Beyond launching individual DAOs, Hypha enables the creation of large interconnected ecosystems of DAOs to bring to life a new form of human coordination for large-scale impact around the globe.</p>
+                  <p class="sma">Over the past 4 years this ‘Organization -in-a-box’ solution has been built and tested by the Hypha team for its own organization to develop and coordinate all of the decentralized tools and frameworks. Those features are now available for you to start your DAO, and we have an exciting roadmap of new features on their way.</p>
+                  <a class="button-dark-blu" href="dao-features">Discover all the features</a>
+                </div>
+              </div>
+            </div>
           </div>
       </section>
 
@@ -626,7 +650,10 @@
         <div class="foglio">
           <div>
             <h2 id="gs-anchor" class="titoletto">Price Plans</h2>
-           <p class="fake-title">From your first single DAO <br />to a full fledged DAO Ecosystem</p>
+            <div class="flex-wrap">
+              <p class="fake-title">From your first single DAO <br/>to an Ecosystem of interconnected DAOs for impact</p>
+              <p class="subsub">We offer several flexible paths for organizations. You could join an existing DAO or build your own, inviting partners and communities into the ecosystem. Or launch an organizational DAO. Lead your community in later to create an interconnected DAO ecosystem, driving impact in your focus area.</p>
+            </div>
           </div>
 
           <div class="actual-plans">
@@ -634,14 +661,14 @@
               <div class="freepla">Free plan available!</div>
               <h3><strong>Single DAO</strong> builder</h3>
               <img src="img/price-plans/saas-skeme.png" />
-              <p>If you want to <strong>build your own DAO</strong> and let your organisation grow using hypha tools, these are the price models for you! We created 3 pre-configured set of features, corresponding to 3 price plans</p>
+              <p>If you wish to build your own single DAO and <strong>let your organization grow using Hypha’s tools</strong>, these are the price models for you! We provide 3 attractive price plans with increasing feature inclusions, PLUS a free plan to help you try out the power of our DAO solution!</p>
               <a href="singledao-price-models" class="button-yellow" >Single DAO plans</a>
            </div>
 
            <div class="eaas">
              <h3><strong>Ecosystem DAO</strong> builder</h3>
              <img src="img/price-plans/eaas-skeme.png" />
-             <p>Do you aim to <strong>create a Regenerative Ecosystem and facilitate the creation and evolution of several DAOs?</strong> If so, these are the pricing models that will better suit your vision. </p>
+             <p>Is your dream to <strong>build an impactful ecosystem of like-minded communities locally or worldwide?</strong> Then you could create or join an ecosystem of interconnected DAOs. Use our price plans to offer working capital for your DAO launch. You can even choose the number of DAOs to include. Alternatively we could connect you to potential working capital providers to support your DAO. </p>
              <a href="price-models" class="button-yellow" >Ecosystem DAO plans</a>
           </div>
 

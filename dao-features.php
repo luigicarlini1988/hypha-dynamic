@@ -100,7 +100,7 @@
            <div class="dfh-text">
              <div class="lax" data-lax-translate-y="(vh) 1, (-vh) -80" data-lax-anchor="self">
                <h1><span class="up-title">Discover all the</span><br>DAO features</h1>
-               <p>During the last 3 years, we have built and fine-tuned more than 40 tools, ranging from the token creation and management, to the most advanced governance system a DAO can possibly offer to date.</p>
+               <p>Since 2019, we have built and fine-tuned more than 40 tools, ranging from the token creation and management, to the most advanced governance system a DAO can possibly offer to date.</p>
             </div>
             <div class="resp-dao-top">
               <img src="img/dao-features/dao-smartphone.png" />
@@ -238,7 +238,7 @@
            <div id="compensation-proposals" class="lefty">
              <div class="dao-feature-text">
                <h3><span class="up-title">Contribution module</span><br>Compensation Proposals</h3>
-               <p>Contribution proposals are ad-hoc non-recurring contributions to the organisation that can be proposed by any member, along with an associated remuneration. These are then voted upon by the DAO members</p>
+               <p>Contribution proposals are ad-hoc non-recurring contributions to the organisation that can be proposed by any member, along with an associated remuneration. These are then voted upon by the DAO members.</p>
              </div>
              <div class="dao-feature-thumbs">
                <div class="dotter">
@@ -707,7 +707,10 @@
          <div class="foglio">
            <div>
              <h2 id="gs-anchor" class="titoletto">Price Plans</h2>
-            <p class="fake-title">From your first single DAO <br />to a full fledged DAO Ecosystem</p>
+             <div class="flex-wrap">
+               <p class="fake-title">From your first single DAO <br/>to an Ecosystem of interconnected DAOs for impact</p>
+               <p class="subsub">We offer several flexible paths for organizations. You could join an existing DAO or build your own, inviting partners and communities into the ecosystem. Or launch an organizational DAO. Lead your community in later to create an interconnected DAO ecosystem, driving impact in your focus area.</p>
+             </div>
            </div>
 
            <div class="actual-plans">
@@ -715,14 +718,14 @@
                <div class="freepla">Free plan available!</div>
                <h3><strong>Single DAO</strong> builder</h3>
                <img src="img/price-plans/saas-skeme.png" />
-               <p>If you want to <strong>build your own DAO</strong> and let your organisation grow using hypha tools, these are the price models for you! We created 3 pre-configured set of features, corresponding to 3 price plans</p>
+               <p>If you wish to build your own single DAO and <strong>let your organization grow using Hypha’s tools</strong>, these are the price models for you! We provide 3 attractive price plans with increasing feature inclusions, PLUS a free plan to help you try out the power of our DAO solution!</p>
                <a href="singledao-price-models" class="button-yellow" >Single DAO plans</a>
             </div>
 
             <div class="eaas">
               <h3><strong>Ecosystem DAO</strong> builder</h3>
               <img src="img/price-plans/eaas-skeme.png" />
-              <p>Do you aim to <strong>create a Regenerative Ecosystem and facilitate the creation and evolution of several DAOs?</strong> If so, these are the pricing models that will better suit your vision. </p>
+              <p>Is your dream to <strong>build an impactful ecosystem of like-minded communities locally or worldwide?</strong> Then you could create or join an ecosystem of interconnected DAOs. Use our price plans to offer working capital for your DAO launch. You can even choose the number of DAOs to include. Alternatively we could connect you to potential working capital providers to support your DAO. </p>
               <a href="price-models" class="button-yellow" >Ecosystem DAO plans</a>
            </div>
 

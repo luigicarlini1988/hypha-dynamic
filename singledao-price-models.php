@@ -37,8 +37,14 @@
 
   <!-- jquery functions & animations -->
   <script src="js/general-animations.js" type="text/javascript"></script>
+  <script src="js/aleks-demo.js" type="text/javascript"></script>
   <script src="js/single-price-model.js" type="text/javascript"></script>
   <script src="js/single-dao-jquery.js" type="text/javascript"></script>
+
+
+  <script>
+
+</script>
 
 
   <!-- Matomo -->
@@ -87,15 +93,15 @@
             <div class="bread_crumb"><a href="index">Home ></a> Pricing > Single DAO </div>
             <div class="ps-center">
               <h1><span class="up-title">Single</span><br />DAO Builder</h1>
-              <p>If you simply want to <strong>build your own DAO</strong> and let your organisation grow using hypha tools, these are the price models for you!</p>
-              <p class="small">If you want to create a DAO Ecosystem instead, visit the Ecosystem price plans by clicking the white button</p>
+
+              <p class="small">If you wish to <strong>build your own single DAO</strong> and let your organization grow using Hypha’s tools, these are the price models for you! We provide 3 attractive price plans with increasing feature inclusions, PLUS a <strong>free plan to help you try out the power of our DAO solution!</strong> Click on the button below to select your preferred plan and activate your DAO</p>
               <div class="price-plan-ctas">
                 <a href="#" class="button-dark-blu">Activate your DAO</a>
                 <a href="#" class="cta">Ecosystem DAO Builder</a>
               </div>
             </div>
             <div class="up-small">
-              Hypha tokens are used to access and activate DAOs. For convenience, our prices are expressed in USD.
+              Need more Members, more DAOs or a different model?<br/>Contact us at <a href="mailto:hello@hypha.earth">hello@hypha.earth</a>
             </div>
 
           </div>
@@ -105,6 +111,7 @@
             <div class="wiz-wrap">
 
               <div class="price-toggle">
+
                 <div id="toggle-usd" class="active">
                   <div class="icon-usd">$</div>USD
                 </div>
@@ -130,13 +137,16 @@
                         <span></span><span id="freemium_price">Free</span><span></span>
                       </div>
                       <div class="year_price">
-                        <span id="dol_0">$</span>0/Mo forever
+                        <span class="dolo">$</span>0/Mo forever
                       </div>
                     </div>
                     <div class="ml-divider"></div>
 
                     <div class="bringer">
-                      max <span class="big-no">5</span> members
+                      <div class="mcm">
+                        <span class="big-no">5</span>
+                        <br>Max Core Members
+                      </div>
                     </div>
 
                     <div>
@@ -194,17 +204,20 @@
                     <div class="card-section">
                       <div class="single_prices">
                         <div class="big_top_price">
-                          <span id="dol_1">$</span><span id="single_starter_price"></span><span>/mo</span>
+                          <span class="dolo">$</span><span id="single_starter_price"></span><span>/mo</span>
                         </div>
                         <div class="year_price">
-                          <span id="dol_4">$</span><span id="starter_year_tot"></span><span>/yr</span>
+                          <span class="dolo">$</span><span id="starter_year_tot"></span><span>/yr</span>
                         </div>
                       </div>
 
                       <div class="ml-divider"></div>
 
                       <div class="bringer">
-                        max <span class="big-no">15</span> members
+                        <div class="mcm">
+                          <span class="big-no">15</span>
+                          <br>Max Core Members
+                        </div>
                       </div>
 
                       <div>
@@ -263,17 +276,21 @@
                     <div class="card-section">
                       <div class="single_prices">
                         <div class="big_top_price">
-                          <span id="dol_2">$</span><span id="single_growth_price"></span><span>/mo</span>
+                          <span class="dolo">$</span><span id="single_growth_price"></span><span>/mo</span>
                         </div>
                         <div class="year_price">
-                          <span id="dol_5">$</span><span id="growth_year_tot"></span><span>/yr</span>
+                          <span class="dolo">$</span><span id="growth_year_tot"></span><span>/yr</span>
                         </div>
                       </div>
 
                       <div class="ml-divider"></div>
 
                         <div class="bringer">
-                        max <span class="big-no">50</span> members
+                          <div class="mcm">
+                            <span class="big-no">50</span>
+                            <br>Max Core Members
+                          </div>
+                        <div class="cmmt">Unlimited Community Members</div>
                         </div>
                         <div>
                           <ul>
@@ -355,17 +372,21 @@
                     <div class="card-section">
                       <div class="single_prices">
                         <div class="big_top_price">
-                          <span id="dol_3">$</span><span id="single_thrive_price"></span><span>/mo</span>
+                          <span class="dolo">$</span><span id="single_thrive_price"></span><span>/mo</span>
                         </div>
                         <div class="year_price">
-                          <span id="dol_6">$</span><span id="thrive_year_tot"></span><span>/yr</span>
+                          <span class="dolo">$</span><span id="thrive_year_tot"></span><span>/yr</span>
                         </div>
                       </div>
 
                       <div class="ml-divider"></div>
 
                       <div class="bringer">
-                        max <span class="big-no">150</span> members
+                        <div class="mcm">
+                          <span class="big-no">150</span>
+                          <br>Max Core Members
+                        </div>
+                        <div class="cmmt">Unlimited Community Members</div>
                       </div>
 
                       <div>
@@ -480,26 +501,64 @@
                   </div>
 
               </div>
-
-              <!--<div class="optional">
-                <h4>Optional Offers</h4>
-                <div class="card-section second">
-                  <div class="fast-set">
-                    <div>
-
-                      <div>
-                        <p class="minus_top">Guidance <span>Workshop (90’)</span></p>
-                      </div>
-                    </div>
-                    $199
-                  </div>
-                </div>
-              </div>-->
-
             </div>
 
             <div class="notice">
-              <p class="coming-soo">Feature coming soon</p>
+              <p class="coming-soo">Upcoming Features</p>
+              <h4 id="opt-scroll">Optional <span>offers</h4>
+              <p class="expander">Show Features</p>
+            </div>
+
+            <div class="optional">
+
+              <div id="opt_list" class="models-list">
+
+                <div class="model-card">
+                  <h2>Founder <span>Plan</span></h2>
+                  <div class="card-section">
+                    <p>DAO Kickstart <span>Program</span><span class="priz"><span class="dolo">$</span><span id="kick-free"></span></span></p>
+                  </div>
+
+                  <div class="card-section second">
+                    <p>1:1 Workshop<span> Activation</span><span class="priz"><span class="dolo">$</span><span id="work-free"></span></span></p>
+                  </div>
+                </div>
+
+                <div class="model-card">
+                  <h2>Starter <span>Plan</span></h2>
+                  <div class="card-section">
+                    <p>DAO Kickstart <span>Program</span><span class="priz"><span class="dolo">$</span><span id="kick-start"></span></span></p>
+                  </div>
+
+                  <div class="card-section second">
+                    <p>1:1 Workshop<span> Activation</span><span  class="priz"><span class="dolo">$</span><span id="work-start"></span></span></p>
+                  </div>
+                </div>
+
+                <div class="model-card">
+                  <h2>Growth <span>Plan</span></h2>
+                  <div class="card-section">
+                    <p>DAO Kickstart <span>Program</span><span  class="priz"><span class="dolo">$</span><span id="kick-grow"></span></span></p>
+                  </div>
+
+                  <div class="card-section second">
+                    <p>1:1 Workshops<span> Activation</span><span  class="priz"><span class="dolo">$</span><span id="work-grow"></span></span></p>
+                  </div>
+                </div>
+
+                <div class="model-card">
+                  <h2>Thrive <span>Plan</span></h2>
+                  <div class="card-section">
+                    <p>DAO Kickstart <span>Program</span><span class="priz"><span class="dolo">$</span><span id="kick-thrive"></span></span></p>
+                  </div>
+
+                  <div class="card-section second">
+                    <p>1:1 Workshops<span> Activation</span><span  class="priz"><span class="dolo">$</span><span id="work-thrive"></span></span></p>
+
+                  </div>
+                </div>
+
+              </div>
             </div>
 
           </div>

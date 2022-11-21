@@ -211,6 +211,7 @@ and (max-width : 790px) {
     top:0;
     width:100%;
     padding-right: 0;
+    padding-left: 0;
   }
 
   #tools .tool-right {
@@ -244,6 +245,16 @@ and (max-width : 790px) {
       margin-bottom: 40px;
   }
 
+  .flex-wrap {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flex-wrap p{
+    width:100%;
+  }
 
 }
 
@@ -958,12 +969,8 @@ and (max-width : 790px) {
     padding: 60px 0px;
   }
 
-
-
-  #tools .tool-right .button-dark-blu {
-    display:inline-block;
-    margin-top:40px;
-    margin-bottom:20px;
+  .tool-home-wrap.second {
+    padding-top:0px;
   }
 
   #tools .yellowdots {
