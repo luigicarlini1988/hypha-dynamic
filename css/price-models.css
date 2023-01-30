@@ -1172,6 +1172,10 @@ p.minus_top {
     margin-bottom:56px;
   }
 
+  #pricing-models .wiz-wrap.ecosystem #totals-card.model-card h2.update-2023 {
+    margin-bottom:26px;
+  }
+
 
   .wiz-wrap.ecosystem .models-list{
       padding-bottom:40px;
@@ -1304,10 +1308,40 @@ p.minus_top {
     justify-content: space-between;
     font-weight:700;
     margin-top:30px;
-    border-bottom:1px solid rgba(255,255,255,0.2);
-    padding-bottom:12px;
+    padding-bottom:14px;
     font-size:14px;
     line-height:20px;
+  }
+
+  .tot-anch-dao::after,
+  .tot-discount-dao::after {
+    position:absolute;
+    content:"";
+    width:calc(100% - 20px);
+    height:1px;
+    background: rgba(255,255,255,0.2);
+    bottom:0;
+    left:0;
+  }
+
+  .tot-anch-dao::before {
+    content:"+";
+    position:absolute;
+    bottom: -5px;
+    line-height: 12px;
+    right: 0;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .tot-discount-dao::before {
+    content:"=";
+    position:absolute;
+    bottom: -5px;
+    line-height: 12px;
+    right: 0;
+    font-weight: 400;
+    font-size: 20px;
   }
 
   .tot-additional-dao {
@@ -1321,11 +1355,12 @@ p.minus_top {
     line-height:20px;
   }
 
+  
+
   .tot-discount-dao {
     position:relative;
     font-weight:700;
     margin-top:0px;
-    border-bottom:1px solid rgba(255,255,255,0.2);
     padding-bottom:14px;
     font-size:14px;
     line-height:20px;
@@ -1375,9 +1410,11 @@ p.minus_top {
 
   .great-total{
     position:relative;
-    margin-top:60px;
+    margin-top:28px;
 
   }
+
+  
 
   .wiz-wrap.ecosystem .great-total .including {
     margin-top: 30px;
@@ -1389,6 +1426,84 @@ p.minus_top {
     line-height:38px;
   }
 
+  .update-2023 #great-final-total {
+    font-size:18px;
+    line-height:1em;
+    text-align:right;
+  }
+
+  .update-2023 .great-total {
+    display:flex;
+    justify-content: space-between;
+    font-weight:700;
+    line-height:20px;
+    border-top:1px solid rgba(255,255,255,0.2);
+    padding-top:14px;
+    font-size:18px;
+  }
+
+  .update-2023 .tot-additional-dao {
+    margin-top:14px;
+    padding-bottom:14px;
+  }
+
+  .update-2023 .tot-additional-dao::after {
+    position:absolute;
+    content:"";
+    width:calc(100% - 20px);
+    height:1px;
+    background: rgba(255,255,255,0.2);
+    bottom:0;
+    left:0;
+  }
+
+  .update-2023 .tot-additional-dao::before {
+    content:"=";
+    position:absolute;
+    bottom: -5px;
+    line-height: 12px;
+    right: 0;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .update-2023 .tot-anch-dao {
+    margin-top:30px;
+    padding-bottom:14px;
+  }
+
+  .update-2023 .great_tot_stake {
+    position:relative;
+    margin-top:0px;
+  }
+
+  .update-2023 #final_total_stake {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+  .update-2023 .ttst {
+    font-weight:700;
+    font-size:13px;
+  }
+
+  .update-2023 .great_tot_burn {
+    position:relative;
+    margin-top:20px;
+  }
+
+  .update-2023 #final_total_burn {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 38px;
+  }
+
+  .update-2023 .plu {
+    position:relative;
+    font-weight: 400;
+    font-size: 20px;
+  }
 
 
 
