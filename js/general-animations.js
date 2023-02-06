@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
   //mobile menu activator
 
   $(window).bind("mousewheel", function (event) {
@@ -16,10 +16,10 @@ jQuery(document).ready(function($) {
     $(".obscurer").addClass("close");
   }, 800),
 
-  $("#resp-menu-activator").on("click", function () {
-    $("#site-header").toggleClass("resp-out");
-    $(".hamburger").toggleClass("is-active");
-  });
+    $("#resp-menu-activator").on("click", function () {
+      $("#site-header").toggleClass("resp-out");
+      $(".hamburger").toggleClass("is-active");
+    });
 
   $("#site-header nav ul li a").on("click", function () {
     setTimeout(function () {
@@ -46,13 +46,13 @@ jQuery(document).ready(function($) {
 
   //footer video
 
-  $('#video2-play3').click(function(){
-     $('#video2').addClass('in');
-   });
+  $('#video2-play3').click(function () {
+    $('#video2').addClass('in');
+  });
 
- $('#close-video2').click(function(){
-   $('#video2').removeClass('in');
- });
+  $('#close-video2').click(function () {
+    $('#video2').removeClass('in');
+  });
 
   $(window).on("scroll", function () {
     scrollPosition = $(this).scrollTop();

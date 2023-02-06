@@ -59,16 +59,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
       hyphaToggle.onclick = function () {
         this.classList.add('active')
         usdToggle.classList.remove('active')
-        anchorPriceField.innerHTML = "<span class='cur hyph'>$</span>" + (anchorPrice / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-        anchorStakeField.innerHTML = "<span class='cursmall hyph'>$</span>" + (anchorStake / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-        additionalPriceField.innerHTML = "<span class='cur hyph'>$</span>" + (additionalPrice / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-        additionalStakeField.innerHTML = "<span class='cursmall hyph'>$</span>" + (additionalStake / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-        totalAnchorField.innerHTML = "<span class='cur hyph'>$</span>" + (anchorPrice / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-        totalAdditionalField.innerHTML = "<span class='cur hyph'>$</span>" + ((slider.value * additionalPrice) / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
+        anchorPriceField.innerHTML = "<span class='cur hyph'>$</span>" + Math.ceil((anchorPrice / hyphaPrice)).toLocaleString()
+        anchorStakeField.innerHTML = "<span class='cursmall hyph'>$</span>" + Math.ceil((anchorStake / hyphaPrice)).toLocaleString()
+        additionalPriceField.innerHTML = "<span class='cur hyph'>$</span>" + Math.ceil((additionalPrice / hyphaPrice)).toLocaleString()
+        additionalStakeField.innerHTML = "<span class='cursmall hyph'>$</span>" + Math.ceil((additionalStake / hyphaPrice)).toLocaleString()
+        totalAnchorField.innerHTML = "<span class='cur hyph'>$</span>" + Math.ceil((anchorPrice / hyphaPrice)).toLocaleString()
+        totalAdditionalField.innerHTML = "<span class='cur hyph'>$</span>" + Math.ceil(((slider.value * additionalPrice) / hyphaPrice)).toLocaleString()
 
-        totalStaked.innerHTML = " <span class='cur hyph'>$</span>" + ((((anchorPrice + (slider.value * additionalPrice)) / 3) * 2) / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-        totalBurned.innerHTML = " <span class='cur hyph'>$</span>" + ((((anchorPrice + (slider.value * additionalPrice)) / 3) * 1) / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-        greatTotalField.innerHTML = " <span class='cur hyph'>$</span>" + ((anchorPrice + (slider.value * additionalPrice)) / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
+        totalStaked.innerHTML = " <span class='cur hyph'>$</span>" + Math.ceil(((((anchorPrice + (slider.value * additionalPrice)) / 3) * 2) / hyphaPrice)).toLocaleString()
+        totalBurned.innerHTML = " <span class='cur hyph'>$</span>" + Math.ceil(((((anchorPrice + (slider.value * additionalPrice)) / 3) * 1) / hyphaPrice)).toLocaleString()
+        greatTotalField.innerHTML = " <span class='cur hyph'>$</span>" + Math.ceil(((anchorPrice + (slider.value * additionalPrice)) / hyphaPrice)).toLocaleString()
 
       }
 
@@ -109,12 +109,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
         } else if (hyphaToggle.classList.contains('active')) {
 
-          totalAdditionalField.innerHTML = "<span class='cur hyph'>$</span>" + ((slider.value * additionalPrice) / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-          totalStaked.innerHTML = " <span class='cur hyph'>$</span>" + ((((anchorPrice + (slider.value * additionalPrice)) / 3) * 2) / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-          totalBurned.innerHTML = " <span class='cur hyph'>$</span>" + ((((anchorPrice + (slider.value * additionalPrice)) / 3) * 1) / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-          greatTotalField.innerHTML = " <span class='cur hyph'>$</span>" + ((anchorPrice + (slider.value * additionalPrice)) / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-          additionalPriceField.innerHTML = "<span class='cur hyph'>$</span>" + (additionalPrice / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
-          additionalStakeField.innerHTML = "<span class='cursmall hyph'>$</span>" + (additionalStake / hyphaPrice).toLocaleString(undefined, { maximumFractionDigits: 0 })
+          totalAdditionalField.innerHTML = "<span class='cur hyph'>$</span>" + Math.ceil(((slider.value * additionalPrice) / hyphaPrice)).toLocaleString()
+          totalStaked.innerHTML = " <span class='cur hyph'>$</span>" + Math.ceil(((((anchorPrice + (slider.value * additionalPrice)) / 3) * 2) / hyphaPrice)).toLocaleString()
+          totalBurned.innerHTML = " <span class='cur hyph'>$</span>" + Math.ceil(((((anchorPrice + (slider.value * additionalPrice)) / 3) * 1) / hyphaPrice)).toLocaleString()
+          greatTotalField.innerHTML = " <span class='cur hyph'>$</span>" + Math.ceil(((anchorPrice + (slider.value * additionalPrice)) / hyphaPrice)).toLocaleString()
+          additionalPriceField.innerHTML = "<span class='cur hyph'>$</span>" + Math.ceil((additionalPrice / hyphaPrice)).toLocaleString()
+          additionalStakeField.innerHTML = "<span class='cursmall hyph'>$</span>" + Math.ceil((additionalStake / hyphaPrice)).toLocaleString()
 
         }
 

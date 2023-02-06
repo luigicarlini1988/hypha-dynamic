@@ -90,7 +90,7 @@
               Is a single DAO too small for your Regenerative Impact ambition? Let's create an <strong>Ecosystem of interconnected DAOs instead!</strong> This means you can first create an "Anchor DAO", through which you will then be able to generate and activate more DAOs, sharing the same token, and being part of the same "DAO Ecosystem". For this price model we developed a refined burn / stake activation mechanism, so that <strong>most of your investment remains staked inside the Ecosystem and Hypha.</strong> Isn't it awesome? Click here for further details
               </p>
               <div class="price-plan-ctas">
-                <a href="#" class="button-dark-blu">Activate your Ecosystem</a>
+                <a href="#" class="button-dark-blu inact">Activate your Ecosystem</a>
                 <a href="#" class="cta">Single DAO Builder</a>
               </div>
             </div>

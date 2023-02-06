@@ -174,12 +174,25 @@
               <a class="button-blu" href="what-is-a-dao">What is a DAO?</a>
             </div>
           </div>
+
+          <div id="open-intro-vid" class="bottom-head-video">
+            <div class="vider">
+              <img src="img/video-snap.jpg"/>
+              <div class="play-icon">
+                <img src="img/play-video.svg"/>
+              </div>
+            </div>
+            <div class="video-texter">Play "intro to Hypha"</div>  
+          </div>
+
         </div>
 
 
         <div class="bottom-hypha-expl">
           <p><strong>Hypha:</strong> /Noun /ˈhīfə/ each of the branching filaments that make up the mycelium network that coordinates thriving ecosystems.</p>
         </div>
+
+        
 
       </section>
 
@@ -1255,7 +1268,6 @@
               <li><a href="about-us">Overview</a></li>
               <li><a href="work-with-us">Work with us</a></li>
               <li><a href="#team">Meet the team</a></li>
-              <li><a id="video2-play3">Hypha DAO</a></li>
               <li><a href="https://medium.com/hyphadao" target="_blank" rel="nofollow">Blog</a></li>
             </ul>
           </li>
@@ -1300,6 +1312,10 @@
 
     <?php
         include 'incl/newsletter.html';
+     ?>
+
+    <?php
+        include 'incl/video1.html';
      ?>
 
   </body>

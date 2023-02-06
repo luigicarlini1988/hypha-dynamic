@@ -96,7 +96,7 @@
 
               <p class="small">If you wish to <strong>build your own single DAO</strong> and let your organization grow using Hypha’s tools, these are the price models for you! We provide 3 attractive price plans with increasing feature inclusions, PLUS a <strong>free plan to help you try out the power of our DAO solution!</strong> Click on the button below to select your preferred plan and activate your DAO</p>
               <div class="price-plan-ctas">
-                <a href="#" class="button-dark-blu">Activate your DAO</a>
+                <a href="https://dao.hypha.earth/hypha/login?type=onboard" target="_blank" class="button-dark-blu inact">Activate your DAO</a>
                 <a href="#" class="cta">Ecosystem DAO Builder</a>
               </div>
             </div>
