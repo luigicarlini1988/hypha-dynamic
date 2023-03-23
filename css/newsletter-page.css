@@ -177,6 +177,7 @@
     background-color:var(--light-blu);
 }
 
+
 @media screen and (max-width:640px) {
     #preference-center-mautic {
         width:calc(100% - 44px);

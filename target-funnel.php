@@ -8,7 +8,7 @@
     <!-- Meta Tags Generic-->
     <title>Hypha | Funnel </title>
     <meta name="description"
-        content="Hypha set out in 2019 to build tools for creating new economic systems to start to address humanity’s crises, such as SEEDS a regenerative economic system">
+        content="Hypha set out in 2019 to build tools for creating new economic systems to start to address humanity's crises, such as SEEDS a regenerative economic system">
     <meta name="og:image" content="https://hypha.earth/img/og-image.jpg">
     <link rel="icon" type="image/png" href="img/favicon.png" />
 

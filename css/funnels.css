@@ -8,9 +8,9 @@
 
 
 #target_funnel h3{
-    font-size: 50px;
+    font-size: 45px;
     color: var(--dark-blu);
-    line-height: 50px;
+    line-height: 45px;
     margin-top: 0;
     margin-bottom: 22px;
 }
@@ -60,6 +60,8 @@ p.content-pretitle {
     width: 45%;
     display: flex;
     align-items: center;
+    position:relative;
+    z-index:2;
 }
 
 #target-header-foglio .immg {
@@ -68,6 +70,7 @@ p.content-pretitle {
     align-items: center;
     justify-content: center;
     position:relative;
+    z-index:1;
 }
 
 #target-header-foglio p {
@@ -101,6 +104,8 @@ p.content-pretitle {
 
 .hff-wrap img {
     width:100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .th-cta {
@@ -185,6 +190,18 @@ p.content-pretitle {
     box-sizing: border-box;
     padding:40px;
     color:var(--white);
+    position:relative;
+}
+
+.solution_box::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 18px solid transparent;
+    border-left: 16px solid var(--light-blu);
+    left: -26px;
+    top: calc(50% + -18px);
 }
 
 
@@ -196,6 +213,13 @@ p.content-pretitle {
 #features .intro-text {
     padding-bottom:40px;
 }
+
+#features .lefty, 
+#features .righty {
+    padding: 70px 0px;
+}
+
+
 
 #testimonials {
     padding:80px 0px;
@@ -211,8 +235,9 @@ p.content-pretitle {
 
 .test_monials {
     display:flex;
-    justify-content: space-between;
-    margin-top:120px;
+    justify-content: center;
+    margin-top: 120px;
+    column-gap: 2%;
 }
 
 .tm {
@@ -356,6 +381,7 @@ p.content-pretitle {
     padding:80px 0px;
     margin-top:0;
 }
+
 
 #news .intro-text,
 #additional-content .intro-text {
@@ -680,5 +706,23 @@ p.content-pretitle {
         margin-bottom:0px;
         padding-bottom:0px;
         border-bottom:none;
+    }
+
+    #features .lefty, 
+    #features .righty {
+    flex-direction: column;
+    padding: 45px 0px;
+    }
+
+    .solution_box::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 18px solid transparent;
+        border-left: 16px solid var(--light-blu);
+        left: calc(50% + -18px);
+        top: -10px;
+        transform: rotate(90deg);
     }
 }
