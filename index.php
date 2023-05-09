@@ -50,45 +50,47 @@
 
 
     <script type="text/javascript">
-    /** This section is only needed once per page if manually copying **/
-    if (typeof MauticSDKLoaded == 'undefined') {
-        var MauticSDKLoaded = true;
-        var head = document.getElementsByTagName('head')[0];
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = 'https://mautic.hypha.earth/media/js/mautic-form.js?v24222b77';
-        script.onload = function() {
+        /** This section is only needed once per page if manually copying **/
+        if (typeof MauticSDKLoaded == 'undefined') {
+            var MauticSDKLoaded = true;
+            var head = document.getElementsByTagName('head')[0];
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'https://mautic.hypha.earth/media/js/mautic-form.js?v24222b77';
+            script.onload = function () {
+                MauticSDK.onLoad();
+            };
+            head.appendChild(script);
+            var MauticDomain = 'https://mautic.hypha.earth';
+            var MauticLang = {
+                'submittingMessage': "Please wait..."
+            }
+        } else if (typeof MauticSDK != 'undefined') {
             MauticSDK.onLoad();
-        };
-        head.appendChild(script);
-        var MauticDomain = 'https://mautic.hypha.earth';
-        var MauticLang = {
-            'submittingMessage': "Please wait..."
         }
-    } else if (typeof MauticSDK != 'undefined') {
-        MauticSDK.onLoad();
-    }
     </script>
 
     <!-- Matomo -->
     <script>
-    var _paq = window._paq = window._paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-        var u = "https://track.hypha.earth/";
-        _paq.push(['setTrackerUrl', u + 'matomo.php']);
-        _paq.push(['setSiteId', '9']);
-        var d = document,
-            g = d.createElement('script'),
-            s = d.getElementsByTagName('script')[0];
-        g.async = true;
-        g.src = u + 'matomo.js';
-        s.parentNode.insertBefore(g, s);
-    })();
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "https://track.hypha.earth/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '9']);
+            var d = document,
+                g = d.createElement('script'),
+                s = d.getElementsByTagName('script')[0];
+            g.async = true;
+            g.src = u + 'matomo.js';
+            s.parentNode.insertBefore(g, s);
+        })();
     </script>
     <!-- End Matomo Code -->
+
+
 
 
 </head>
@@ -109,63 +111,18 @@
 
     </div>
 
-    <div id="resp-menu-activator">
-        <button class="hamburger hamburger--slider" type="button">
-            <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-            </span>
-        </button>
-    </div>
-
-
-    <header id="site-header" class="resp-out">
-
-        <div class="header-center">
-
-            <div class="logo">
-                <a href="index">
-                    <h1><img src="img/hypha-logo-light.svg" alt="hypha" /></h1>
-                </a>
-            </div>
-
-            <nav>
-                <ul>
-                    <li><a href="#tools">Features</a></li>
-                    <li><a href="#key-benefits">Benefits</a></li>
-                    <li><a href="http://localhost:8099/singledao-price-models">Price Plans</a></li>
-                    <li><a href="http://localhost:8099/what-is-a-dao">What is a DAO</a></li>
-                    <li><a href="http://localhost:8099/about-us">About us</a></li>
-                    <li><a href="https://tokensale.hypha.earth">Token Sale</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <div id="mobile-menu-logo">
-            <img src="img/hypha-logo-light.svg" alt="hypha" />
-        </div>
-
-        <div class="top-buttons">
-            <a href="https://discord.gg/Gx3rmYfjaV " target="_blank">
-                <div class="discord">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.08 14.44">
-                        <defs></defs>
-                        <title>Path 23</title>
-                        <g id="Livello_2" data-name="Livello 2">
-                            <g id="Livello_1-2" data-name="Livello 1">
-                                <path id="Path_23" data-name="Path 23" class="cls-1"
-                                    d="M12.77,0l-.24.28a11.44,11.44,0,0,1,4.28,2.18A14.1,14.1,0,0,0,11.63.81a14.39,14.39,0,0,0-3.47,0,1.45,1.45,0,0,0-.29,0A12.86,12.86,0,0,0,4,2c-.64.29-1,.5-1,.5A11.59,11.59,0,0,1,7.48.21L7.3,0A8.55,8.55,0,0,0,2.48,1.8,23,23,0,0,0,0,11.82a6.21,6.21,0,0,0,5.24,2.61S5.88,13.66,6.4,13a5.34,5.34,0,0,1-3-2,5.51,5.51,0,0,0,.48.29.18.18,0,0,0,.07.05l.15.09A10.21,10.21,0,0,0,5.35,12a14,14,0,0,0,2.52.74,11.94,11.94,0,0,0,4.46,0A11.49,11.49,0,0,0,14.82,12a10,10,0,0,0,2-1,5.47,5.47,0,0,1-3.12,2c.52.65,1.14,1.39,1.14,1.39a6.25,6.25,0,0,0,5.26-2.61,23,23,0,0,0-2.48-10A8.41,8.41,0,0,0,12.77,0ZM6.82,10.23A1.84,1.84,0,0,1,5.07,8.32,1.83,1.83,0,0,1,6.82,6.41h0A1.82,1.82,0,0,1,8.58,8.29v0a1.82,1.82,0,0,1-1.74,1.91Zm6.28,0a1.85,1.85,0,0,1-1.76-1.91,1.83,1.83,0,0,1,1.75-1.91h0a1.83,1.83,0,0,1,1.75,1.91h0a1.84,1.84,0,0,1-1.75,1.91Z" />
-                            </g>
-                        </g>
-                    </svg>
-                </div>
-            </a>
-            <a href="https://assets.hypha.earth/decks/hypha_pitch_deck.pdf" target="_blank"
-                class="trasp-button-dark">Pitch Deck PDF</a>
-        </div>
-
-    </header>
+    <?php 
+        include ('incl/hypha-menu.html');
+    ?>
 
     <main>
+
+        <div id="pop-up">
+
+            <p>Want to stay in the loop?</p>
+            <a href="#" class="button-dark-blu">Newsletter Sign-up</a>
+            <span onclick="fcnx1(),setTimeout(fcnx2, 700)" class="fas fa-times fa-2x">close</span>
+        </div>
 
         <section class="home-top">
             <div class="header-back">
@@ -264,29 +221,38 @@
                     <div class="tool-right">
                         <div class="dao-feature-thumbs">
                             <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -20" data-lax-anchor="self">
-                                <img src="img/dao-features/voting1.png" /></div>
+                                <img src="img/dao-features/voting1.png" />
+                            </div>
                             <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -100" data-lax-anchor="self">
-                                <img src="img/dao-features/voting2.png" /></div>
+                                <img src="img/dao-features/voting2.png" />
+                            </div>
                             <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -180" data-lax-anchor="self">
-                                <img src="img/dao-features/voting3.png" /></div>
+                                <img src="img/dao-features/voting3.png" />
+                            </div>
                         </div>
 
                         <div class="dao-feature-thumbs">
                             <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -20" data-lax-anchor="self">
-                                <img src="img/dao-features/profile-card1.png" /></div>
+                                <img src="img/dao-features/profile-card1.png" />
+                            </div>
                             <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -100" data-lax-anchor="self">
-                                <img src="img/dao-features/profile-card2.png" /></div>
+                                <img src="img/dao-features/profile-card2.png" />
+                            </div>
                             <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -180" data-lax-anchor="self">
-                                <img src="img/dao-features/profile-card3.png" /></div>
+                                <img src="img/dao-features/profile-card3.png" />
+                            </div>
                         </div>
 
                         <div class="dao-feature-thumbs">
                             <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -20" data-lax-anchor="self">
-                                <img src="img/dao-features/template1.png" /></div>
+                                <img src="img/dao-features/template1.png" />
+                            </div>
                             <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -100" data-lax-anchor="self">
-                                <img src="img/dao-features/template2.png" /></div>
+                                <img src="img/dao-features/template2.png" />
+                            </div>
                             <div class="thumb thr lax" data-lax-translate-y="(vh) 1, (-vh) -180" data-lax-anchor="self">
-                                <img src="img/dao-features/template3.png" /></div>
+                                <img src="img/dao-features/template3.png" />
+                            </div>
                         </div>
                     </div>
 
@@ -1516,6 +1482,21 @@
                 </a>
             </div>
         </div>
+
+        <script type="text/javascript">
+            if (sessionStorage.getItem('hidepopup') == "true") {
+                document.getElementById("pop-up").classList.toggle("gone")
+            }
+
+            function fcnx1() {
+                document.getElementById("pop-up").classList.toggle("hide");
+                sessionStorage.setItem('hidepopup', "true");
+            }
+
+            function fcnx2() {
+                document.getElementById("pop-up").classList.toggle("gone");
+            }
+        </script>
 
     </footer>
 

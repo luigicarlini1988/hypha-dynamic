@@ -27,17 +27,17 @@
     color:var(--dark-blu);
   }
   
-  body#light-theme .top-buttons .discord svg .cls-1 {
+  body#light-theme .top-buttons .top-social svg {
     fill:var(--dark-blu);
   }
   
-  body#light-theme .top-buttons .discord,
+  body#light-theme .top-buttons .top-social,
   body#light-theme .trasp-button-dark {
     border: 1px solid var(--dark-sand);
     background-color: var(--dark-sand);
   }
   
-  body#light-theme .top-buttons .discord:hover,
+  body#light-theme .top-buttons .top-social:hover,
   body#light-theme .trasp-button-dark:hover {
     border: 1px solid var(--dark-blu);
   }
@@ -203,7 +203,7 @@
   .header-center {
     width:calc(100% - 80px);
     margin:auto;
-    max-width:1100px;
+    max-width:1200px;
     display:flex;
     height:100px;
     align-items: center;
@@ -273,50 +273,60 @@
       top: 26px;
       right: 30px;
       display:flex;
+      align-items: center;
       transition-duration:.2s;
       -moz-transition-duration:.2s;
       -webkit-transition-duration:.2s;
   }
-  
-  .top-buttons .discord svg {
-    width:22px;
-  
+
+  .top-buttons a{
+    margin-left:6px;
   }
   
-  .top-buttons .discord svg .cls-1 {
-    transition-duration:.2s;
-    -moz-transition-duration:.2s;
-    -webkit-transition-duration:.2s;
-  }
   
-  .top-buttons .discord {
-    line-height:0;
-  }
-  
-  .top-buttons .discord {
+
+  .top-buttons .top-social {
     display:flex;
     justify-content: center;
     align-items: center;
     border-radius:100%;
     border:1px solid var(--light-blu);
-    width:38px;
-    height:38px;
+    width:30px;
+    height:30px;
     transition-duration:.2s;
     -moz-transition-duration:.2s;
     -webkit-transition-duration:.2s;
   }
   
   
-  .top-buttons .discord:hover {
+
+  .top-buttons .top-social:hover {
     border:1px solid var(--light-sand);
     background-color:var(--light-sand);
   }
+
+
+  .top-buttons .top-social svg {
+    width:16px;
   
-  .top-buttons .discord svg .cls-1{
+  }
+  
+
+  .top-buttons .top-social svg {
+    transition-duration:.2s;
+    -moz-transition-duration:.2s;
+    -webkit-transition-duration:.2s;
+  }
+  
+
+  .top-buttons .top-social svg {
+    line-height:0;
     fill: var(--light-sand);
   }
   
-  .top-buttons .discord:hover svg .cls-1 {
+
+
+  .top-buttons .top-social:hover svg {
     fill: var(--dark-blu)!important;
   }
   
@@ -353,9 +363,7 @@
     background:var(--light-blu);
   }
   
-  .top-buttons a:first-child {
-    margin-right:10px;
-  }
+ 
   
   
   
@@ -366,12 +374,13 @@
     height:100vh;
     background: var(--radial-blu-gradient);
     color:var(--light-sand);
+    
   }
   
   .foglio {
     width:calc(100% - 80px);
     margin:auto;
-    max-width:1100px;
+    max-width:1200px;
   }
   
   .home-top .foglio {
@@ -383,15 +392,17 @@
   
   .title-content {
     width:55%;
+    padding-bottom:40px;
   }
   
   .home-top .title-content p {
-    font-size:18px;
+    font-size:16px;
     margin-top:10px;
   }
   
   .home-top .title-content h2 {
     margin-bottom:18px;
+    margin-top:0;
   }
   
   .button-blu {
@@ -2914,4 +2925,62 @@
       top: -60px;
   
   }
+
+/* NL popup*/
+
+  #pop-up {
+    position: fixed;
+    bottom: 0px; 
+    right: 0px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:18px 30px;
+    width: 50vw;
+    background: var(--light-blu);
+    transition:all 385ms linear;
+    z-index:10000;
+    border-radius:50px 0px 0px 0px;
+    min-width: fit-content;
+  }
+  
+  #pop-up p {
+    color:var(--light-sand);
+    font-family: var(--titles);
+    font-size:22px;
+    margin:0;
+  }
+
+  #pop-up span {
+    font-family: var(--bodys);
+    cursor:pointer;
+    color:var(--light-sand);
+    margin:0;
+    font-weight:600;
+    text-decoration: underline;
+    
+  }
+
+  #pop-up span:hover {
+    
+  }
+
+  #pop-up .button-dark-blu {
+    margin:0;
+  }
+
+  #pop-up .button-dark-blu:hover {
+    background: var(--light-sand);
+    color:var(--dark-blu);
+  }
+  
+  #pop-up.hide {
+    opacity: 0;
+  }
+  
+  #pop-up.gone {
+    display: none;
+  }
+
+  
   

@@ -788,9 +788,10 @@ a.cta:hover {
   -webkit-transition-duration: .3s;
   opacity:0;
   margin-top:0;
-  font-size:14px;
+  font-size:12px;
   font-weight:600;
   line-height:12px;
+  color:var(--light-blu);
 }
 
 .to_year .fake_toggle {
@@ -834,9 +835,10 @@ span#freemium_price {
   -webkit-transition-duration: .1s;
 }
 
+/*
 .to_year .big_top_price {
   color:var(--light-blu);
-}
+}*/
 
 .big_top_price span{
   font-size:14px;
