@@ -1601,6 +1601,45 @@ p.minus_top {
 }
 
 
+
+.disc-explainer a {
+  color:var(--very-light-blu);
+  text-decoration: underline;
+}
+
+.web-3 {
+  position:relative;
+  margin-top:10px;
+  font-size:13px;
+  line-height:1.4em;
+  padding:12px 20px;
+  border-radius:20px;
+  opacity:.8;
+  color:var(--white);
+  z-index:10;
+}
+
+.web-3:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.06);
+  left: 0;
+  top: 0;
+  z-index: 0;
+  backdrop-filter: blur(6px);
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+
+.web-3 a {
+  color:var(--white);
+  text-decoration:underline;
+}
+
+
 @media screen and (max-width : 1320px) {
 
   #pricing-models.single_dao_offers .price-sidebar {

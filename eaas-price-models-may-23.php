@@ -92,26 +92,29 @@
     <section id="price-area">
 
       <div class="price-sidebar ecosystem">
-        <div class="bread_crumb"><a href="index">Home ></a> Pricing > Single DAO </div>
+        <div class="bread_crumb"><a href="index">Home ></a> Pricing > Ecosystem DAO </div>
         <div class="ps-center">
           <h1><span class="up-title">Ecosystem</span><br />DAO Builder</h1>
           <p class="small">
-            If you wish to create an ecosystem of interconnected DAOs, start by creating an "Anchor DAO", through which
-            you will then be able to generate, activate and coordinate more DAOs, forming part of your "DAO Ecosystem".
-            For this ecosystem pricing model, we developed an Hypha Token staking mechanism, so that most of your
-            funding remains staked inside your DAO treasury and meaningfully follows your expansion as a direct function
-            of the number of members joining your ecosystem. Isn't it awesome? Click here to request a call with the
-            Hypha Team for more details on the activation process!
+            If you wish to create an ecosystem of interconnected DAOs, start by <strong>creating your "Anchor
+              DAO"</strong>, and then <strong>activate more DAOs in your "DAO Ecosystem"</strong>. With this
+            ecosystem pricing model, your initial funding in <strong>Hypha Tokens remains staked inside your
+              DAOs treasuries</strong>, and meaningfully follows your ecosystem expansion as more members
+            join. Isn't it awesome? Click the button below to join the Beta list!
           </p>
           <div class="price-plan-ctas">
-            <a href="#" class="button-dark-blu inact">Activate your Ecosystem</a>
+            <a href="#" class="button-dark-blu">Join the Beta list</a>
             <a href="#" class="cta">Single DAO Builder</a>
           </div>
         </div>
 
         <div class="up-small">Need more Members, more DAOS or a different model?<br />Contact us at <a
-            href="mailto:hello@hypha.earth">hello@hypha.earth</a></div>
+            href="mailto:hello@hypha.earth">hello@hypha.earth</a>
+        </div>
+
+
       </div>
+
 
       <div class="price-wizard">
 
@@ -213,8 +216,7 @@
               <div class="divider"></div>
               <div>
                 <div class="tot-notes">
-                  <p><i>*(1)Hypha Tokens needs to be staked in each one of the DAO treasuries in order to activate each
-                      DAO.</i>
+                  <p><i>*(1)Hypha Tokens needs to be staked in each DAO treasury in order to activate each DAO.</i>
                   </p>
                 </div>
 
@@ -230,13 +232,14 @@
 
 
           </div>
+
+          <div class="web-3">
+            <span>If you wish to integrate with Hypha DAO or develop a dApp, contact us at </span> <a
+              href="mailto:hello@hypha.earth">hello@hypha.earth</a>
+          </div>
         </div>
 
-        <!--<div class="disc-explainer">
-              <p>
-                *Discounts are applied starting from the 5th Additional DAO.<br/><span class="opop"> From the 5th to the 40th additional DAO you will receive a 30% discount. From the 41st on, you will receive a 55%  discount.</span>
-              </p>
-            </div>-->
+
 
       </div>
     </section>
