@@ -108,8 +108,7 @@
                         out and reveal the power of your DAO! As you progress along your DAO journey and invite your
                         members and community to your DAO, <strong>choose and evolve through progressive pricing
                             plans</strong> with increasing feature and member inclusions. Click on the button below to
-                        <strong>activate your
-                            DAO today!</strong>
+                        <strong>join the Beta list!</strong>
                     </p>
                     <div class="price-plan-ctas">
                         <a href="https://dao.hypha.earth/hypha/login?type=onboard" target="_blank"
