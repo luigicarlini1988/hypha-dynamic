@@ -98,6 +98,13 @@ body.error404 .header-back {
     font-size: 14px;
     white-space: nowrap;
   }
+
+  #tokenomics-full .foglio .tok-centered,
+  #tokenomics-full .foglio .tok-log-h {
+    flex-wrap:wrap;
+  }
+
+  
 }
 
 @media screen and (max-width : 980px) {
@@ -109,6 +116,8 @@ body.error404 .header-back {
   #pop-up {
     display:none;
   }
+
+
 }
 
 
@@ -267,6 +276,29 @@ and (max-width : 790px) {
 
   .title-content {
     padding-bottom:0;
+  }
+
+  #tokenomics-full .foglio .tok-centered, 
+  #tokenomics-full .foglio .tok-log-h {
+    max-width:100%;
+  }
+
+  #tokenomics-full .foglio .tok-log-h img {
+    height:100px;
+    margin-right:0;
+  }
+
+  #tokenomics-full {
+    background-position: left;
+  }
+
+  #tokenomics-full .foglio .tok-log-h {
+    justify-content: flex-end;
+  }
+
+  #tokenomics-full .foglio .tok-log-h h1 {
+    font-size:22px;
+    margin-top:0;
   }
 
 }
@@ -989,6 +1021,15 @@ and (max-width : 790px) {
 
   #tools .yellowdots {
     display:none;
+  }
+
+  #tokenomics-full,
+  #tokenomics-full .foglio {
+    height:100%;
+  }
+
+  #tokenomics-full .tok-centered {
+    padding:60px 0px;
   }
 
 

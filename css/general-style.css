@@ -2983,4 +2983,59 @@
   }
 
   
-  
+  /* tokenomics page */
+
+  #tokenomics-full {
+    width:100%;
+    height:100svh;
+    background-image:url(../img/whitepapers2.jpeg);
+    background-size:cover;
+    background-position: center;
+  }
+
+  #tokenomics-full .foglio {
+    height:100svh;
+    display:flex;
+    align-items: center;
+  }
+
+  #tokenomics-full .foglio .tok-centered {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #tokenomics-full .foglio .tok-centered img {
+    height:160px;
+    margin-right:40px;
+  }
+
+ 
+
+  #tokenomics-full .foglio .tok-log-h {
+    display:flex;
+    align-items: center;
+  }
+
+  #tokenomics-full .foglio .tok-centered button {
+    border:none;
+    margin-top:45px;
+    transition-duration:.2s;
+    cursor:pointer;
+    
+  }
+
+  #tokenomics-full .foglio .tok-centered h1 {
+    margin:0;
+    color:var(--white);
+    font-size:42px;
+    margin-top:40px;
+    white-space: nowrap;
+    
+   
+  }
+
+  footer {
+    max-width:100vw;
+  }
